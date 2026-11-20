@@ -31,24 +31,31 @@ const steps = [
    
 ]
 
-const AfterYouContactUs=()=>{
 
-   
+const AfterYouContactUs = () => {
+  return (
+    <section
+      style={{
+        background:
+          "linear-gradient(135deg, #1C150D 0%, #0C0A08 50%, #2F220B 100%)",
+      }}
+      className="w-full overflow-hidden py-[35px] sm:py-[45px] lg:py-[50px]"
+    >
+      <div className="mx-auto w-[92%] sm:w-[90%]">
 
+        {/* Heading */}
+        <p className="font-bebas text-[44px] leading-[0.95] text-white sm:text-[56px] md:text-[66px] lg:text-[70px]">
+          WHAT HAPPENS AFTER YOU CONTACT US?
+        </p>
 
-    return(
-        <div style={{background:"linear-gradient(135deg, #1C150D 0%, #0C0A08 50%, #2F220B 100%)"}} className="py-[50px] ">
- <div className="mx-auto w-[90%]">
-            <p className="text-white font-bebas text-[70px] leading-none">WHAT HAPPENS AFTER YOU CONTACT US?</p>
-
-             <ScrollTimeline steps={steps} className="mt-6" />
-
-               </div>
-
-                
-
+        {/* Timeline */}
+        <div className="mt-[20px] sm:mt-[25px] lg:mt-[30px]">
+          <ScrollTimeline steps={steps} />
         </div>
-    )
-}
 
-export default AfterYouContactUs
+      </div>
+    </section>
+  );
+};
+
+export default AfterYouContactUs;

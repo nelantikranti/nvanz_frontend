@@ -36,8 +36,10 @@ const ProductDetailsSection8 = ({productGallery}) => {
         transition-all
         duration-500
         ease-[cubic-bezier(0.16,1,0.3,1)]
+        transition-all duration-500 ease-in-out 
+        group-hover:border-[#E9A60F]
         group-hover:-translate-y-2
-        group-hover:shadow-[0_15px_45px_rgba(233,166,15,0.15),0_0_70px_rgba(233,166,15,0.10)]
+       group-hover:shadow-[0_20px_60px_rgba(233,166,15,0.28),0_0_110px_rgba(233,166,15,0.20)]
     ">
         <img
             className="object-cover w-full h-full rounded-[10px]"

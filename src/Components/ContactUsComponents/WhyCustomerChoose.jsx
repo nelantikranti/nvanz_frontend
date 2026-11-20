@@ -28,21 +28,33 @@ const cards = [
         badge: <Badge top="AMC" bottom="SUPPORT" />,
     },
 ]
-const WhyCustomerChoose=()=>{
 
-    return(
-        <div className="bg-[linear-gradient(135deg,#F8F4EA_0%,#EBDDBB_55%,#F8F4EA_100%)] py-[50px]">
+const WhyCustomerChoose = () => {
+  return (
+    <section className="w-full bg-[linear-gradient(135deg,#F8F4EA_0%,#EBDDBB_55%,#F8F4EA_100%)] py-[35px] sm:py-[45px] lg:py-[50px]">
 
-                    <div className="mx-auto w-[90%] ">
-                        <p className="text-[84px] font-bebas text-[#141210] ">WHY CUSTOMERS CHOOSE NVANZ ELEVATORS</p>
-                        <p className="text-[18px] font-inter font-inter mt-[10px]">Buying a lift is a big decision. Safety, service, and honest advice matter. Here is what you can expect from us:</p>
+      <div className="mx-auto w-[92%] sm:w-[90%]">
 
+        {/* Heading */}
+        <p className="font-bebas text-[46px] leading-[0.95] text-[#141210] sm:text-[58px] md:text-[70px] lg:text-[84px]">
+          WHY CUSTOMERS CHOOSE NVANZ ELEVATORS
+        </p>
 
-  <StackedCards cards={cards} />
-                        </div>
+        {/* Description */}
+        <p className="mt-[12px] max-w-[850px] font-inter text-[13px] leading-[1.7] text-[#373128] sm:mt-[15px] sm:text-[15px] md:text-[16px] lg:mt-[10px] lg:text-[18px]">
+          Buying a lift is a big decision. Safety, service, and honest advice
+          matter. Here is what you can expect from us:
+        </p>
 
+        {/* Stacked Cards */}
+        <div className="mt-[25px] sm:mt-[30px] lg:mt-[35px]">
+          <StackedCards cards={cards} />
         </div>
-    )
-}
 
-export default WhyCustomerChoose
+      </div>
+
+    </section>
+  );
+};
+
+export default WhyCustomerChoose;

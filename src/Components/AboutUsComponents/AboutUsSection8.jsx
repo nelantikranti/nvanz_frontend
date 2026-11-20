@@ -33,7 +33,9 @@ const AboutUsSection8=()=>{
             className="w-full max-w-full px-4 text-sm sm:w-auto sm:px-8 sm:text-base"
         />
         <Button
-            text={aboutUsContent?.section8?.phno}
+            text={aboutUsContent?.section8?.phno}    onClick={() => {
+        window.location.href = `tel:${aboutUsContent?.section8?.phno}`;
+    }}
             className="w-full max-w-full px-4 text-sm sm:w-auto sm:px-8 sm:text-base"
         />
 

@@ -22,7 +22,7 @@ const HomePageSection5=()=>{
             tabIndex={0}
             role="group"
             aria-label={`Project photo ${photoNumber}, area name to be added. Hover or focus to open the elevator doors.`}
-            className="group relative flex aspect-[4/3] w-full flex-col items-center justify-center overflow-hidden rounded-2xl border-2 border-dashed border-[#E9A60F8C] outline-none focus-visible:ring-2 focus-visible:ring-[#E9A60F] focus-visible:ring-offset-2 focus-visible:ring-offset-[#0C0A08]"
+            className="group relative flex aspect-[4/3] w-full flex-col items-center justify-center overflow-hidden rounded-2xl border-[2px] border-dashed border-[#E9A60F8C] outline-none focus-visible:ring-2 focus-visible:ring-[#E9A60F] focus-visible:ring-offset-2 focus-visible:ring-offset-[#0C0A08] transition-[translate,border-color,box-shadow] duration-300 ease-out hover:-translate-y-1 hover:border-[#E9A60F] hover:shadow-[0_25px_70px_rgba(233,166,15,0.40),0_0_120px_rgba(233,166,15,0.30)]"
         >
             <p className="text-center font-inter text-sm text-[#D8D2C6] sm:text-base">
                 Project photo {photoNumber}
