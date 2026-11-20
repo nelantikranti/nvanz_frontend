@@ -58,7 +58,9 @@ const ProductDetailsHeroSection = ({hero}) => {
                             className="max-w-full px-4 text-sm sm:px-6 sm:text-base lg:px-10"
                         />
 
-                        <Button
+                        <Button     onClick={() => {
+        window.location.href = "tel:+918978039911";
+    }}
                             borderColor="#FFFFFF"
                             textColor="#FFFFFF"
                             hoverBgColor="#FFFFFF"

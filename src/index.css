@@ -322,3 +322,27 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+
+
+@keyframes elevator-line {
+    0% {
+        opacity: 1;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    35% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.animate-elevator-line {
+    animation: elevator-line 1.9s ease-in-out forwards;
+}

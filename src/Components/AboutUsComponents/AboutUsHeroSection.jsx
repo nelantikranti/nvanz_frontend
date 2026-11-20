@@ -39,7 +39,9 @@ const AboutUsHeroSection = () => {
 
 
 <div className="mt-[30px] flex flex-col gap-[10px] md:flex-row md:gap-[20px]">
- <Button borderColor = "#FFFFFF" bgColor="#FFFFFF"
+ <Button   onClick={() => {
+        window.location.href = "tel:+918978039911";
+    }} borderColor = "#FFFFFF" bgColor="#FFFFFF"
   textColor="#141210"
   hoverBgColor="#E9A60F"
   hoverTextColor="#" text="Discuss Your Elevator Project"/>

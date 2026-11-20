@@ -332,9 +332,9 @@ const ContactCTASection = ({ contact }) => {
             <div className="w-full sm:w-auto">
               <Button
                 text={contact?.btnText2}
-                onClick={() => {
-        window.location.href = "tel:+918978039911";
-    }}
+    //             onClick={() => {
+    //     window.location.href = "tel:+918978039911";
+    // }}
                 className="w-full px-5 text-sm sm:w-auto sm:px-[40px] sm:text-base"
               />
             </div>
