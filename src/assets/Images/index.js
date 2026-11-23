@@ -89,6 +89,10 @@ import blogDataImg from './blog-data-img.png'
 
 import person from './Person.png'
 
+import leftDoor2 from './elevator_left_door.png'
+import rightDoor2 from './elevator_right_door.png'
+
+
 const images = {
     logo,
     logo2,
@@ -169,7 +173,10 @@ const images = {
 
     blogDataImg,
 
-    person
+    person,
+
+    leftDoor2,
+    rightDoor2
 
     
 };

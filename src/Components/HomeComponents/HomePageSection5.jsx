@@ -1,4 +1,5 @@
 
+import images from "../../assets/Images"
 import { installedLifts } from "../../Content/homeContent"
 
 const projectPhotos = Array.from({ length: 6 }, (_, index) => index + 1)
@@ -31,7 +32,7 @@ const HomePageSection5=()=>{
                 Area name - to be added
             </p>
 
-            <div
+            {/* <div
                 aria-hidden="true"
                 className="absolute inset-y-0 left-0 z-10 w-1/2 overflow-hidden rounded-l-2xl bg-[#E9A60F] transition-transform duration-700 ease-[cubic-bezier(0.76,0,0.24,1)] group-hover:-translate-x-full group-focus:-translate-x-full motion-reduce:transition-none sm:duration-900"
             >
@@ -40,7 +41,33 @@ const HomePageSection5=()=>{
                 aria-hidden="true"
                 className="absolute inset-y-0 right-0 z-10 w-1/2 overflow-hidden rounded-r-2xl bg-[#E9A60F] transition-transform duration-700 ease-[cubic-bezier(0.76,0,0.24,1)] group-hover:translate-x-full group-focus:translate-x-full motion-reduce:transition-none sm:duration-900"
             >
-            </div>
+            </div> */}
+
+
+{/* Left Elevator Door */}
+<div
+    aria-hidden="true"
+    className="absolute inset-y-0 left-0 z-10 w-[calc(50%+2px)] overflow-hidden rounded-l-2xl transition-transform duration-700 ease-[cubic-bezier(0.76,0,0.24,1)] group-hover:-translate-x-full group-focus:-translate-x-full motion-reduce:transition-none sm:duration-900"
+>
+    <img
+        src={images?.leftDoor2}
+        alt=""
+        className="block h-full w-full object-cover object-right"
+    />
+</div>
+
+{/* Right Elevator Door */}
+<div
+    aria-hidden="true"
+    className="absolute inset-y-0 right-0 z-10 w-[calc(50%+2px)] overflow-hidden rounded-r-2xl transition-transform duration-700 ease-[cubic-bezier(0.76,0,0.24,1)] group-hover:translate-x-full group-focus:translate-x-full motion-reduce:transition-none sm:duration-900"
+>
+    <img
+        src={images?.rightDoor2}
+        alt=""
+        className="block h-full w-full object-cover object-left"
+    />
+</div>
+
         </div>
     ))}
 </div>

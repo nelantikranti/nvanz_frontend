@@ -75,17 +75,27 @@ const GetFreeLiftQuote = () => {
           >
 
             {/* Left Arrow */}
-            <button
-              type="button"
-              onClick={() => scrollLocations(-1)}
-              aria-label="Scroll locations left"
-              className="flex size-[34px] shrink-0 cursor-pointer items-center justify-center rounded-full border-[1.5px] border-[#E9A60F] text-[17px] text-[#E9A60F] transition-all duration-300 hover:bg-[#E9A60F] hover:text-[#141210]
-              sm:size-[42px] sm:text-[22px]
-              md:size-[50px] md:text-[26px]
-              lg:size-[60px] lg:border-[2px] lg:text-[35px]"
-            >
-              ◀
-            </button>
+           <button
+  type="button"
+  onClick={() => scrollLocations(-1)}
+  aria-label="Scroll locations left"
+  className="flex size-[34px] shrink-0 cursor-pointer items-center justify-center rounded-full border-[1.5px] border-[#E9A60F] text-[#E9A60F] transition-all duration-300 hover:bg-[#E9A60F] hover:text-[#141210]
+  sm:size-[42px]
+  md:size-[50px]
+  lg:size-[60px] lg:border-[2px]"
+>
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="size-[14px] sm:size-[17px] md:size-[20px] lg:size-[24px]"
+  >
+    <path d="M15 18l-6-6 6-6" />
+  </svg>
+</button>
 
             {/* Scrollable Location Options */}
             <div
@@ -116,17 +126,29 @@ const GetFreeLiftQuote = () => {
             </div>
 
             {/* Right Arrow */}
-            <button
-              type="button"
-              onClick={() => scrollLocations(1)}
-              aria-label="Scroll locations right"
-              className="flex size-[34px] shrink-0 cursor-pointer items-center justify-center rounded-full border-[1.5px] border-[#E9A60F] text-[17px] text-[#E9A60F] transition-all duration-300 hover:bg-[#E9A60F] hover:text-[#141210]
-              sm:size-[42px] sm:text-[22px]
-              md:size-[50px] md:text-[26px]
-              lg:size-[60px] lg:border-[2px] lg:text-[35px]"
-            >
-              ▶
-            </button>
+            
+<button
+  type="button"
+  onClick={() => scrollLocations(1)}
+  aria-label="Scroll locations right"
+  className="flex size-[34px] shrink-0 cursor-pointer items-center justify-center rounded-full border-[1.5px] border-[#E9A60F] text-[#E9A60F] transition-all duration-300 hover:bg-[#E9A60F] hover:text-[#141210]
+  sm:size-[42px]
+  md:size-[50px]
+  lg:size-[60px] lg:border-[2px]"
+>
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="size-[14px] sm:size-[17px] md:size-[20px] lg:size-[24px]"
+  >
+    <path d="M9 18l6-6-6-6" />
+  </svg>
+</button>
+
 
           </div>
 
