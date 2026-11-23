@@ -62,8 +62,8 @@ import carelevatorImg4 from './car-elevatorImg1.jpg'
 import signature1101 from './Signature1101.jpg'
 import prestige1110 from './Prestige1110.png'
 import ground1506 from './Ground1506.png'
-import Panorama1805 from './panorama1805.jpg'
-import compact1805 from './compact1805.png'
+import Panorama1805 from './Panorama1805.jpg'
+import compact1805 from './Compact1805.png'
 
 
 
