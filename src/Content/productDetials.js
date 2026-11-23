@@ -8,7 +8,7 @@ export const products = {
     name: "Signature 1101",
 
     hero: {
-      title: "Signature 1101 Home Elevator for Hyderabad Villas and Duplexes",
+      title: "Signature 1101 Home Elevator for Villas and Duplexes",
       subtitle: "TRACTION · 1101",
       description:
         "NVANZ Signature 1101 is a premium residential elevator for homeowners who want smooth, convenient movement between floors. It offers a capacity range of 250–630 kg, automatic or manual doors, and a choice of stainless steel, glass or premium cabin finishes.",
@@ -31,7 +31,7 @@ export const products = {
     overview: {
       title: "A HOME ELEVATOR BUILT AROUND YOUR PROPERTY",
       points:[
-        "The Signature 1101 is designed for private homes, such as villas, duplexes and multi-floor family residences. Based on the supplied specifications, it uses a hydraulic drive. A hydraulic cylinder moves the cabin, and a compact power unit (HPU) controls the movement. · to be confirmed",
+        "The Signature 1101 is designed for private homes, such as villas, duplexes and multi-floor family residences. Based on the supplied specifications, it uses a hydraulic drive. A hydraulic cylinder moves the cabin, and a compact power unit (HPU) controls the movement.",
         "It can be planned with automatic or manual doors and with stainless steel, glass or premium cabin options. Speed ranges from about 0.15 to 0.40 m/s, depending on the design.",
         "Before you decide, remember that pit depth, machine room arrangement and final design depend on your project. A site assessment is the best way to confirm what will work in your home."
       ]
@@ -88,7 +88,7 @@ export const products = {
         details:[
             {
                 heading:"DRIVE",
-                point:"Hydraulic · to be confirmed"
+                point:"Hydraulic"
             },
              {
                 heading:"PUMP",
@@ -160,17 +160,17 @@ export const products = {
     },
 
     isRightForHome:{
-        heading:"Is This Right for Your Home?",
+        heading:"Is the Signature 1101 Right for Your Home?",
         cardDetails:[
             {
-                title:"Where it may fit",
+                title:"Projects it may suit",
                 description:"It is intended for residential use: villas, duplexes and multi-floor homes, in new builds or renovations.",
                 points:[
                    
                 ]
             },
              {
-                title:"Plan early",
+                title:"Space planning",
                 description:"",
                 points:[
                      "Pit depth (project-dependent)",
@@ -181,7 +181,7 @@ export const products = {
             },
             {
                 title:"Accessibility",
-                description:"If someone at home uses a wheelchair or has limited mobility, tell us early. Cabin inside size, door opening width, landing space and control height all need to be checked. · to be confirmed",
+                description:"omeone at home uses a wheelchair or has limited mobility, tell us early. Cabin inside size, door opening width, landing space and control height all need to be checked.",
                 points:[]
             },
             {
@@ -201,7 +201,11 @@ export const products = {
     },
     whyChoose:{
         heading:"Why Choose NVANZ?",
-        description:"A home elevator is a long-term part of your house, so the provider matters as much as the product. A good partner studies your property first, recommends a suitable model, and explains technical needs such as the pit and machine space in plain language. NVANZ focuses on modern residential elevators for homes in Hyderabad. Our team helps you compare options, plan the layout with your architect or builder, and understand the choices before you decide."
+        description:"",
+        points:[
+            "A home elevator is a long-term part of your house, so the provider matters as much as the product. A good partner studies your property first, recommends a suitable model, and explains technical needs such as the pit and machine space in plain language.",
+            "NVANZ offers modern residential elevators designed for homes of every size and style. Our team helps you compare home lift options, plan the elevator layout with your architect or builder, and understand your choices before you decide."
+        ]
     },
     productGallery:{
         heading:"Product Gallery",
@@ -235,7 +239,7 @@ export const products = {
         questionsAndAns:[
         {
             question:"How does a hydraulic home elevator move?",
-            ans:"A hydraulic cylinder moves the cabin using fluid pressure from a compact power unit. · to be confirmed"
+            ans:"A hydraulic cylinder moves the cabin using fluid pressure from a compact power unit."
         },
         {
             question:"Does it need a machine room?",
@@ -243,11 +247,11 @@ export const products = {
         },
         {
             question:"How deep should the pit be?",
-            ans:"Pit depth is project-dependent. The technical team will confirm the figure for your design. · to be confirmed"
+            ans:"Pit depth is project-dependent. The technical team will confirm the figure for your design. "
         },
         {
             question:"What happens during a power cut?",
-            ans:"The model lists ARD / emergency lowering, as engineered. Exact behaviour should be confirmed by the technical team. · to be confirmed"
+            ans:"The model lists ARD / emergency lowering, as engineered. Exact behaviour should be confirmed by the technical team."
         },
     ],
     },
@@ -267,7 +271,7 @@ export const products = {
     name: "Prestige Mrl Rope Home",
 
     hero: {
-      title: "Prestige MRL Rope Home Elevator (1110) for Hyderabad Homes",
+      title: "Prestige MRL Rope Home Elevator (1110) – Smooth, Safe & Space-Saving",
       subtitle: "MRL · 1110",
       description:
         "The Prestige 1110 is a machine-room-less rope elevator from NVANZ. It has a gearless permanent magnet motor and an integrated VVVF controller. It is made for homeowners who want a smooth, modern elevator for villas, duplexes and renovation projects. Capacities go from 320 kg to 800 kg.",
@@ -294,7 +298,8 @@ export const products = {
       points:[
         "The Prestige 1110 is a machine-room-less (MRL) elevator. In general, an MRL design does not need a separate room above the shaft for the machine. This can make planning easier for a home.",
         "The car is lifted by steel wire ropes with 2:1 roping, driven by a gearless permanent magnet motor. An integrated VVVF controller manages motor speed and movement.",
-        "The cabin can be finished in SS 304, SS 316 or glass. Doors are automatic, in telescopic or centre-opening styles."
+        "The cabin can be finished in SS 304, SS 316 or glass. Doors are automatic, in telescopic or centre-opening styles.",
+        "Before choosing this model, check three things with the NVANZ team: your shaft space, top and pit clearances, and the capacity you need."
      
       ]
     },
@@ -368,7 +373,7 @@ export const products = {
             },
             {
                 heading:"SPEED",
-                point:"0.63–1.0 m/s"
+                point:"0.63 – 1.0 m/s"
             },
             {
                 heading:"MOTOR",
@@ -436,36 +441,38 @@ export const products = {
     },
 
     isRightForHome:{
-        heading:"Is This Right for Your Home?",
+        heading:"Is the Prestige 1110 Right for Your Home?",
         cardDetails:[
             {
-                title:"Where it may fit",
-                description:"New villas, duplexes and renovation projects where a separate machine room is not wanted. A site assessment decides if it fits.",
+                title:"Where it may be relevant",
+                description:"New villas, duplexes and renovation projects where a rope-driven MRL elevator can be planned.",
                 points:[]
             },
              {
-                title:"Plan early",
+                title:"Space and layout planning",
                 description:"",
                 points:[
-                    "Shaft size, travel height and number of floors",
-                    "Pit depth and overhead height",
-                    "Where the entrance will open on each floor",
-                    "Structural support for the elevator"
+                    "Shaft size, pit depth and top clearance need a site check.",
+                    "Choose the capacity (320 to 800 kg) based on how many people will use it.",
+                    "Plan the cabin finish and door style early.",
+                    "For renovation, the building structure must be assessed first."
                 ]
             },
              {
                 title:"Accessibility",
-                description:"The product is listed as “wheelchair accessible”. This needs checking against the cabin size, door width and entrance space for each home. · to be confirmed",
+                description:"Accessibility depends on cabin size, door opening width and entrance layout. NVANZ will confirm these for each project before discussing wheelchair use.",
                 points:[]
             },
              {
-                title:"Questions to ask the technical team",
+                title:"Questions to ask before installation",
                 description:"",
                 points:[
-                    "Which capacity and speed are offered for homes?",
-                    "What cabin and door sizes are available?",
-                    "What does a site survey include?",
-                    "What power supply is required?"
+                    "Which capacity and cabin size suit my family?",
+                    "What shaft dimensions, pit depth and overhead clearance are needed?",
+                    "Which door style fits my entrance?",
+                    "What power supply is required?",
+                    "What power supply is required?",
+                    "What does after-sales support include?"
                 ]
             },
         ]
@@ -473,7 +480,12 @@ export const products = {
     },
     whyChoose:{
         heading:"Why Choose NVANZ?",
-        description:"A good elevator provider starts with your property, not the product. They should check your space, explain the options clearly and be honest about limits. NVANZ Elevators focuses on modern residential elevators in Hyderabad. The team can help you understand the Prestige 1110, discuss your layout and explain technical needs before you decide."
+        description:"",
+        points:[
+            "A good elevator is more than a product. It starts with understanding your property, your family's needs and your building plan.",
+            "NVANZ helps you compare models, plan technical requirements and make an informed decision. The team looks at your layout before suggesting a model, so you know what is needed before work begins.",
+            "When you choose an elevator provider, ask clear questions about site assessment, installation process and after-sales support. NVANZ is happy to discuss these openly."
+        ]
     },
      productGallery:{
         heading:"Product Gallery",
@@ -507,38 +519,42 @@ export const products = {
       heading:"Frequently Asked Questions",
         questionsAndAns:[
             {
+            question:"Does an MRL elevator need a machine room?",
+            ans:"MRL stands for machine-room-less. In general, it does not need a separate machine room. It still needs a shaft with correct pit and overhead clearances, which NVANZ confirms for your property."
+        },
+        {
+            question:"What does gearless mean?",
+            ans:"The motor drives the elevator directly without a gearbox. This is the design used in the Prestige 1110 (gearless PMSM)."
+        },
+        {
             question:"Which capacity should I choose?",
             ans:"The model comes in 320, 450, 630 and 800 kg. Choose based on how many people ride together and whether you want to carry items. The technical team can guide you."
         },
         {
-            question:"What does “machine-room-less” mean?",
-            ans:"The drive machine sits inside the shaft instead of in a separate room. You still need a properly sized shaft, pit and headroom."
+            question:"Is the Prestige 1110 wheelchair accessible?",
+            ans:"This depends on the cabin size and door width for your project. Please discuss your needs with NVANZ so the team can confirm what is possible."
         },
         {
-            question:"Is the Prestige 1110 suitable for my villa?",
-            ans:"It may be, depending on shaft size, travel height and structure. A site assessment is needed."
-        },
-        {
-            question:"What happens in a power failure?",
-            ans:"The elevator has an ARD (automatic rescue device) and emergency communication. How it works needs confirmation. · to be confirmed"
-        },
-        {
-            question:"Is it wheelchair accessible?",
-            ans:"That depends on cabin size and door width. Please discuss this with the technical team before you decide. · to be confirmed"
+            question:"What happens during a power failure?",
+            ans:"The elevator has an ARD (Automatic Rescue Device). The NVANZ team can explain how it works for your installation."
         },
 {
-            question:"Can it be fitted in an existing house?",
-            ans:"Possibly, but only after a site assessment of shaft, pit and headroom."
+            question:"Can I call for help from inside the cabin?",
+            ans:"Yes. The elevator includes GSM/4G emergency communication. Remote monitoring is also included."
         },
         {
             question:"Can I control who uses the elevator?",
             ans:"PIN, RFID or biometric access is optional. Ask NVANZ if you want it included."
         },
+         {
+            question:"Can this elevator be installed in an existing home?",
+            ans:"It may be possible, depending on available space and structure. A site assessment is needed."
+        },
         ]
     },
     contact:{
         heading:"Planning a Home Elevator? Let’s Check What Fits Your Property",
-        description:"Share your property layout and requirements with NVANZ. The team can help you understand if the Prestige 1110 suits your home.",
+        description:"Share your floor layout, family needs and expected capacity. The NVANZ team will help you check whether the Prestige 1110 suits your home.",
         btnText1:"Enquire About This Model",
         btnText2:"Discuss Your Requirements"
     }
@@ -551,10 +567,10 @@ export const products = {
     name: "Prestige Mrl Flat Belt",
 
     hero: {
-      title: "Prestige MRL Flat Belt Elevator 1110 for Homes in Hyderabad",
+      title: "Prestige MRL Flat Belt Home Elevator 1110 | NVANZ Elevators ",
       subtitle: "MRL · 1110",
       description:
-        "The Prestige 1110 is a machine-room-less home elevator from NVANZ Elevators. It uses a compact gearless motor and a flat belt to move the cabin. It has an automatic door and smart monitoring. It may suit villas, duplexes and renovated homes in Hyderabad and Andhra Pradesh.",
+        "The Prestige 1110 is a machine-room-less (MRL) home elevator from NVANZ Elevators. It uses a compact gearless motor and a flat belt to move the cabin smoothly. It comes with an automatic door and smart monitoring. It suits villas, duplexes, independent houses and renovated homes. ",
       image: "",
       points:[
         "MRL design, with no separate machine room",
@@ -594,7 +610,7 @@ export const products = {
             },
             {
                 img:"",
-                heading:"Gearless PMSM drive",
+                heading:"Gearless drive with smooth control",
                 description:"A permanent magnet synchronous motor drives the elevator without a gearbox.",
                 subDes:"Fewer moving parts in the drive and smooth operation."
             },
@@ -700,12 +716,12 @@ export const products = {
         heading:"Is This Right for Your Home?",
         cardDetails:[
             {
-                title:"Where it may fit",
-                description:"New villas, duplexes and renovation projects where a separate machine room is not wanted. A site assessment decides if it fits.",
+                title:"Where it may be relevant",
+                description:"The MRL layout may suit new villas, duplexes and renovation projects where a separate machine room is not wanted. A site assessment decides if it fits.",
                 points:[]
             },
               {
-                title:"Plan early",
+                title:"Space and layout points to check",
                 description:"",
                 points:[
                     "Shaft size, travel height and number of floors",
@@ -717,7 +733,7 @@ export const products = {
             },
               {
                 title:"Accessibility",
-                description:"The product is listed as “wheelchair accessible”. This needs checking against the cabin size, door width and entrance spacefor each home. · to be confirmed",
+                description:'The product is listed as "wheelchair accessible". This needs checking against the cabin size, door width and entrance space for each home. Please confirm these before planning around a wheelchair.',
                 points:[]
             },
               {
@@ -727,7 +743,8 @@ export const products = {
                     "Which capacity and speed are offered for homes?",
                     "What cabin and door sizes are available?",
                     "What does a site survey include?",
-                    "What power supply is required?"
+                    "Is belt monitoring included?",
+                    "What is the power requirement?"
                 ]
             },
         ]
@@ -735,7 +752,12 @@ export const products = {
     },
     whyChoose:{
         heading:"WHY CHOOSE NVANZ?",
-        description:"A good elevator provider starts with your property, not the product. They should check your space, explain the options clearly and be honest about limits. NVANZ Elevators focuses on modern residential elevators in Hyderabad. The team can help you understand the Prestige 1110, discuss your layout and explain technical needs before you decide."
+        description:"",
+        points:[
+            "A good elevator provider starts with your property, not the product. They should check your space, explain the options clearly and be honest about limits.",
+            "NVANZ Elevators offers the Prestige 1110, a modern residential elevator made for comfortable and safe home use. Our team helps you understand the features, check your space and layout, and explain the technical needs, so you can choose the right home elevator with confidence. ",
+            "For installation and after-sales support, NVANZ can explain what is included for your project. "
+        ]
     },
    productGallery:{
         heading:"Product Gallery",
@@ -819,10 +841,10 @@ export const products = {
     name: "Prestige Mrl Grooved Belt",
 
     hero: {
-      title: "Prestige MRL Grooved Belt Elevator (1110) for Homes in Hyderabad and Andhra Pradesh",
+      title: "Prestige MRL Grooved Belt Elevator (1110) for Homes",
       subtitle: "MRL · 1110",
       description:
-        "The Prestige 1110 is a machine-room-less home elevator with a gearless PMSM drive and a steel-reinforced coated belt. It is designed for new villas, duplexes and renovation projects where a separate machine room is not practical. It is available for loads from 320 kg to 1000 kg",
+        "The Prestige 1110 is a machine-room-less home elevator with a gearless PMSM drive and a steel-reinforced coated belt. It is designed for new villas, duplexes and renovation projects where a separate machine room is not practical. It is available for loads from 320 kg to 1000 kg.",
       image: "",
       points:[
         "Machine-room-less (MRL) design",
@@ -856,7 +878,7 @@ export const products = {
         cardDetails:[
             {
                 img:"",
-                heading:"MRL layout",
+                heading:"Machine-room-less (MRL) layout",
                 description:"Planned without a separate machine room.",
                 subDes:"Less space is used for equipment. This can help in new villas and in renovations."
             },
@@ -963,7 +985,7 @@ export const products = {
     },
 
     isRightForHome:{
-        heading:"Is This Right for Your Home?",
+        heading:"Is the Prestige 1110 Right for Your Home?",
         cardDetails:[
             {
                 title:"Where it may fit",
@@ -971,29 +993,29 @@ export const products = {
                 points:[]
             },
              {
-                title:"Plan early",
+                title:"What to plan",
                 description:"",
                 points:[
-                    "Shaft size, travel height and number of floors",
-                    "Pit depth and overhead height",
-                    "Where the entrance will open on each floor",
-                    "Structural support for the elevator"
+                    " Shaft size, pit depth and headroom.",
+                    "Door position and landing space on each floor.",
+                    "Capacity choice. 320–1000 kg is a wide range. The right size depends on how many people use it and how.",
+                    "Speed choice. 0.63–1.60 m/s is a wide range. Most homes need only part of it."
                 ]
             },
              {
                 title:"Accessibility",
-                description:"The product is listed as “wheelchair accessible”. This needs checking against the cabin size, door width and entrance space for each home. · to be confirmed",
+                description:"If someone in your home uses a wheelchair, tell the team early. Cabin size, door opening width and landing space decide if a wheelchair can enter and turn comfortably. These values were not supplied, so this cannot be confirmed yet.",
                 points:[]
             },
              {
                 title:"Questions to ask the technical team",
                 description:"",
                 points:[
-                    "Which capacity and speed are offered for homes?",
-                    "What cabin and door sizes are available?",
-                    "What does a site survey include?",
+                    "What are the cabin and door sizes for the capacity I need?",
+                    "What shaft, pit and headroom does my house need?",
+                    "What are the power and backup needs?",
 
-                    "What power supply is required?"
+                    "What does the maintenance plan include?"
                 ]
             },
         ]
@@ -1001,7 +1023,12 @@ export const products = {
     },
     whyChoose:{
         heading:"Why Choose NVANZ?",
-        description:"A good elevator provider starts with your property, not the product. They should check your space, explain the options clearly and be honest about limits. NVANZ Elevators focuses on modern residential elevators in Hyderabad. The team can help you understand the Prestige 1110, discuss your layout and explain technical needs before you decide."
+        points:[
+            "A good elevator partner starts with your property, not the product. They check your layout, explain the options in plain words and tell you clearly what your home needs.",
+            'At NVANZ Elevators, we help you choose a model that matches your requirements and coordinate the technical details with you.',
+            "We aim to give you clear information so you can decide with confidence."
+        ],
+        description:""
     },
     productGallery:{
         heading:"Product Gallery",
@@ -1036,22 +1063,34 @@ export const products = {
         questionsAndAns:[
            
         {
-            question:"How is a belt different from a steel rope?",
-            ans:"Both carry the cabin. This model uses a steel-reinforced coated belt / grooved belt over a compact sheave."
-        },
-        {
-            question:"What does “machine-room-less” mean?",
+            question:'What does "machine-room-less" mean? ',
             ans:"The drive machine sits inside the shaft instead of in a separate room. You still need a properly sized shaft, pit and headroom."
         },
+        {
+            question:"How is a belt different from a steel rope?",
+            ans:"Both carry the cabin. This model uses a steel-reinforced coated belt / grooved belt over a compact sheave. Your technical team can explain how it differs from rope-based models like the Signature 1101."
+        },
 {
-            question:"The drive machine sits inside the shaft instead of in a separate room. You still need a properly sized shaft, pit and headroom.",
-            ans:"The elevator has an ARD (automatic rescue device) and emergency communication. How it works needs confirmation. · to be confirmed"
+            question:'What does "belt monitoring" do?',
+            ans:"It checks the condition of the belt. The method and service interval need confirmation."
         },
         {
+            question:"What happens in a power failure?",
+            ans:"The model includes an ARD (automatic rescue device) and emergency communication. How it works and how far it moves the cabin needs confirmation."
+        },
+        {
+            question:"Can I choose the capacity?",
+            ans:"Yes, from 320–1000 kg. Your technical team will help pick the right one for your home."
+        },
+         {
             question:"Is it wheelchair accessible?",
-            ans:"That depends on cabin size and door width. Please discuss this with the technical team before you decide. · to be confirmed"
+            ans:"That depends on cabin size and door width, which were not supplied. Please discuss this with the technical team before you decide."
         },
-        {
+         {
+            question:"What power supply does it need?",
+            ans:"Not supplied."
+        },
+         {
             question:"Can it be fitted in an existing house?",
             ans:"Possibly, but only after a site assessment of shaft, pit and headroom."
         },
@@ -1067,15 +1106,15 @@ export const products = {
   },
 
   "groundHydraulicHome": {
-    id: 2,
+    id: 5,
     slug: "groundHydraulicHome",
     name: "Ground Hydraulic Home",
 
     hero: {
-      title: "Ground Hydraulic Home Elevator for Villas and Duplex Homes in Hyderabad",
+      title: "Ground Hydraulic Home Elevator for Villas and Duplex Homes",
       subtitle: "HYDRAULIC · 1506",
       description:
-        "The NVANZ Ground Hydraulic Elevator is a residential home elevator. A hydraulic cylinder moves the cabin, and a compact, low-noise power unit drives it. With a 250–630 kg capacity range, it suits homeowners in Hyderabad and Andhra Pradesh planning a new villa, a duplex or a renovation.",
+        "The NVANZ Ground Hydraulic Elevator is a residential home elevator. A hydraulic cylinder moves the cabin, and a compact, low-noise power unit drives it. With a 250–630 kg capacity range, it suits homeowners planning a new villa, a duplex or a renovation. ",
       image: "",
       points:[
         "Hydraulic drive with compact low-noise power unit",
@@ -1216,7 +1255,7 @@ export const products = {
     },
 
     isRightForHome:{
-        heading:"Is This Right for Your Home?",
+        heading:"Is a Hydraulic Elevator Right for Your Home?",
         cardDetails:[
             {
                 title:"Where it may fit",
@@ -1236,7 +1275,7 @@ export const products = {
 
              {
                 title:"Accessibility",
-                description:"The supplied specifications do not give cabin size or clear door width, so a wheelchair-accessible fit cannot be promised yet. This needs to be assessed for your chosen configuration. · to be confirmed",
+                description:"The supplied specifications do not give cabin size or clear door width, so a wheelchair-accessible fit cannot be promised yet. This needs to be assessed for your chosen configuration.",
                 points:[]
             },
              {
@@ -1255,7 +1294,12 @@ export const products = {
     },
     whyChoose:{
         heading:"Why Choose NVANZ?",
-        description:"A home elevator is a long-term decision, so the right partner matters as much as the product. Look for a team that studies your property first, explains technical needs in plain language, and plans the pit, equipment space and finishes with you. NVANZ focuses on modern residential elevators for homes in Hyderabad and nearby regions. Our team helps you compare options and understand what your project needs before you decide."
+        description:"",
+        points:[
+            "A home elevator is a long-term decision, so the right partner matters as much as the product. Look for a team that studies your property first, explains technical needs in plain language, and plans the pit, equipment space and finishes with you.",
+            "NVANZ offers modern residential elevators for homes across India. Our team helps you compare home lift options and understand your project needs before you decide.",
+            
+        ]
     },
     productGallery:{
         heading:"Product Gallery",
@@ -1299,7 +1343,7 @@ export const products = {
         },
 {
             question:"Where does the power unit go?",
-            ans:""
+            ans:"It is compact, and a remote arrangement is possible where feasible. The best location is decided after a site visit."
         },
         {
             question:"Where does the power unit go?",
@@ -1335,7 +1379,7 @@ export const products = {
   },
 
   "nvanzPanorama-1805": {
-    id: 2,
+    id: 6,
     slug: "nvanzPanorama-1805",
     name: "Nvanz Panorama-1805",
 
@@ -1510,27 +1554,23 @@ export const products = {
     },
 
     isRightForHome:{
-        heading:"Is This Right for Your Home?",
+        heading:"Is a Circular Glass Elevator Right for Your Home?",
         cardDetails:[
             {
-                title:"Where it may fit",
-                description:"New villas, duplexes and renovation projects where the elevator will be a visible feature. Because the shaft is glass and architectural, planning matters more than with a standard elevator.",
-                points:[]
-            },
-            {
-                title:"Plan early",
+                title:"What to check before you decide",
                 description:"",
                 points:[
-                    "Where the elevator will stand, and what will be visible through the glass",
-                    "The available floor area and the structure around it",
-                    "Which drive type suits your building",
-                    "How the shaft will connect to each floor",
-                    "Power supply and emergency lowering arrangements"
+                    "Where the elevator will stand, and what will be visible through the glass.",
+                    "The available floor area and the structure around it.",
+                    "Which drive type suits your building.",
+                     "How the shaft will connect to each floor.",
+                     "Power supply and emergency lowering arrangements."
                 ]
             },
+            
             {
                 title:"Accessibility",
-                description:"Wheelchair access depends on cabin size, clear door opening and landing space. These depend on the final configuration. Please ask the technical team to confirm accessibility for your project before you rely on it. · to be confirmed",
+                description:"Wheelchair access depends on cabin size, clear door opening and landing space. These depend on the final configuration. Please ask the technical team to confirm accessibility for your project before you rely on it.",
                 points:[]
             },
             {
@@ -1549,7 +1589,11 @@ export const products = {
     },
     whyChoose:{
         heading:"• What civil work does my home need?",
-        description:"A glass circular elevator needs careful planning, so the company you choose matters. Look for a team that studies your property, explains the drive and shaft options in plain language, and is clear about what is included. NVANZ focuses on modern residential elevators in Hyderabad. Our team can discuss your layout, explain which configuration may suit your home, and help you understand the technical requirements before you decide."
+        description:"",
+        points:[
+            "A glass circular elevator needs careful planning, so the company you choose matters. Look for a team that studies your property, explains the drive and shaft options in plain language, and is clear about what is included.",
+            "NVANZ focuses on modern residential elevators for homes across India. Our team can discuss your home layout, explain which elevator configuration may suit your space, and help you understand the technical requirements before you decide. "
+        ]
     },
     productGallery:{
         heading:"Product Gallery",
@@ -1597,7 +1641,7 @@ export const products = {
         },
         {
             question:"Can a wheelchair user use this elevator?",
-            ans:"This depends on the final cabin size and door opening. Please ask the technical team to confirm for your project. · to be confirmed"
+            ans:"This depends on the final cabin size and door opening. Please ask the technical team to confirm your project."
         },
          {
             question:"What happens in a power cut?",
@@ -1606,6 +1650,14 @@ export const products = {
          {
             question:"Can I control who uses the elevator?",
             ans:"Yes, optional PIN, RFID or biometric access is available."
+        },
+         {
+            question:"Can the elevator be monitored remotely?",
+            ans:"Remote monitoring is listed as available. The technical team can explain how it works."
+        },
+         {
+            question:"Can I control who uses the elevator?",
+            ans:"Flooring options include marble, stone and premium flooring. The frame is SS 304 or premium PVD. Ask the team about the full range."
         },
         ]
     },
@@ -1624,10 +1676,10 @@ export const products = {
     name: "Compact 360 Panoramic",
 
     hero: {
-      title: "Compact 360° Panoramic Circular Home Elevator in Hyderabad",
+      title: "Compact 360° Panoramic Circular Home Elevator ",
       subtitle: "PANORAMIC · 1805",
       description:
-        "An elevator with a circular glass cabin that lets you see your home as An elevator with a circular glass cabin that lets you see your home as architect-led homes where the elevator is part of the interior design. Drive type and configuration are planned for each project.",
+        "An elevator with a circular glass cabin that lets you see your home as you travel between floors. Designed for villas, duplexes and architect-led homes where the elevator is part of the interior design. Drive type and configuration are planned for each project.",
       image: "",
       points:[
         "Circular panoramic cabin",
@@ -1796,21 +1848,25 @@ export const products = {
     },
 
     isRightForHome:{
-        heading:"Is This Right for Your Home?",
+        heading:"Is a Circular Glass Elevator Right for Your Home?",
         cardDetails:[
             {
                 title:"Where it may fit",
-                description:"New villas and duplexes where the elevator is planned from the start; renovations, once the site and structure have been assessed; homes where the elevator will be visible, for example near a staircase or in a double-height space.",
-                points:[]
-            },
-            {
-                title:"Plan early",
                 description:"",
                 points:[
-                    "Shaft space: a circular shaft needs a specific footprint. · to be confirmed",
+                    "New villas and duplexes where the elevator is planned from the start.",
+                    "Renovations, once the site and structure have been assessed.",
+                    "Homes where the elevator will be visible, for example near a staircase or in a double-height space."
+                ]
+            },
+            {
+                title:"Things to plan",
+                description:"",
+                points:[
+                    "Shaft space: A circular shaft needs a specific footprint, which the technical team confirms for your site.",
                     "Drive choice: MRL traction or hydraulic affects speed, pit and overhead needs.",
-                    "Heat and light: a glass shaft may need planning for sunlight and cleaning.",
-                    "Structure: a glass or architectural shaft must be designed together with your architect."
+                    " Heat and light: A glass shaft may need planning for sunlight and cleaning.",
+                    "Structure: A glass or architectural shaft must be designed together with your architect."
                 ]
             },
             {
@@ -1833,7 +1889,11 @@ export const products = {
     },
     whyChoose:{
         heading:"Why Choose NVANZ?",
-        description:"A glass circular elevator needs careful planning, so the company you choose matters. Look for a team that studies your property, explains the drive and shaft options in plain language, and is clear about what is included. NVANZ focuses on modern residential elevators in Hyderabad. Our team can discuss your layout, explain which configuration may suit your home, and help you understand the technical requirements before you decide."
+        description:"",
+        points:[
+            "A glass elevator depends on good planning. Look for a provider that studies your layout before suggesting a model, explains the drive options clearly and is honest about what suits your home and what does not.",
+            "NVANZ Elevators offers modern residential elevators for new and existing homes. For this model, our team helps you compare drive options, understand shaft and finish requirements, and plan the home elevator installation with your architect or interior designer."
+        ]
     },
     productGallery:{
         heading:"Product Gallery",
@@ -1886,6 +1946,14 @@ export const products = {
         {
             question:"What space does it need?",
             ans:"Shaft size, pit depth and overhead height depend on your site. The NVANZ technical team confirms them after a site check."
+        },
+         {
+            question:"What happens in a power cut?",
+            ans:"ARD or emergency lowering is available according to the drive configuration. Ask the team what applies to your setup."
+        },
+         {
+            question:"Can I control who uses it?",
+            ans:"PIN, RFID or biometric access can be added as options."
         },
         {
             question:"Is it suitable for an existing home?",

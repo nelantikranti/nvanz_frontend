@@ -95,7 +95,7 @@ export const whichElevatorFitsDetails={
 export const whyChooseNvanz={
     heading:"WHY CHOOSE ",
     highlightHeading:"NVANZ ELEVATORS",
-    desc:"Choosing an elevator is a long-term decision. You need a solution that considers your property’s layout, daily usage, design preferences and maintenance requirements.",
+    desc:"Choosing an elevator is a long-term decision. The right elevator solution depends on your building layout, daily usage, design preferences and maintenance needs. ",
     subHeading:"At NVANZ Elevators, we focus on:",
     cardDetails:[
         {
@@ -115,15 +115,15 @@ export const whyChooseNvanz={
             desc:"We tell you what fits, not what costs more"
         },
          {
-            heading:"LOCAL SUPPORT",
-            desc:"Hyderabad team, fast response"
+            heading:"Reliable support",
+            desc:"Expert installation, maintenance and fast service response "
         },
     ]
 }
 
 export const installedLifts={
-    heading:"OUR INSTALLED LIFTS IN HYDERABAD",
-    desc:"Every property has different requirements. A premium villa, an independent house and a residential apartment project may each need a different elevator solution. NVANZ focuses on understanding individual project requirements and identifying suitable options for residential properties across Hyderabad and Telangana.",
+    heading:"OUR INSTALLED HOME ELEVATORS AND RESIDENTIAL LIFTS",
+    desc:"Every property has different requirements. A premium villa, an independent house and a residential apartment project may each need a different elevator solution. NVANZ studies each project’s needs. We then suggest safe, modern and suitable home elevator options.",
     cardDetails:[
         {
             customerReview:"Customer review to be collected.",
@@ -145,8 +145,8 @@ export const faqQuestions={
      questionsAndAns:[
            
         {
-            question:"Which is the best home elevator in Hyderabad?",
-            ans:"The right elevator depends on the number of floors, available space, travel height, usage and design requirements. Hydraulic, MRL and traction elevators can be considered based on the property."
+            question:"Which is the best home elevator?",
+            ans:"The best home elevator depends on the number of floors, available space, travel height, usage and design needs. Hydraulic, MRL and traction elevators can all suit a home. A site check helps you choose the right one. "
         },
         {
             question:"What types of home elevators are available in Hyderabad?",
@@ -157,8 +157,8 @@ export const faqQuestions={
             ans:"Yes, an elevator may be installed in an existing house, depending on available space, structural conditions, building layout and technical feasibility. A site assessment is important before selecting a solution."
         },
         {
-            question:"Do you offer lifts without a machine room?",
-            ans:"Yes. Our Prestige MRL range needs no separate machine room."
+            question:"Do you offer lifts without a machine room? ",
+            ans:"Yes. Our Prestige MRL range needs no separate machine room. It saves space and suits modern homes."
         },
         {
             question:"Does NVANZ provide elevator maintenance and modernization services?",
@@ -171,7 +171,7 @@ export const faqQuestions={
 export const contactDetails={
 
     heading:"READY FOR YOUR ELEVATOR?",
-    description:"Your home’s design deserves an elevator solution that considers comfort, space and everyday convenience.",
+    description:"Your home's design deserves an elevator solution that considers comfort, space and everyday convenience.",
     description2:"Connect with NVANZ Elevators to discuss your residential elevator requirements and explore suitable options.",
     btnHeading:"Book a Free Site Visit. Our team will call you back.",
     btnText1:"Book a Free Site Visit ",

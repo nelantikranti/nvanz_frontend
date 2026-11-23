@@ -117,8 +117,7 @@ const HowItWorks = () => {
                
 
                 <p className="mt-6 w-full max-w-[56rem] font-inter text-sm leading-relaxed text-white sm:text-base">
-                    Our relationship with customers goes beyond product selection. NVANZ
-                    provides support across important stages of the elevator lifecycle.
+                    Our relationship with customers goes beyond product selection. NVANZ provides support across important stages of the elevator lifecycle.
                 </p>
 
                 <div className="mt-5 flex flex-wrap gap-2 sm:gap-3">

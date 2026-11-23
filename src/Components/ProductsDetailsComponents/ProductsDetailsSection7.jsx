@@ -10,6 +10,12 @@ const ProductDetailsSection7=({whyChoose})=>{
               {whyChoose?.description}
             </p>
 
+            {
+                whyChoose?.points?.map((point,index)=>(
+                    <p className="w-full font-inter text-base leading-relaxed text-[#141210] sm:text-lg md:w-[80%] lg:text-[24px]">{point}</p>
+                ))
+            }
+
             </div>
            
 
