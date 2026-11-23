@@ -153,6 +153,7 @@
 
 import { useLayoutEffect, useRef, useState } from "react";
 import Button from "./Buttons/Button";
+import images from "../assets/Images";
 
 const ContactCTASection = ({ contact }) => {
   const sectionRef = useRef(null);
@@ -348,7 +349,7 @@ const ContactCTASection = ({ contact }) => {
         aria-hidden="true"
       >
         {/* Left Door */}
-        <div
+        {/* <div
           className="absolute inset-y-0 left-0 w-1/2"
           style={{
             transform: `translate3d(-${doorProgress * 100}%, 0, 0)`,
@@ -357,7 +358,7 @@ const ContactCTASection = ({ contact }) => {
           }}
         />
 
-        {/* Right Door */}
+      
         <div
           className="absolute inset-y-0 right-0 w-1/2"
           style={{
@@ -365,7 +366,43 @@ const ContactCTASection = ({ contact }) => {
             backgroundColor: "#E9A60F",
             willChange: "transform",
           }}
-        />
+        /> */}
+
+
+        {/* Left Elevator Door */}
+<div
+  aria-hidden="true"
+  className="absolute inset-y-0 left-0 z-10 w-[calc(50%+2px)] overflow-hidden rounded-l-2xl"
+  style={{
+    transform: `translate3d(-${doorProgress * 100}%, 0, 0)`,
+    willChange: "transform",
+  }}
+>
+  <img
+    src={images?.leftDoor2}
+    alt=""
+    className="block h-full w-full object-cover object-right"
+  />
+</div>
+
+{/* Right Elevator Door */}
+<div
+  aria-hidden="true"
+  className="absolute inset-y-0 right-0 z-10 w-[calc(50%+2px)] overflow-hidden rounded-r-2xl"
+  style={{
+    transform: `translate3d(${doorProgress * 100}%, 0, 0)`,
+    willChange: "transform",
+  }}
+>
+  <img
+    src={images?.rightDoor2}
+    alt=""
+    className="block h-full w-full object-cover object-left"
+  />
+</div>
+
+        {/* Left Elevator Door */}
+
       </div>
     </div>
   );

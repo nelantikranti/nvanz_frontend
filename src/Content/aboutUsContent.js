@@ -3,8 +3,8 @@ const aboutUsContent={
 
     hero:{
         subHeading:'NVANZ ELEVATORS | A MODERN VANTAGE',
-        heading:'A MODERN ELEVATOR COMPANY IN',
-        highlightedHeading:'HYDERABAD',
+        heading:'A MODERN ELEVATOR COMPANY FOR',
+        highlightedHeading:'EVERY SPACE',
         description:'We help homeowners and residential projects explore modern elevator solutions designed around their building, space and everyday needs.',
         btnText1:"Discuss Your Elevator Project",
         btnText2:"Explore Our Elevator Solutions"
@@ -29,7 +29,7 @@ const aboutUsContent={
         },
          {
             heading:"Our Vision",
-            description:"To be Hyderabad’s most trusted name in premium residential elevators, recognised for refined design, responsible engineering, and a lasting commitment to client satisfaction, while continuously improving the way we serve."
+            description:"To be a trusted name in premium residential elevators, recognised for refined design, responsible engineering, and a lasting commitment to customer satisfaction, while continuously improving the way we serve."
         }
     ]
 
@@ -37,8 +37,8 @@ const aboutUsContent={
  section4:{
     heading:"PREMIUM HOME ELEVATOR",
     highlightHeding:"SOLUTIONS",
-    resHeading:"IN HYDERABAD",
-    subHeading:"At NVANZ Elevators, we offer four premium elevator solutions for modern homes and buildings in Hyderabad. Each one is planned around your space, your needs, and your safety.",
+    resHeading:"FOR MODERN LIVING",
+    subHeading:"At NVANZ Elevators, we offer four premium elevator solutions for modern homes and buildings. Each one is planned around your space, your needs, and your safety. ",
     cards:[
         {
             heading:"PANORAMA / CIRCLAR (1805)",
@@ -62,7 +62,7 @@ const aboutUsContent={
             heading:"SIGNATURE (1101)",
             subHeading:"Traction Elevator",
             description:"A motor-driven traction elevator for residential and multi-storey buildings. Built for comfort, safety, and long-term use.",
-            belowText:"Explore Pneumatic Elevators"
+            belowText:"Explore Traction Elevators"
         },
     ],
     belowDescription:"Not sure which elevator is right for your home? Talk to our team for a free site visit and honest advice.",
@@ -84,7 +84,7 @@ const aboutUsContent={
         },
         {
             heading:"Attention to Installation",
-            description:["Planning, installation and testing are important parts of an elevator project."," We aim to guide customers through the process for their selected solution."]
+            description:["Planning, installation and testing are important parts of an elevator project. We aim to guide customers through the process for their selected solution."]
         },
         {
             heading:"Maintenance and Modernization Support",
@@ -92,7 +92,7 @@ const aboutUsContent={
         },
         {
             heading:"Clear Customer Communication",
-            description:["We explain relevant solutions, project requirements and next steps in straightforward language."]
+            description:["We explain relevant solutions, project requirements and next steps in straightforward language. "]
         },
 
     ]
@@ -110,7 +110,7 @@ const aboutUsContent={
             description:"Discuss the building, intended use and customer priorities."
         },
          {
-            heading:"REVIEW THE SITE",
+            heading:"REVIEW THE SITE REQUIREMENTS",
             description:"Evaluate relevant layout, space and technical considerations."
         },
          {
@@ -129,17 +129,17 @@ const aboutUsContent={
 
  section7:{
 
-    smallHeading:"SERVING HYDERABAD",
-    heading:"ELEVATOR SOLUTIONS FOR HOMES IN",
-    heightlightHeading:"HYDERABAD",
-    description:"NVANZ Elevators serves customers in Hyderabad, Telangana, with a focus on modern home elevators and residential elevator requirements. Whether you are planning a new villa, upgrading an existing home or evaluating options for a residential project, understanding your building’s requirements is an important first step.",
-    belowDes:"Discuss your project with our team to explore suitable elevator options."
+    smallHeading:"SERVING AREAS",
+    heading:"HOME ELEVATOR SOLUTIONS FOR ",
+    heightlightHeading:"RESIDENTIAL PROJECTS",
+    description:"NVANZ Elevators provides modern home elevators and residential elevator solutions for villas, independent houses, duplexes and apartment projects. Whether you are building a new home, upgrading an existing one or planning a residential development, knowing your building requirements is the first step.",
+    belowDes:"Share your project details with our team to find the right elevator option for your space, budget and lifestyle."
 
 
  },
  section8:{
     heading:"LETS'S PLAN A BETTER WAY TO MOVE",
-    description:"Your home deserves an elevator solution that fits your space, needs and lifestyle. Connect with NVANZ Elevators to discuss your residential elevator requirements and explore suitable options for your project in Hyderabad.",
+    description:"our home deserves a residential elevator that fits your space, needs and lifestyle. Connect with NVANZ Elevators to discuss your home elevator requirements and explore the right options for your project.",
     btnText:"Discuss Your Elevator Project",
     phno:"Call +91 8978039911"
  },
