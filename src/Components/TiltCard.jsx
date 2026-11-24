@@ -1,8 +1,11 @@
 
 
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const TiltCard = ({ data, index }) => {
+
+  const navigate=useNavigate()
   const [cardTilt, setCardTilt] = useState({
     rotateX: 0,
     rotateY: 0,
@@ -69,9 +72,23 @@ const TiltCard = ({ data, index }) => {
             {data?.title}
           </p>
 
-          <span className="inline-block px-[10px] py-[5px] font-bold font-inter text-[14px] mt-[10px] text-[#E9A60F] border border-[#E9A60F] rounded-full">
+{
+  data?.link &&   <span onClick={() => navigate(data?.link)} className="cursor-pointer inline-block px-[10px] py-[5px] font-bold font-inter text-[14px] mt-[10px] text-[#E9A60F] border border-[#E9A60F] rounded-full">
             Enquire →
           </span>
+}
+
+<div className="flex gap-[20px]">
+  {
+  data?.options && data?.options?.map((data,index)=>(
+     <button onClick={() => navigate(data?.link)} className="cursor-pointer inline-block px-[10px] py-[5px] font-bold font-inter text-[14px] mt-[10px] text-[#E9A60F] border border-[#E9A60F] rounded-full">
+            {data?.option}
+          </button>
+  ))
+}
+  </div>
+
+         
         </div>
 
       </div>

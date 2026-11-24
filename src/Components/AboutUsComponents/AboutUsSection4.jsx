@@ -1,7 +1,11 @@
 import aboutUsContent from "../../Content/aboutUsContent"
 import Button from "../Buttons/Button"
-const AboutUsSection4 = () => {
+import { useNavigate } from "react-router-dom";
 
+import { FaArrowRightLong } from "react-icons/fa6";
+ 
+const AboutUsSection4 = () => {
+ const navigate = useNavigate();
     return(
 
         <section className="bg-[#121212] py-10 sm:py-14 lg:py-16">
@@ -24,7 +28,22 @@ const AboutUsSection4 = () => {
 
     <p className="mt-3 font-inter text-sm font-bold text-[#E9A60F] sm:text-base">{data?.subHeading}</p>
     <p className="mt-2 font-inter text-sm leading-relaxed text-[#D8D2C6]">{data?.description}</p>
-<p className="mt-auto pt-5 font-inter text-sm font-bold leading-snug text-white">{data?.belowText}</p>
+<p
+  onClick={() => navigate(data?.link)}
+  className="
+    mt-auto pt-5
+    inline-flex w-fit items-center gap-2
+    font-inter text-sm font-bold leading-snug
+    text-white cursor-pointer
+    transition-colors duration-300 ease-in-out
+    hover:text-[#E9A60F]
+    group
+  "
+>
+  {data?.belowText}
+
+ <FaArrowRightLong/>
+</p>
  </article>))
     }
    
@@ -39,7 +58,7 @@ const AboutUsSection4 = () => {
     {aboutUsContent?.section4.buttonText}
   </button> */}
  <Button borderColor = "#E9A60F" bgColor="#E9A60F"
-  textColor="#141210"
+  textColor="#141210" onClick={() => navigate("/contact-us")} 
   hoverBgColor="#FFFFFF"
   hoverTextColor="#141210"  text={aboutUsContent?.section4.buttonText}
   className="max-w-full px-6 text-sm sm:px-10 sm:text-base"/>

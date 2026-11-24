@@ -19,7 +19,7 @@ const LogoLinks = () => {
         </a>
 
         <a
-          href=""
+          href="https://www.linkedin.com/company/nvanz-elevators/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visit our LinkedIn"

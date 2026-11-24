@@ -1,8 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import images from "../../assets/Images"
 import Button from "../Buttons/Button"
 
 
 const ProductDetailsHeroSection = ({hero}) => {
+
+    const navigate=useNavigate()
 
     const spanDetails = [
         "250–630 kg residential capacity",
@@ -49,7 +52,7 @@ const ProductDetailsHeroSection = ({hero}) => {
 
                     <div className="mt-6 flex flex-col gap-[10px] md:flex-row md:flex-wrap md:gap-[20px] lg:mt-[30px]">
 
-                        <Button
+                        <Button  onClick={() =>navigate('/contact-us')}
                             borderColor="#FFFFFF"
                             bgColor="#FFFFFF"
                             textColor="#141210"
@@ -58,9 +61,7 @@ const ProductDetailsHeroSection = ({hero}) => {
                             className="max-w-full px-4 text-sm sm:px-6 sm:text-base lg:px-10"
                         />
 
-                        <Button     onClick={() => {
-        window.location.href = "tel:+918978039911";
-    }}
+                        <Button     onClick={() =>navigate('/contact-us')}
                             borderColor="#FFFFFF"
                             textColor="#FFFFFF"
                             hoverBgColor="#FFFFFF"

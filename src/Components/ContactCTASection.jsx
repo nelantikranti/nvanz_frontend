@@ -155,7 +155,7 @@ import { useLayoutEffect, useRef, useState } from "react";
 import Button from "./Buttons/Button";
 import images from "../assets/Images";
 
-const ContactCTASection = ({ contact }) => {
+const ContactCTASection = ({ contact,onClick,onClick2,showSecondButton = true, }) => {
   const sectionRef = useRef(null);
   const animationFrameRef = useRef(null);
 
@@ -322,6 +322,7 @@ const ContactCTASection = ({ contact }) => {
                 textColor="#FFFFFF"
                 hoverBgColor="#FFFFFF"
                 hoverTextColor="#141210"
+                onClick={onClick}
                 text={contact?.btnText1}
                 expandEffect={true}
                 className="w-full px-5 text-sm sm:w-auto sm:px-[40px] sm:text-base"
@@ -329,13 +330,11 @@ const ContactCTASection = ({ contact }) => {
             </div>
           )}
 
-          {contact?.btnText2 && (
+          { showSecondButton &&  contact?.btnText2 && (
             <div className="w-full sm:w-auto">
               <Button
                 text={contact?.btnText2}
-    //             onClick={() => {
-    //     window.location.href = "tel:+918978039911";
-    // }}
+                onClick={onClick2}
                 className="w-full px-5 text-sm sm:w-auto sm:px-[40px] sm:text-base"
               />
             </div>

@@ -168,6 +168,9 @@ const GetFreeLiftQuote = () => {
           </div>
         </div>
 
+
+        {/* <IndiaGlobe/> */}
+
         {/* Free Quote Form */}
         <div className="mx-auto mt-[15px] w-full max-w-[450px] rounded-[16px] border-[2px] border-[#E9A60F99] px-[18px] py-[20px]
           sm:mt-[20px] sm:rounded-[18px] sm:px-[25px] sm:py-[22px]

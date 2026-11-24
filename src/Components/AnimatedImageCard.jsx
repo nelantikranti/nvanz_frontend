@@ -1,7 +1,6 @@
 
 
 
-
 const AnimatedImageCard = ({
   src,
   alt = "Image",
@@ -37,7 +36,12 @@ const AnimatedImageCard = ({
       <img
         src={src}
         alt={alt}
-        className={`h-full w-full ${imageClassName}`}
+        className={`
+          h-full w-full
+          transition-transform duration-700 ease-in-out
+          group-hover:scale-110
+          ${imageClassName}
+        `}
         style={{ objectFit }}
       />
 

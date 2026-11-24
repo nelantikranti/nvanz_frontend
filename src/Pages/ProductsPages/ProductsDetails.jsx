@@ -11,14 +11,14 @@ import ProductsDetailsSection6 from "../../Components/ProductsDetailsComponents/
 import ProductDetailsSection7 from "../../Components/ProductsDetailsComponents/ProductsDetailsSection7"
 
 import { products } from "../../Content/productDetials"
-import { Link, useParams } from "react-router-dom"
+import { Link, useNavigate, useParams } from "react-router-dom"
 import CommonFAQ from "../../Components/CommonFAQ"
 
 const ProductsDetails=()=>{
   const { slug } = useParams()
   const pageRef = useRef(null)
   const data = Object.values(products).find((product) => product.slug === slug)
-
+  const navigate=useNavigate()
   useEffect(() => {
     const page = pageRef.current
     if (
@@ -93,8 +93,8 @@ const ProductsDetails=()=>{
              <ProductDetailsSection7 whyChoose={data?.whyChoose}/>
              <ProductDetailsSection8 productGallery={data?.productGallery}/>
            
-             <CommonFAQ heading={data?.faq?.heading} questionsAndAns={data?.faq?.questionsAndAns}  />
-             <ContactCTASection contact={data.contact} />
+             <CommonFAQ heading={data?.faq?.heading} questionsAndAns={data?.faq?.questionsAndAns}   />
+             <ContactCTASection contact={data.contact} onClick={() => navigate("/contact-us")} showSecondButton={false} />
         
         </div>
     )

@@ -90,7 +90,7 @@ const HomePageSection2=()=>{
                 <CounterValue value={data?.value ?? ""} />
 
                 <p className="text-[#D8D2C6] text-[14px] font-inter text-center mt-[10px]">{data?.title}</p>
-                <p className="text-[9px] font-inter font-bold text-[#E9A60F]  text-center mt-[10px]">{data?.status}</p>
+                {/* <p className="text-[9px] font-inter font-bold text-[#E9A60F]  text-center mt-[10px]">{data?.status}</p> */}
 
 
             </div>

@@ -1,8 +1,10 @@
+import { useNavigate } from "react-router-dom"
 import images from "../../assets/Images"
 import { commercialElevatorContent } from "../../Content/commercialElevatorContent"
 
 
 const CommercialElevatorSection2=()=>{
+    const navigate=useNavigate()
     return(
         <div className="bg-[linear-gradient(135deg,#0D0B09_0%,#261B0A_100%)] py-[30px]">
             <div className="w-[90%] mx-auto flex flex-wrap justify-center   gap-[30px]">
@@ -37,7 +39,7 @@ const CommercialElevatorSection2=()=>{
 
 <p className="text-[clamp(2rem,7.2vw,46px)] text-white font-bebas ">{data?.title}</p>
 
-<span className="text-[#E9A60F] px-[10px] py-[5px] inline-block font-bold font-inter border-[1px] border-[#E9A60F] rounded-full">Book →</span>
+<button onClick={() => navigate("/contact-us")}  className="text-[#E9A60F] px-[20px] py-[5px] inline-block font-bold font-inter border-[1px] border-[#E9A60F] rounded-full cursor-pointer">Book →</button>
                   
 
                 </div>

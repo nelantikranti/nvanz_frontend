@@ -3,7 +3,10 @@ import images from "../../assets/Images/index.js";
 import aboutUsContent from "../../Content/aboutUsContent.js";
 import AnimatedImageCard from "../AnimatedImageCard.jsx";
 import Button from "../Buttons/Button.jsx";
+import { useNavigate } from "react-router-dom";
 const AboutUsHeroSection = () => {
+
+    const navigate = useNavigate();
 
     return(
         <div className="relative h-[calc(100svh-5rem)] w-full overflow-hidden bg-black ">
@@ -39,14 +42,20 @@ const AboutUsHeroSection = () => {
 
 
 <div className="mt-[30px] flex flex-col gap-[10px] md:flex-row md:gap-[20px]">
- <Button   onClick={() => {
-        window.location.href = "tel:+918978039911";
-    }} borderColor = "#FFFFFF" bgColor="#FFFFFF"
+ <Button onClick={() => {
+    window.open(
+      "https://wa.me/918978039911?text=Hello%2C%20I%20am%20interested%20in%20your%20services.",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  }}
+  
+  borderColor = "#FFFFFF" bgColor="#FFFFFF"
   textColor="#141210"
   hoverBgColor="#E9A60F"
   hoverTextColor="#" text={aboutUsContent?.hero?.btnText1}/>
 
-<Button  borderColor = "#FFFFFF" 
+<Button  onClick={() => navigate("/products")}  borderColor = "#FFFFFF" 
   textColor="#FFFFFF"
   hoverBgColor="#FFFFFF"
   hoverTextColor="#141210" text={aboutUsContent?.hero?.btnText2}/>

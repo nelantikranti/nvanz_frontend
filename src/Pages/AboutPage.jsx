@@ -7,9 +7,17 @@ import AboutUsSection5 from "../Components/AboutUsComponents/AboutUsSection5"
 import AboutUsSection6 from "../Components/AboutUsComponents/AboutUsSection6"
 import AboutUsSection7 from "../Components/AboutUsComponents/AboutUsSection7"
 import AboutUsSection8 from "../Components/AboutUsComponents/AboutUsSection8"
+import ContactCTASection from "../Components/ContactCTASection"
+import aboutUsContent from "../Content/aboutUsContent"
+import { useNavigate } from "react-router-dom"
+
+
+
 
 const AboutPage=()=>{
     const pageRef = useRef(null)
+
+    const navigate = useNavigate;
 
     useEffect(() => {
         const page = pageRef.current
@@ -65,7 +73,10 @@ const AboutPage=()=>{
             <AboutUsSection5/>
             <AboutUsSection6/>
             <AboutUsSection7/>
-            <AboutUsSection8/>
+            {/* <AboutUsSection8/> */}
+            <ContactCTASection contact={aboutUsContent?.section8} onClick={() => navigate('/contact-us')} onClick2={() => {
+        window.location.href = `tel:${aboutUsContent?.section8?.phno}`;
+    }} />
            
             
 

@@ -3,17 +3,17 @@ import images from "../assets/Images"
 
 export const cardDetails=[
     {
-       value: "4+",
+       value: "12+",
   title: "Years experience",
-  status: "TO BE CONFIRMED",
+//   status: "TO BE CONFIRMED",
 
 
 
     },
      {
-       value: "65+",
+       value: "3000+",
   title: "Lifts Installed",
-  status: "TO BE CONFIRMED",
+//   status: "TO BE CONFIRMED",
 
 
 
@@ -21,7 +21,7 @@ export const cardDetails=[
      {
        value: "ISO 9001:2015",
   title: "certification",
-  status: "TO BE CONFIRMED",
+//   status: "TO BE CONFIRMED",
 
 
 
@@ -29,7 +29,7 @@ export const cardDetails=[
      {
        value: "24",
   title: "hours service response",
-  status: "TO BE CONFIRMED",
+//   status: "TO BE CONFIRMED",
 
 
 

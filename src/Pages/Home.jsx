@@ -10,8 +10,12 @@ import { contactDetails, faqQuestions } from "../Content/homeContent"
 import ContactCTASection from "../Components/ContactCTASection"
 import HowItWorks from "../Components/HomeComponents/HowItWorks"
 import HomePageHeroSectionNew from "../Components/HomeComponents/HomePageHeroSectionNew"
+import { useNavigate } from "react-router-dom";
 const Home=()=>{
     const pageRef = useRef(null)
+
+    const navigate = useNavigate();
+
 
     useEffect(() => {
         const page = pageRef.current
@@ -72,7 +76,13 @@ const Home=()=>{
 
             <CommonFAQ heading={faqQuestions?.heading} questionsAndAns={faqQuestions?.questionsAndAns} />
 
-            <ContactCTASection contact={contactDetails} />
+            <ContactCTASection onClick={() => navigate("/contact-us")} onClick2={() => {
+    window.open(
+      "https://wa.me/918978039911?text=Hello%2C%20I%20am%20interested%20in%20your%20services.",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  }} contact={contactDetails} />
 
             {/* <HomeSection2  /> */}
             </div>

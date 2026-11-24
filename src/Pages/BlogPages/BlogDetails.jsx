@@ -1,4 +1,4 @@
-import { Link, Navigate, useParams } from "react-router-dom"
+import { Link, Navigate, useNavigate, useParams } from "react-router-dom"
 import BlogData from "../../Components/BlogsComponents/BlogData"
 import DetailedBlogHero from "../../Components/BlogsComponents/DetailedBlogHero"
 import ContactCTASection from "../../Components/ContactCTASection"
@@ -36,6 +36,8 @@ const BlogDetails = () => {
         description2: "Explore residential elevator options and discuss your home's requirements with the NVANZ team.",
         btnText1: "Explore Home Elevator Solutions",
     }
+
+    const navigate=useNavigate()
 
     return (
         <main>
@@ -116,7 +118,7 @@ const BlogDetails = () => {
                 </div>
             </div>
 
-            <ContactCTASection contact={contactDetails} />
+            <ContactCTASection onClick={() => navigate("/products")} contact={contactDetails}  />
         </main>
     )
 }

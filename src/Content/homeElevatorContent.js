@@ -5,7 +5,8 @@ export const homeElevatroContent=[
         accessible:'♿ Wheelchair accessible',
         title:"Signature 1101",
         no:"1101",
-        subText:""
+        subText:"",
+        link:'/products/signature-1101'
 
     },
     {
@@ -13,7 +14,22 @@ export const homeElevatroContent=[
         accessible:'♿ Wheelchair accessible',
         title:"Prestige 1110",
         subText:"Rope · Flat belt · Grooved belt",
-        no:"1110"
+        no:"1110",
+        options:[
+            {
+                option:'Rope',
+                link:'/products/prestigeMrlRopeHome'
+            },
+            {
+                option:'Flat belt',
+                link:'/products/prestigeMrlFlatBelt'
+            },
+            {
+                option:'Grooved belt',
+                link:'/products/prestigeMrlGroovedBelt'
+            },
+          
+        ]
 
     },
      {
@@ -21,7 +37,8 @@ export const homeElevatroContent=[
         accessible:'♿ Wheelchair accessible',
         title:"Ground 1506",
         subText:"",
-        no:"1506"
+        no:"1506",
+        link:'/products/groundHydraulicHome'
 
     },
     {
@@ -29,7 +46,8 @@ export const homeElevatroContent=[
         accessible:'♿ Wheelchair accessible',
         title:"Panorama + Circular 1805",
         subText:"",
-        no:"1805"
+        no:"1805",
+        link:'/products/nvanzPanorama-1805'
 
     },
     {
@@ -37,7 +55,8 @@ export const homeElevatroContent=[
         accessible:'',
         title:"Compact 1805",
         subText:"",
-        no:"1805"
+        no:"1805",
+        link:'/products/compact360Panoramic'
 
     },
     {
@@ -45,7 +64,22 @@ export const homeElevatroContent=[
         accessible:'',
         title:"Wheelchair",
         no:"",
-        subText:"Combo / design options — details to be confirmed"
+        subText:"Combo / design options — details to be confirmed",
+         options:[
+            {
+                option:'TRACTION',
+                link:'/products/signature-1101'
+            },
+            {
+                option:'HYDRAULIC',
+                link:'/products/groundHydraulicHome'
+            },
+            {
+                option:'PANORAMIC',
+                link:'/products/nvanzPanorama-1805'
+            },
+          
+        ]
 
     },
    

@@ -1,8 +1,9 @@
 import aboutUsContent from "../../Content/aboutUsContent"
 import Button from "../Buttons/Button"
-
+import { useNavigate } from "react-router-dom";
 
 const AboutUsSection8=()=>{
+    const navigate = useNavigate();
     return(
     
     <div
@@ -28,13 +29,14 @@ const AboutUsSection8=()=>{
             textColor="#FFFFFF"
             hoverBgColor="#FFFFFF"
             hoverTextColor="#141210"
-            text={aboutUsContent?.section8?.btnText}
+            text={aboutUsContent?.section8?.btnText1}
+            onClick={() => navigate('/contact-us')}
             expandEffect={true}
             className="w-full max-w-full px-4 text-sm sm:w-auto sm:px-8 sm:text-base"
         />
         <Button
             text={aboutUsContent?.section8?.phno}    onClick={() => {
-        window.location.href = `tel:${aboutUsContent?.section8?.phno}`;
+        window.location.href = `tel:${aboutUsContent?.section8?.btnText2}`;
     }}
             className="w-full max-w-full px-4 text-sm sm:w-auto sm:px-8 sm:text-base"
         />

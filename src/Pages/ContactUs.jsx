@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom"
 import CommonFAQ from "../Components/CommonFAQ"
 import ContactCTASection from "../Components/ContactCTASection"
 import AfterYouContactUs from "../Components/ContactUsComponents/AfterYouContactUs"
@@ -18,6 +19,8 @@ import { useEffect,useRef } from "react"
 const ContactUs=()=>{
 
      const pageRef = useRef(null)
+
+     const navigate=useNavigate()
     
         useEffect(() => {
             const page = pageRef.current
@@ -84,7 +87,13 @@ const ContactUs=()=>{
 
 
 <CommonFAQ bg="linear-gradient(135deg, #1C150D 0%, #0C0A08 50%, #2F220B 100%)" heading={faqQuestions?.heading} questionsAndAns={faqQuestions?.questionsAndAns} />
- <ContactCTASection contact={contactUsContent?.contactDetails} />
+ <ContactCTASection onClick={() => navigate("/contact-us")} onClick2={() => {
+    window.open(
+      "https://wa.me/918978039911?text=Hello%2C%20I%20am%20interested%20in%20your%20services.",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  }} contact={contactUsContent?.contactDetails} />
 
  <LogoLinks/>
 
