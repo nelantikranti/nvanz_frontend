@@ -14,7 +14,7 @@ const AboutUsSection4 = () => {
  <h2 className="text-center font-bebas text-[clamp(2.5rem,6vw,4rem)] leading-[0.95] text-white">
     {aboutUsContent.section4.heading}{" "}
     <span className="text-[#E9A60F]">{aboutUsContent?.section4?.highlightHeding}</span>{" "}
-    {aboutUsContent?.section4?.resHeading}
+    {aboutUsContent?.section4?.resHeading} 
  </h2>
  <p className="mx-auto mt-3 w-full max-w-[60rem] text-center font-inter text-base leading-relaxed text-[#D8D2C6] sm:text-lg">{aboutUsContent.section4.subHeading}</p>
 
@@ -24,7 +24,7 @@ const AboutUsSection4 = () => {
  <p className="font-bebas text-4xl leading-none text-[#E9A60F] sm:text-5xl">
         {String(index + 1).padStart(2, "0")}
       </p>
-    <h3 className="mt-3 font-bebas text-[clamp(1.75rem,3vw,2.125rem)] leading-[0.95] text-white">{data?.heading}</h3>
+    <h3 className="mt-3 font-bebas text-[clamp(1.75rem,3vw,2.125rem)] leading-[0.95] text-white">{data?.heading} </h3>
 
     <p className="mt-3 font-inter text-sm font-bold text-[#E9A60F] sm:text-base">{data?.subHeading}</p>
     <p className="mt-2 font-inter text-sm leading-relaxed text-[#D8D2C6]">{data?.description}</p>

@@ -168,24 +168,26 @@ const GetFreeLiftQuote = () => {
           </div>
         </div>
 
-
-        {/* <IndiaGlobe/> */}
+<div className="flex items-center justify-center ">
+   <IndiaGlobe/>
+  </div>
+       
 
         {/* Free Quote Form */}
-        <div className="mx-auto mt-[15px] w-full max-w-[450px] rounded-[16px] border-[2px] border-[#E9A60F99] px-[18px] py-[20px]
+        <div className="mx-auto mt-[0px] w-full max-w-[450px] rounded-[16px] border-[2px] border-[#E9A60F99] px-[18px] py-[20px]
           sm:mt-[20px] sm:rounded-[18px] sm:px-[25px] sm:py-[22px]
           md:px-[30px] md:py-[25px]
           lg:rounded-[20px] lg:py-[10px]"
         >
 
           {/* Form Heading */}
-          <p className="text-center font-bebas text-[30px] leading-tight text-white sm:text-[32px] md:text-[34px]">
-            GET A FREE LIFT QUOTE
-          </p>
+          <h2 className="text-center font-bebas text-[30px] leading-tight text-white sm:text-[32px] md:text-[34px]">
+            GET A FREE ELEVATOR QUOTE
+          </h2>
 
           {/* Form Description */}
           <p className="mx-auto mt-[5px] w-full text-center font-inter text-[12px] leading-[1.6] text-[#D8D2C6] sm:w-[85%] sm:text-[13px] md:w-[80%] lg:w-[60%]">
-            Fill in 3 quick details. Our team will reply within 24 hours.
+            Share three quick details. Our team will respond within 24 hours
           </p>
 
           {/* Form Inputs */}
@@ -232,8 +234,7 @@ const GetFreeLiftQuote = () => {
 
             {/* Privacy Text */}
             <p className="text-center font-inter text-[10px] leading-[1.6] text-[#A79F90] sm:text-[11px] md:text-[12px]">
-              We respect your privacy. We will only use your details to contact
-              you about your enquiry.
+              We respect your privacy. We will use your details only to respond to your enquiry.
             </p>
 
           </form>

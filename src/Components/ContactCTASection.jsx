@@ -292,9 +292,9 @@ const ContactCTASection = ({ contact,onClick,onClick2,showSecondButton = true, }
 
       {/* Content */}
       <div className="relative z-10">
-        <p className="mx-auto w-[90%] text-center font-bebas text-[clamp(2.5rem,7vw,100px)] leading-[0.9] text-[#141210] sm:w-[85%] lg:w-[75%]">
+        <h2 className="mx-auto w-[90%] text-center font-bebas text-[clamp(2.5rem,7vw,100px)] leading-[0.9] text-[#141210] sm:w-[85%] lg:w-[75%]">
           {contact?.heading}
-        </p>
+        </h2>
 
         <p className="mx-auto mt-5 w-[90%] text-center font-inter text-base leading-relaxed text-[#141210] sm:mt-[30px] sm:text-lg lg:w-[50%] lg:text-[19px]">
           {contact?.description}

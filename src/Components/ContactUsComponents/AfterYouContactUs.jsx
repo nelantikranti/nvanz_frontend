@@ -14,19 +14,19 @@ import ScrollTimeline from "../ScrollTimeline"
 const steps = [
     {
     heading:"YOU CALL OR FILL THE FORM.",
-    desc:"Tell us what kind of lift you need.",
+    desc:"Tell us what type of elevator you need.",
     },
      {
     heading:"WE VISIT YOUR SITE (FREE).",
-    desc:"Our expert checks your space and understands your needs.",
+    desc:"Our elevators expert  inspects your space and understands your requirements.",
     },
      {
     heading:"YOU GET A CLEAR QUOTE.",
-    desc:"We explain the options in simple words.",
+    desc:" We explain the options in simple terms.",
     },
      {
     heading:"WE INSTALL AND SUPPORT YOU.",
-    desc:"Our team handles installation and stays with you for service.",
+    desc:"Our team handles the installation and stays with you for service.",
      }
    
 ]
@@ -44,9 +44,9 @@ const AfterYouContactUs = () => {
       <div className="mx-auto w-[92%] sm:w-[90%]">
 
         {/* Heading */}
-        <p className="font-bebas text-[44px] leading-[0.95] text-white sm:text-[56px] md:text-[66px] lg:text-[70px]">
+        <h2 className="font-bebas text-[44px] leading-[0.95] text-white sm:text-[56px] md:text-[66px] lg:text-[70px]">
           WHAT HAPPENS AFTER YOU CONTACT US?
-        </p>
+        </h2>
 
         {/* Timeline */}
         <div className="mt-[20px] sm:mt-[25px] lg:mt-[30px]">

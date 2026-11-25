@@ -10,9 +10,9 @@ const CommonFAQ = ({ heading, questionsAndAns = [], bg = "linear-gradient(135deg
     <div style={{background:bg}} className=" py-6 sm:py-[30px]">
       <div className="w-[90%] mx-auto">
 
-        <p className="font-bebas text-[clamp(2.5rem,5vw,60px)] text-[#FFFFFF]">
+        <h2 className="font-bebas text-[clamp(2.5rem,5vw,60px)] text-[#FFFFFF]">
           {heading}
-        </p>
+        </h2>
 
         {questionsAndAns.map((data, index) => {
           const isOpen = openIndex === index

@@ -31,12 +31,12 @@ const AboutUsHeroSection = () => {
                         <span className="font-inter inline-block font-[700] text-[12px] text-[#E9A60F] px-[10px] py-[3px] border-[1px] border-[#E9A60F] rounded-full">
                     {aboutUsContent?.hero?.subHeading}
                 </span>
-            <p className="font-bebas text-[clamp(52px,7vw,104px)] leading-[1] text-white mt-[20px]">
+            <h1 className="font-bebas text-[clamp(52px,7vw,104px)] leading-[1] text-white mt-[20px]">
   {aboutUsContent?.hero?.heading}<br />
   <span className="text-[#E9A60F]">{aboutUsContent?.hero?.highlightedHeading}</span>
 
 
-</p>
+</h1>
 
 <p className="text-[clamp(14px,1.3vw,19px)] font-inter text-[#D8D2C6] mt-[24px] w-full max-w-[520px]">{aboutUsContent?.hero?.description}</p>
 

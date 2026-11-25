@@ -215,6 +215,8 @@ const LOCATIONS = [
   { name: "Andhra Pradesh", lat: 16.5062, lon: 80.648,  dx: 30, dy: 10,  delay: 0.6 },
   { name: "Tamil Nadu",     lat: 13.0827, lon: 80.2707, dx: 28, dy: 7,   delay: 1.2 },
   { name: "Kerala",         lat: 9.9312,  lon: 76.2711, dx: 26, dy: 22,  delay: 1.8 },
+   { name: "Karnataka",      lat: 12.9716, lon: 77.5946, dx: -20, dy: 4,  anchor: "end", delay: 2.4 },
+  { name: "Lucknow",        lat: 26.8467, lon: 80.9462, dx: 30, dy: 4,   delay: 3.0 },
 ].map((l) => ({ ...l, ...project(l.lat, l.lon) }));
 
 export default function IndiaDotMap({ className = "" }) {
@@ -323,16 +325,17 @@ export default function IndiaDotMap({ className = "" }) {
                 className="core"
                 style={{ animationDelay: `${l.delay}s` }}
               />
-              <text
-                x={l.x + px(l.dx)}
-                y={l.y + px(l.dy)}
-                fill="#fff"
-                fontSize={px(FONT_SIZE)}
-                fontWeight="700"
-                fontFamily="Inter, system-ui, sans-serif"
-              >
-                {l.name}
-              </text>
+             <text
+  x={l.x + px(l.dx)}
+  y={l.y + px(l.dy)}
+  textAnchor={l.anchor || "start"}
+  fill="#fff"
+  fontSize={px(FONT_SIZE)}
+  fontWeight="700"
+  fontFamily="Inter, system-ui, sans-serif"
+>
+  {l.name}
+</text>
             </g>
           );
         })}

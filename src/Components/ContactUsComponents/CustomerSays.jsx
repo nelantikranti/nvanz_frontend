@@ -7,9 +7,9 @@ const CustomerSays = () => {
     <section className="w-full bg-[linear-gradient(135deg,#F8F4EA_0%,#EBDDBB_55%,#F8F4EA_100%)] py-[35px] sm:py-[40px] lg:py-[50px]">
       <div className="mx-auto w-[92%] sm:w-[90%]">
 
-        <p className="font-bebas text-[46px] leading-[0.95] text-[#141210] sm:text-[56px] md:text-[64px] lg:text-[70px]">
+        <h2 className="font-bebas text-[46px] leading-[0.95] text-[#141210] sm:text-[56px] md:text-[64px] lg:text-[70px]">
           {contactUsContent?.reviews?.heading}
-        </p>
+        </h2>
 
         <div className="mt-[25px] grid grid-cols-1 gap-[16px] sm:mt-[35px] sm:grid-cols-2 sm:gap-[20px] lg:mt-[50px] lg:grid-cols-3">
 

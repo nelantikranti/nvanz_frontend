@@ -11,7 +11,7 @@ export const products = {
       title: "Signature 1101 Home Elevator for Villas and Duplexes",
       subtitle: "TRACTION · 1101",
       description:
-        "NVANZ Signature 1101 is a premium residential elevator for homeowners who want smooth, convenient movement between floors. It offers a capacity range of 250–630 kg, automatic or manual doors, and a choice of stainless steel, glass or premium cabin finishes.",
+        "The NVANZ Signature 1101 is a premium residential elevator for homeowners who want smooth and convenient travel between floors. It offers a capacity range of 250–630 kg, a choice of automatic or manual doors, and cabin finishes in stainless steel, glass or premium materials.",
       image: images?.liftImag,
       points:[
         "250–630 kg residential capacity",
@@ -29,52 +29,52 @@ export const products = {
     },
 
     overview: {
-      title: "A HOME ELEVATOR BUILT AROUND YOUR PROPERTY",
+      title: "A HOME ELEVATOR DESIGNED AROUND YOUR PROPERTY",
       points:[
-        "The Signature 1101 is designed for private homes, such as villas, duplexes and multi-floor family residences. Based on the supplied specifications, it uses a hydraulic drive. A hydraulic cylinder moves the cabin, and a compact power unit (HPU) controls the movement.",
-        "It can be planned with automatic or manual doors and with stainless steel, glass or premium cabin options. Speed ranges from about 0.15 to 0.40 m/s, depending on the design.",
-        "Before you decide, remember that pit depth, machine room arrangement and final design depend on your project. A site assessment is the best way to confirm what will work in your home."
+        "The Signature 1101 is designed for private homes, including villas, duplexes and multi-floor family residences. It uses a hydraulic drive, in which a hydraulic cylinder moves the cabin and a compact hydraulic power unit (HPU) controls the movement.",
+        "It can be configured with automatic or manual doors and with stainless steel, glass or premium cabin options. The speed ranges from approximately 0.15 to 0.40 m/s, depending on the design.",
+        "Please note that the pit depth, machine room arrangement and final design depend on your project. A site assessment is the best way to confirm what will work in your home."
       ]
     },
 
     features:{
-        title:"KEY FEATURES AND CUSTOMER BENEFITS",
+        title:"KEY FEATURES AND BENEFITS OF SIGNATURE 1101 HOME ELEVATOR",
         cardDetails:[
             {
                 img:images?.productFeaturesImg1,
                 heading:"HYDRAULIC CYLINDER DRIVE",
-                description:"A hydraulic cylinder moves the cabin. The configuration is direct or 2:1, as engineered.",
-                subDes:"A smooth, steady ride at residential speeds."
+                description:" A hydraulic cylinder moves the cabin in a direct or 2:1 configuration, as per the project design.",
+                subDes:"Delivers a smooth, steady ride at residential speeds."
             },
             {
                 img:images?.productFeaturesImg2,
                 heading:"COMPACT LOW-NOISE POWER UNIT",
-                description:"A compact power unit, with a remote arrangement where feasilbe.",
-                subDes:"Gives flexibility in planning where the equipment sits."
+                description:"A compact power unit, with a remote arrangement where feasible.",
+                subDes:"Offers flexibility in deciding where the equipment is placed."
             },
             {
                 img:images?.productFeaturesImg3,
-                heading:"Variable-speed control",
+                heading:" Variable-speed Control",
                 description:"A premium variable-speed pump and a VVVF / hydraulic controller.",
-                subDes:"Helps control how the cabin starts and stops."
+                subDes:"Ensures smooth starts and stops of the cabin."
             },
             {
                 img:images?.productFeaturesImg4,
                 heading:"Safety and emergency provisions",
-                description:"Overload protection, a light curtain, emergency communication and ARD / emergency lowering as engineered.",
+                description:"Overload protection, a light curtain, emergency communication and ARD / emergency lowering, as per the project design.",
                 subDes:"Gives families added confidence during daily use and unexpected events."
             },
             {
                 img:images?.productFeaturesImg5,
-                heading:"Cabin and door choices",
-                description:"Automatic or manual doors. Cabin in stainless steel, glass or premium finish.",
-                subDes:"Lets the elevator match your home’s interior."
+                heading:"Cabin and Door Choices",
+                description:"Automatic or manual doors, with cabin options in stainless steel, glass or premium finishes.",
+                subDes:"Allows the elevator to match your home’s interior."
             },
             {
                 img:images?.productFeaturesImg6,
-                heading:"Remote diagnostics",
-                description:"Remote checking of the elevator’s condition (optional or part of a premium package).",
-                subDes:"Can help the service team find issues early."
+                heading:"Remote Diagnostics",
+                description:"Remote monitoring of the elevator’s condition (optional or included in the premium package).",
+                subDes:"Helps the service team identify issues early. "
             },
             
         ]
@@ -83,8 +83,8 @@ export const products = {
     
 
     specifications: {
-        title:"Technical Specifications",
-        desc:"Final suitability, dimensions and installation needs must be verified for your property by the NVANZ technical team.",
+        title:"Signature 1101 Technical Specifications",
+        desc:"Final suitability, dimensions and installation requirements must be verified for your property by the NVANZ technical team.",
         details:[
             {
                 heading:"DRIVE",
@@ -92,19 +92,19 @@ export const products = {
             },
              {
                 heading:"PUMP",
-                point:"Premium variable-speed / suitable hydraulic unit"
+                point:"Premium variable-speed pump / suitable hydraulic unit "
             },
              {
                 heading:"CAPACITY",
-                point:"250–630 kg residential"
+                point:"250–630 kg (residential) "
             },
              {
                 heading:"SPEED",
-                point:"~0.15–0.40 m/s depending on design"
+                point:"Approx. 0.15–0.40 m/s, depending on design"
             },
              {
                 heading:"CONFIGURATION",
-                point:"Direct / 2:1 as engineered"
+                point:"Direct / 2:1, as per the project design "
             },
              {
                 heading:"CYLINDER",
@@ -124,7 +124,7 @@ export const products = {
             },
              {
                 heading:"CABIN",
-                point:"SS / glass / premium"
+                point:"Stainless steel / glass / premium finish"
             },
              {
                 heading:"PIT",
@@ -136,7 +136,7 @@ export const products = {
             },
              {
                 heading:"ARD / EMERGENCY LOWERING",
-                point:"Yes, as engineered"
+                point:"Yes, as per the project design "
             },
             {
                 heading:"EMERGENCY COMMUNICATION",
@@ -152,7 +152,7 @@ export const products = {
             },
             {
                 heading:"REMOTE DIAGNOSTICS",
-                point:"Optional / standard premium package"
+                point:"Optional / included in the premium package "
             },
 
 
@@ -163,36 +163,36 @@ export const products = {
         heading:"Is the Signature 1101 Right for Your Home?",
         cardDetails:[
             {
-                title:"Projects it may suit",
-                description:"It is intended for residential use: villas, duplexes and multi-floor homes, in new builds or renovations.",
+                title:"Projects It Suits",
+                description:"It is intended for residential use in villas, duplexes and multi-floor homes, in both new constructions and renovation projects. ",
                 points:[
                    
                 ]
             },
              {
-                title:"Space planning",
+                title:"Space Planning",
                 description:"",
                 points:[
                      "Pit depth (project-dependent)",
-                    "Where the power unit can be placed",
+                    "Placement of the power unit",
                     "Cabin size, shaft size and number of floors",
                     "Door type and landing area"
                 ]
             },
             {
                 title:"Accessibility",
-                description:"omeone at home uses a wheelchair or has limited mobility, tell us early. Cabin inside size, door opening width, landing space and control height all need to be checked.",
+                description:"If someone at home uses a wheelchair or has limited mobility, please inform us early. The internal cabin size, door opening width, landing space and control height must all be checked.",
                 points:[]
             },
             {
-                title:"Questions to ask the technical team",
+                title:"Questions to Ask the Technical Team",
                 description:"",
                 points:[
                     "How many floors will the elevator serve?",
-                    "Where can the pit and power unit go?",
-                    "Is the home new or existing?",
-                    "Which door and cabin options suit the design?",
-                    "What service and support follow installation?"
+                    "Where can the pit and power unit be placed?",
+                    " Is the home new construction or an existing building?",
+                    "Which door and cabin options suit the interior design?",
+                    "What service and support are available after installation?"
                 ]
             },
             
@@ -200,11 +200,11 @@ export const products = {
 
     },
     whyChoose:{
-        heading:"Why Choose NVANZ?",
+        heading:"Why Choose NVANZ for Your Home Elevator?",
         description:"",
         points:[
-            "A home elevator is a long-term part of your house, so the provider matters as much as the product. A good partner studies your property first, recommends a suitable model, and explains technical needs such as the pit and machine space in plain language.",
-            "NVANZ offers modern residential elevators designed for homes of every size and style. Our team helps you compare home lift options, plan the elevator layout with your architect or builder, and understand your choices before you decide."
+            "A home elevator is a long-term addition to your house, so the provider is as important as the product. A good partner studies your property first, recommends a suitable model and explains technical requirements, such as the pit and machine space, in simple language.",
+            "NVANZ offers modern residential elevators designed for homes of every size and style. Our team helps you compare home elevator options, plan the elevator layout with your architect or builder, and understand your choices before you decide."
         ]
     },
     productGallery:{
@@ -238,7 +238,7 @@ export const products = {
         heading:"Frequently Asked Questions",
         questionsAndAns:[
         {
-            question:"How does a hydraulic home elevator move?",
+            question:" How does a hydraulic home elevator move?",
             ans:"A hydraulic cylinder moves the cabin using fluid pressure from a compact power unit."
         },
         {
@@ -253,12 +253,28 @@ export const products = {
             question:"What happens during a power cut?",
             ans:"The model lists ARD / emergency lowering, as engineered. Exact behaviour should be confirmed by the technical team."
         },
+         {
+            question:"What safety features does it have?",
+            ans:"The supplied specifications list overload protection, a light curtain, emergency lowering and emergency communication."
+        },
+        {
+            question:"Can a wheelchair user use this elevator?",
+            ans:"This depends on cabin size, door width and landing space. Please discuss your needs with NVANZ so they can be checked."
+        },
+        {
+            question:"Can it be installed in an existing house?",
+            ans:"It may be possible, depending on available space and structure. A site assessment is needed to say for sure."
+        },
+         {
+            question:"What door and cabin options are available?",
+            ans:"Doors can be automatic or manual. Cabins are listed as SS, glass or premium."
+        },
     ],
     },
     
     contact:{
-        heading:"Planning a Home Elevator? Let’s Look at Your Layout",
-        description:"Share your floor plan, number of floors and daily needs with NVANZ. Our team will help you check whether the Signature 1101 suits your home.",
+        heading:"Planning a Home Elevator? Let’s Review Your Layout",
+        description:"Share your floor plan, the number of floors and your daily needs with NVANZ. Our team will help you check whether the Signature 1101 suits your home.",
         btnText1:"Enquire About This Model",
         btnText2:"Discuss Your Requirements"
     }
@@ -271,16 +287,16 @@ export const products = {
     name: "Prestige Mrl Rope Home",
 
     hero: {
-      title: "Prestige MRL Rope Home Elevator (1110) – Smooth, Safe & Space-Saving",
+      title: "Prestige MRL Rope Home Elevator (1110) – Smooth, Safe and Space-Saving",
       subtitle: "MRL · 1110",
       description:
-        "The Prestige 1110 is a machine-room-less rope elevator from NVANZ. It has a gearless permanent magnet motor and an integrated VVVF controller. It is made for homeowners who want a smooth, modern elevator for villas, duplexes and renovation projects. Capacities go from 320 kg to 800 kg.",
+        "The Prestige 1110 is a machine-room-less (MRL) rope elevator from NVANZ Elevators. It is powered by a gearless permanent magnet motor and an integrated VVVF controller. Designed for homeowners who want a smooth, modern elevator, it suits villas, duplexes and renovation projects. It is available in capacities from 320 kg to 800 kg.",
       image: "",
       points:[
         "Gearless PMSM machine with MRL configuration",
         "Capacity options: 320 / 450 / 630 / 800 kg",
-        "Speed range: 0.63–1.0 m/s",
-        "ARD, overload protection and full-height light curtain",
+        "Speed range: 0.63 to 1.0 m/s",
+        "ARD, overload protection and a full-height light curtain",
         "Remote monitoring and GSM/4G emergency communication"
         
       ]
@@ -296,52 +312,53 @@ export const products = {
     overview: {
       title: "A Rope-Driven Home Elevator Without a Separate Machine Room",
       points:[
-        "The Prestige 1110 is a machine-room-less (MRL) elevator. In general, an MRL design does not need a separate room above the shaft for the machine. This can make planning easier for a home.",
-        "The car is lifted by steel wire ropes with 2:1 roping, driven by a gearless permanent magnet motor. An integrated VVVF controller manages motor speed and movement.",
-        "The cabin can be finished in SS 304, SS 316 or glass. Doors are automatic, in telescopic or centre-opening styles.",
-        "Before choosing this model, check three things with the NVANZ team: your shaft space, top and pit clearances, and the capacity you need."
+        "The Prestige 1110 is a machine-room-less (MRL) elevator. An MRL design does not require a separate machine room above the shaft, which can make planning easier for a home.",
+        "The elevator car is lifted by steel wire ropes with 2:1 roping and driven by a gearless permanent magnet motor. An integrated VVVF controller manages the motor speed and movement.",
+        "The cabin is available in SS 304, SS 316 or glass finishes. Automatic doors are available in telescopic or centre-opening styles.",
+        "Before choosing this model, please confirm three things with the NVANZ team: your available shaft space, the top and pit clearances, and the capacity you need."
      
       ]
     },
 
     features:{
-        title:"Key Features and Customer Benefits",
+        title:"What the Prestige 1110 Offers for Everyday Home Use",
+        
         cardDetails:[
             {
                 img:"",
                 heading:"MRL layout",
-                description:"Planned without a separate machine room.",
-                subDes:"Less space is used for equipment. This can help in new villas and in renovations."
+                description:"Designed without a separate machine room.",
+                subDes:"Less space is taken up by equipment, which can help in both new villas and renovation projects."
             },
              {
                 img:"",
                 heading:"Gearless PMSM drive",
                 description:"A permanent magnet synchronous motor drives the elevator without a gearbox.",
-                subDes:"Fewer moving parts in the drive and smooth operation."
+                subDes:"Fewer moving parts in the drive system and smoother operation."
             },
              {
                 img:"",
                 heading:"Steel wire rope with 2:1 roping",
-                description:"The car hangs on steel ropes over a traction sheave engineered to suit the rope and motor.",
-                subDes:"A proven rope-driven design with a choice of capacities from 320 to 800 kg."
+                description:"The car is suspended on steel ropes over a traction sheave engineered to suit the rope and motor.",
+                subDes:"A proven rope-driven design with a choice of capacities from 320 kg to 800 kg."
             },
              {
                 img:"",
                 heading:"VVVF controller and encoder",
-                description:"The controller adjusts motor speed; the high-resolution encoder reports the exact cabin position.",
+                description:"The controller regulates the motor speed, while the high-resolution encoder reports the exact cabin position.",
                 subDes:"Smoother starts and stops, and accurate floor levelling."
             },
              {
                 img:"",
                 heading:"Safety and protection",
-                description:"ARD, overload protection, a full-height light curtain on the door and a dual independent brake system, where applicable.",
-                subDes:"Adds layers of protection for family members, including children and older adults."
+                description:"Includes ARD, overload protection, a full-height light curtain on the door and, where applicable, a dual independent brake system.",
+                subDes:"Adds multiple layers of protection for every family member, including children and older adults."
             },
              {
                 img:"",
                 heading:"Remote monitoring and smart access",
-                description:"Remote monitoring and GSM/4G emergency communication. PIN, RFID or biometric access is optional.",
-                subDes:"Status checks, emergency contact, and optional control over who uses the elevator."
+                description:"Includes remote monitoring and GSM/4G emergency communication. PIN, RFID or biometric access is available as an option.",
+                subDes:"Allows status checks, emergency contact and optional control over who can use the elevator."
             },
         ]
     },
@@ -349,7 +366,8 @@ export const products = {
     
 
     specifications: {
-        title:"Technical Specifications",
+        title:"Prestige 1110 Technical Specifications",
+       
         details:[
             {
                 heading:"MACHINE",
@@ -381,7 +399,7 @@ export const products = {
             },
             {
                 heading:"TRACTION SHEAVE",
-                point:"Engineered to rope / motor"
+                point:"Engineered to suit the rope and motor "
             },
             {
                 heading:"CONTROLLER",
@@ -393,7 +411,7 @@ export const products = {
             },
             {
                 heading:"BRAKE",
-                point:"Dual independent brake system where applicable"
+                point:"Dual independent brake system(where applicable) "
             },
             {
                 heading:"CAR FRAME",
@@ -433,44 +451,43 @@ export const products = {
             },
             {
                 heading:"SMART ACCESS",
-                point:"PIN / RFID / biometric optional"
+                point:"Optional PIN, RFID or biometric access "
             }
 
         ],
-        desc:"Final suitability, dimensions and installation needs must be verified for your property by the NVANZ technical team."
+        desc:"Final suitability, dimensions and installation requirements must be verified for your property by the NVANZ technical team."
     },
 
     isRightForHome:{
         heading:"Is the Prestige 1110 Right for Your Home?",
         cardDetails:[
             {
-                title:"Where it may be relevant",
-                description:"New villas, duplexes and renovation projects where a rope-driven MRL elevator can be planned.",
+                title:"Where the Prestige 1110 Fits Best",
+                description:"It suits new villas, duplexes and renovation projects where a rope-driven MRL elevator can be planned.",
                 points:[]
             },
              {
-                title:"Space and layout planning",
+                title:"Space and Layout Planning",
                 description:"",
                 points:[
-                    "Shaft size, pit depth and top clearance need a site check.",
-                    "Choose the capacity (320 to 800 kg) based on how many people will use it.",
-                    "Plan the cabin finish and door style early.",
-                    "For renovation, the building structure must be assessed first."
+                    "Shaft size, pit depth and top clearance must be confirmed through a site check.",
+                    "Choose the capacity (320 kg to 800 kg) based on the number of people who will use it.",
+                    "Plan the cabin finish and door style early in the project.",
+                    "For renovation projects, the building structure must be assessed first."
                 ]
             },
              {
                 title:"Accessibility",
-                description:"Accessibility depends on cabin size, door opening width and entrance layout. NVANZ will confirm these for each project before discussing wheelchair use.",
+                description:"Accessibility depends on the cabin size, door opening width and entrance layout. NVANZ will confirm these details for each project before confirming suitability for wheelchair use.",
                 points:[]
             },
              {
-                title:"Questions to ask before installation",
+                title:"Questions to Ask Before Installation",
                 description:"",
                 points:[
                     "Which capacity and cabin size suit my family?",
                     "What shaft dimensions, pit depth and overhead clearance are needed?",
-                    "Which door style fits my entrance?",
-                    "What power supply is required?",
+                    "Which door style suits my entrance?",
                     "What power supply is required?",
                     "What does after-sales support include?"
                 ]
@@ -479,12 +496,12 @@ export const products = {
 
     },
     whyChoose:{
-        heading:"Why Choose NVANZ?",
+        heading:"Why Choose NVANZ Elevators?",
         description:"",
         points:[
-            "A good elevator is more than a product. It starts with understanding your property, your family's needs and your building plan.",
-            "NVANZ helps you compare models, plan technical requirements and make an informed decision. The team looks at your layout before suggesting a model, so you know what is needed before work begins.",
-            "When you choose an elevator provider, ask clear questions about site assessment, installation process and after-sales support. NVANZ is happy to discuss these openly."
+            "A good elevator is more than a product. It starts with understanding your property, your family’s needs and your building plan.",
+            "NVANZ helps you compare models, plan technical requirements and make an informed decision. The NVANZ team reviews your layout before recommending a model, so you know what is required before work begins.",
+            "When choosing an elevator provider, ask clear questions about site assessment, the installation process and after-sales support. NVANZ is happy to discuss these openly. "
         ]
     },
      productGallery:{
@@ -523,7 +540,7 @@ export const products = {
             ans:"MRL stands for machine-room-less. In general, it does not need a separate machine room. It still needs a shaft with correct pit and overhead clearances, which NVANZ confirms for your property."
         },
         {
-            question:"What does gearless mean?",
+            question:'What does "gearless" mean?',
             ans:"The motor drives the elevator directly without a gearbox. This is the design used in the Prestige 1110 (gearless PMSM)."
         },
         {
@@ -553,8 +570,8 @@ export const products = {
         ]
     },
     contact:{
-        heading:"Planning a Home Elevator? Let’s Check What Fits Your Property",
-        description:"Share your floor layout, family needs and expected capacity. The NVANZ team will help you check whether the Prestige 1110 suits your home.",
+        heading:"Planning a Home Elevator? Let’s Find the Right Fit for Your Property ",
+        description:"Share your floor layout, family requirements and expected capacity. The NVANZ team will help you check whether the Prestige 1110 suits your home.",
         btnText1:"Enquire About This Model",
         btnText2:"Discuss Your Requirements"
     }
@@ -567,10 +584,10 @@ export const products = {
     name: "Prestige Mrl Flat Belt",
 
     hero: {
-      title: "Prestige MRL Flat Belt Home Elevator 1110 | NVANZ Elevators ",
+      title: "Prestige MRL Flat Belt Home Elevator 1110 | NVANZ Elevators",
       subtitle: "MRL · 1110",
       description:
-        "The Prestige 1110 is a machine-room-less (MRL) home elevator from NVANZ Elevators. It uses a compact gearless motor and a flat belt to move the cabin smoothly. It comes with an automatic door and smart monitoring. It suits villas, duplexes, independent houses and renovated homes. ",
+        "The Prestige 1110 is a machine-room-less (MRL) home elevator from NVANZ Elevators. It uses a compact gearless motor and a flat steel/PU belt to move the cabin smoothly and quietly. It is equipped with an automatic door and smart monitoring, and it is well suited to villas, duplexes, independent houses and renovated homes.",
       image: "",
       points:[
         "MRL design, with no separate machine room",
@@ -592,51 +609,51 @@ export const products = {
     overview: {
       title: "A Machine-Room-Less Elevator Built Around a Flat Belt",
       points:[
-     "The Prestige 1110 is a machine-room-less (MRL) elevator. This means it is planned without a separate room for the machine, which is useful in homes where space is limited.",
-     "Instead of round ropes, it uses a flat steel/PU belt with a small-diameter belt sheave. This allows a compact gearless machine. The motor is a PMSM type, controlled by a VVVF drive and a high-resolution encoder.",
-     "The cabin comes in premium SS or glass with an automatic door. The elevator also has an automatic rescue device (ARD), remote diagnostics and smart monitoring.",
-     "Before choosing any elevator, a homeowner should have the shaft size, travel height and building structure checked. The Prestige 1110 is no different."
+     "The Prestige 1110 is a machine-room-less (MRL) elevator, which means it is designed without a separate machine room. This is especially useful in homes where space is limited.",
+     "Instead of round ropes, it uses a flat steel/PU belt that runs over a small-diameter belt sheave. This allows the use of a compact gearless machine. The permanent magnet synchronous motor (PMSM) is controlled by a variable voltage variable frequency (VVVF) drive and a high-resolution encoder.",
+     "The cabin is available in premium stainless steel (SS) or glass finishes and is fitted with an automatic door. The elevator also includes an automatic rescue device (ARD), remote diagnostics and smart monitoring.",
+     "Before choosing any elevator, a homeowner should have the shaft size, travel height and building structure checked. The Prestige 1110 is no exception."
       ]
     },
 
     features:{
-        title:"KEY FEATURES AND CUSTOMER BENEFITS",
+        title:"What Sets the Prestige 1110 Apart",
         cardDetails:[
             {
                 img:"",
                 heading:"MRL layout",
-                description:"Planned without a separate machine room.",
-                subDes:"Less space is used for equipment. This can help in new villas and in renovations."
+                description:"Designed without a separate machine room.",
+                subDes:"Less space is taken up by equipment, which can be helpful in new villas and renovation projects."
             },
             {
                 img:"",
                 heading:"Gearless drive with smooth control",
                 description:"A permanent magnet synchronous motor drives the elevator without a gearbox.",
-                subDes:"Fewer moving parts in the drive and smooth operation."
+                subDes:"The drive has fewer moving parts and operates smoothly."
             },
             {
                 img:"",
                 heading:"Flat steel/PU belt",
-                description:"A flat belt runs over a small-diameter sheave, so the machine can be compact.",
-                subDes:"A smaller machine helps the MRL layout."
+                description:"A flat belt runs over a small-diameter sheave, which allows the machine to be compact.",
+                subDes:"A smaller machine supports the MRL layout."
             },
             {
                 img:"",
                 heading:"VVVF controller and encoder",
-                description:"The controller adjusts motor speed; the high-resolution encoder reports the exact cabin position.",
-                subDes:"Smoother starts and stops, and accurate floor levelling."
+                description:"The controller adjusts the motor speed, while the high-resolution encoder reports the exact position of the cabin.",
+                subDes:"Smoother starts and stops with accurate floor levelling."
             },
             {
                 img:"",
                 heading:"Automatic door, ARD and emergency communication",
-                description:"An automatic door, an automatic rescue device and a way to contact help from inside the cabin.",
-                subDes:"More comfort for daily use and a defined plan if power fails."
+                description:"An automatic door, an automatic rescue device (ARD) and an emergency communication system to contact help from inside the cabin.",
+                subDes:"Greater comfort for daily use and a clear rescue plan in case of a power failure."
             },
             {
                 img:"",
                 heading:"Remote monitoring",
-                description:"The elevator’s status can be checked from a distance.",
-                subDes:"Easier follow-up. Service features and response times depend on the support plan. · to be confirmed"
+                description:"The status of the elevator can be checked remotely.",
+                subDes:"Easier follow-up and servicing. Service features and response times depend on the support plan"
             },
         ]
     },
@@ -656,7 +673,7 @@ export const products = {
             },
              {
                 heading:"Configuration",
-                point:"MRL"
+                point:"Machine-room-less (MRL) "
             },
              {
                 heading:"Roping",
@@ -676,7 +693,7 @@ export const products = {
             },
             {
                 heading:"Controller",
-                point:"VVVF"
+                point:"VVVF (variable voltage variable frequency)"
             },{
                 heading:"Encoder",
                 point:"High-resolution"
@@ -685,13 +702,13 @@ export const products = {
                 point:"Recommended"
             },{
                 heading:"Brake",
-                point:"Dual brake arrangement where applicable"
+                point:"Dual brake system, where applicable "
             },{
                 heading:"Noise",
-                point:"Low-noise architecture"
+                point:"Low-noise design"
             },{
                 heading:"Cabin",
-                point:"Premium SS / glass"
+                point:"Premium stainless steel / glass "
             },{
                 heading:"Door",
                 point:"Automatic"
@@ -713,50 +730,50 @@ export const products = {
     },
 
     isRightForHome:{
-        heading:"Is This Right for Your Home?",
+        heading:"Is the Prestige 1110 Right for Your Home?",
         cardDetails:[
             {
-                title:"Where it may be relevant",
+                title:"Where It May Be Suitable ",
                 description:"The MRL layout may suit new villas, duplexes and renovation projects where a separate machine room is not wanted. A site assessment decides if it fits.",
                 points:[]
             },
               {
-                title:"Space and layout points to check",
+                title:"Space and Layout Points to Check",
                 description:"",
                 points:[
                     "Shaft size, travel height and number of floors",
                     "Pit depth and overhead height",
-                    'Where the entrance will open on each floor',
+                    'Entrance location on each floor',
                     "Structural support for the elevator"
 
                 ]
             },
               {
                 title:"Accessibility",
-                description:'The product is listed as "wheelchair accessible". This needs checking against the cabin size, door width and entrance space for each home. Please confirm these before planning around a wheelchair.',
+                description:'This model is listed as wheelchair accessible. Accessibility must be checked against the cabin size, door width and entrance space for each home. Please confirm these details before planning for wheelchair use.',
                 points:[]
             },
               {
-                title:"Questions to ask the technical team",
+                title:"Questions to Ask the Technical Team",
                 description:"",
                 points:[
-                    "Which capacity and speed are offered for homes?",
+                    "Which capacities and speeds are  offered for homes?",
                     "What cabin and door sizes are available?",
                     "What does a site survey include?",
                     "Is belt monitoring included?",
-                    "What is the power requirement?"
+                    "What capacities and speeds are "
                 ]
             },
         ]
 
     },
     whyChoose:{
-        heading:"WHY CHOOSE NVANZ?",
+        heading:"Choosing the Right Partner for Your Home Elevator ",
         description:"",
         points:[
-            "A good elevator provider starts with your property, not the product. They should check your space, explain the options clearly and be honest about limits.",
-            "NVANZ Elevators offers the Prestige 1110, a modern residential elevator made for comfortable and safe home use. Our team helps you understand the features, check your space and layout, and explain the technical needs, so you can choose the right home elevator with confidence. ",
-            "For installation and after-sales support, NVANZ can explain what is included for your project. "
+            "A good elevator provider starts with your property, not the product. They should assess your space, explain the options clearly and be honest about limitations.",
+            "NVANZ Elevators offers the Prestige 1110, a modern residential elevator designed for comfortable and safe home use. Our team helps you understand the features, assess your space and layout, and explain the technical requirements, so that you can choose the right home elevator with confidence.",
+            "For installation and after-sales support, NVANZ can explain what is included in your project."
         ]
     },
    productGallery:{
@@ -827,14 +844,15 @@ export const products = {
         ]
     },
     contact:{
-        heading:"Planning a Home Elevator? Let's Check What Fits Your Property",
-        description:"Share your property layout and requirements with NVANZ. The team can help you understand if the Prestige 1110 suits your home.",
+        heading:" Planning a Home Elevator? Let’s Find What Fits Your Property",
+        description:"Share your property layout and requirements with NVANZ. Our team will help you understand whether the Prestige 1110 suits your home.",
         btnText1:"Enquire About This Model",
         btnText2:"Discuss Your Requirements"
     }
     
   },
 
+  
   "prestigeMrlGroovedBelt": {
     id: 4,
     slug: "prestigeMrlGroovedBelt",

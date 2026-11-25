@@ -1,33 +1,25 @@
 import { useEffect, useRef, useState } from "react"
 import ScrollTimeline from "../ScrollTimeline"
 
-// const steps = [
-//     "Book a site visit",
-//     "We check space and safety",
-//     "You get design and quote",
-//     "We install and test",
-//     "We support you after handover",
-// ]
-
 const steps = [
     {
-    heading:"Book a site visit",
+    heading:"Book a free site visit",
     desc:"",
     },
      {
-    heading:"We check space and safety",
+    heading:"We assess your space and safety requirements",
     desc:"",
     },
      {
-    heading:"You get design and quote",
+    heading:"You receive a design proposal and quotation",
     desc:"",
     },
      {
-    heading:"We install and test",
+    heading:"We install and test the elevator",
     desc:"",
      },
      {
-    heading:"We support you after handover",
+    heading:"We provide support after handover",
     desc:"",
      }
    
@@ -117,7 +109,7 @@ const HowItWorks = () => {
                
 
                 <p className="mt-6 w-full max-w-[56rem] font-inter text-sm leading-relaxed text-white sm:text-base">
-                    Our relationship with customers goes beyond product selection. NVANZ provides support across important stages of the elevator lifecycle.
+                   Our relationship with customers goes beyond product selection. NVANZ provides support across important stages of the elevator lifecycle.
                 </p>
 
                 <div className="mt-5 flex flex-wrap gap-2 sm:gap-3">

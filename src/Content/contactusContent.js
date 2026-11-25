@@ -18,7 +18,7 @@ export const contactUsContent={
             },
              {
                 heading:"VISIT OUR OFFICE",
-                info:"Appejay Business Center, Raj Bhavan Rd, Somajiguda, Hyderabad, Telangana 500082" 
+                info:"Apeejay Business Centre, Raj Bhavan Road, Somajiguda, Hyderabad, Telangana 500082" 
             },
              {
                 heading:"OPENING HOURS",
@@ -29,7 +29,7 @@ export const contactUsContent={
 
      contactDetails:{
 
-    heading:"READY TO PLAN YOUR LIFT?",
+    heading:"READY TO PLAN YOUR ELEVATOR?",
     description:"Let us talk. A quick call is all it takes to get started.",
     btnText1:"Book a Free Site Visit ",
     btnText2:"Discuss Your Elevator Requirements"
@@ -62,20 +62,20 @@ reviews:{
 },
 
 servingLocation:{
-heading:"LIFT COMPANY SERVING HYDERABAD, TELANGANA, ANDHRA PRADESH AND SOUTH INDIA",
-desc:"We are based in Hyderabad and serve customers across Telangana, Andhra Pradesh, and South India. Not sure if we cover your city? Just call us. We will be happy to help."
+heading:"ELEVATOR COMPANY SERVING  TELANGANA, ANDHRA PRADESH, TAMIL NADU, KARNATAKA, KERALA AND LUCKNOW",
+desc:"NVANZ Elevators serves customers across Telangana, Andhra Pradesh, Tamil Nadu, Karnataka, Kerala, and Lucknow. Not sure whether we serve your city? Please call us, and we will be happy to help."
 },
 
 liftSolutions:{
-    heading:"LIFT SOLUTIONS FOR EVERY BUILDING",
-    desc:"Whether it is your dream home or a busy office, we have a lift for you.",
+    heading:"ELEVATOR SOLUTIONS FOR EVERY BUILDING",
+    desc:" Whether it is your dream home or a busy office, we have the right elevator for you.",
     point:[
-        "Home lifts and villa lifts",
-        "Apartment and residential lifts",
-        "Office and commercial lifts",
-        "Hospital lifts",
-        "Lift maintenance and repair",
-        "Lift modernization and upgrades"
+        "Home and villa elevators",
+        "Apartment and residential elevators",
+        "Office and commercial elevators ",
+        "Hospital elevators ",
+        "Elevator maintenance and repair",
+        "Elevator modernization and upgrades"
     ]
 }
 
@@ -90,23 +90,23 @@ export const faqQuestions={
            
         {
             question:"Is the site visit really free?",
-            ans:"Yes. We visit your site, check the space, and share a quote at no cost."
+            ans:"Yes.Our engineers visit your site free of charge, check the space, and share a clear quote. "
         },
         {
             question:"How quickly will you reply?",
-            ans:"We aim to reply within 24 hours after you send your details. For urgent help, call us directly on 089780 39911."
+            ans:"Our engineers visit your site free of charge, check the space, and share a clear quote. "
         },
 {
             question:"Do you serve outside Hyderabad?",
-            ans:"Yes. We serve Telangana, Andhra Pradesh, and South India. Call us to confirm your location."
+            ans:"We serve Telangana, Andhra Pradesh, Tamil Nadu, Karnataka, Kerala, and Lucknow. If you are not sure whether we cover your city, please call us. "
         },
         {
             question:"Can you help with lift repair and maintenance?",
-            ans:"Yes. We offer lift maintenance, repair, and upgrades along with new installation."
+            ans:"Yes.We provide elevator repair, maintenance plans (AMC), and modernization for existing elevators. "
         },
         {
             question:"What details should I keep ready when I contact you?",
-            ans:"The type of building, number of floors, and your rough plan. If you do not have these, no problem. Our team will help you."
+            ans:"We provide elevator repair, maintenance plans (AMC), and modernization for existing elevators."
         }
         ]
 }

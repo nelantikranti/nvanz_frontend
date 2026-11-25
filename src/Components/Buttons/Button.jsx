@@ -31,15 +31,11 @@ const Button = ({
   className = "",
 }) => {
   return (
-    <div className="relative inline-flex">
-
+    <div className="relative inline-flex max-w-full">
       {/* Expanding effect */}
       {expandEffect && (
         <span
-          className="
-            pointer-events-none absolute inset-0
-            animate-button-expand
-          "
+          className="pointer-events-none absolute inset-0 animate-button-expand"
           style={{
             backgroundColor: expandColor,
             borderRadius: borderRadius,
@@ -64,9 +60,12 @@ const Button = ({
         }}
         className={`
           group relative isolate inline-flex
-          h-[56px] items-center justify-center
-          overflow-hidden px-[40px] py-[5px]
-          border-solid font-inter text-[16px] font-bold
+          h-[44px] sm:h-[50px] lg:h-[56px]
+          max-w-full items-center justify-center
+          overflow-hidden whitespace-nowrap
+          px-[20px] py-[5px] sm:px-[30px] lg:px-[40px]
+          border-solid font-inter
+          text-[13px] font-bold sm:text-[14px] lg:text-[16px]
           cursor-pointer transition-colors duration-500
           disabled:cursor-not-allowed disabled:opacity-50
           focus-visible:outline focus-visible:outline-2
@@ -91,7 +90,7 @@ const Button = ({
         {/* Button text */}
         <span
           className={`
-            relative z-10 transition-colors duration-500
+            relative z-10 truncate transition-colors duration-500
             ${hoverEffect ? "group-hover:text-[var(--hover-text)]" : ""}
           `}
         >

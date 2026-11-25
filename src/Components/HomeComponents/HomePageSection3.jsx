@@ -22,7 +22,7 @@ const HomePageSection3 = () => {
       <div className="bg-[linear-gradient(135deg,#1F1A14_0%,#33260F_100%)] py-10 sm:py-12 lg:py-[50px]">
             <div className="mx-auto w-[min(90%,1280px)]">
 
-<p className="font-bebas text-[clamp(2.5rem,8vw,4.5rem)] leading-[0.9] text-white">{whichElevatorFitsDetails.heading}{" "} <span className="text-[#E9A60F]">{whichElevatorFitsDetails?.highHeading}</span></p>
+<h2 className="font-bebas text-[clamp(2.5rem,8vw,4.5rem)] leading-[0.9] text-white">{whichElevatorFitsDetails.heading}{" "} <span className="text-[#E9A60F]">{whichElevatorFitsDetails?.highHeading}</span></h2>
 
 <p className="mt-2 font-inter text-base text-[#CFC8BA] sm:text-lg">{whichElevatorFitsDetails.desc}</p>
 

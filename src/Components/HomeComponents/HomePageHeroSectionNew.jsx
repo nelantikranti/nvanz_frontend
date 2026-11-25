@@ -1,9 +1,14 @@
 import { useCallback, useState } from "react"
 import images from "../../assets/Images"
 import ProductJourneyMap from "./ProductJourneyMap"
+import { IoMdAdd } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
+import Button from "../Buttons/Button";
 
 
 const HomePageHeroSectionNew=()=>{
+
+    const navigate=useNavigate()
 
     const data=[
         {
@@ -45,9 +50,11 @@ const HomePageHeroSectionNew=()=>{
         },
          {
             heading:"A Modern ",
+            mainHeading:"PREMIUM, SAFE & SMART ELEVATORS FOR HOMES IN HYDERABAD",
             highlightHeading:"Vantage",
             capsulText:"NVANZ",
-             subText:"Elevating the Way You Live."
+            subText:"Elevating the Way You Live.",
+            desc:'NVANZ Elevators is an ISO 9001:2015 certified elevator manufacturer. We design, manufacture and install premium elevators for villas, homes and small buildings. Every elevator is engineered for safety, smooth performance and elegant design. The Premium Vantage.'
 
         },
     ]
@@ -66,13 +73,71 @@ const HomePageHeroSectionNew=()=>{
                 backgroundImage:
                     "radial-gradient(circle 200px at 74% 22%, rgba(242, 199, 90, 0.7) 0%, rgba(242, 199, 90, 0) 100%), linear-gradient(180deg, #F1E4C4 0%, #FDFCF8 60%, #F3E6C4 62%, #B98A1C 100%)",
             }}
+
         >
+             {/* Vertical side CTA - tablet & desktop only */}
+<div className="absolute right-0 top-1/2 z-30 hidden -translate-y-1/2 translate-x-[calc(50%-1.5rem)] md:block lg:translate-x-[calc(50%-1.75rem)]">
+  <div className="origin-center rotate-90 whitespace-nowrap md:scale-90 lg:scale-100">
+    <Button
+      borderColor="#141210"
+      bgColor="#FFFFFF"
+      textColor="#141210"
+      hoverBgColor="#141210"
+      hoverTextColor="#FFFFFF"
+      text="Discuss Your Elevator Project"
+      onClick={() => {
+        window.location.href = "tel:+918978039911";
+    }}
+    />
+  </div>
+</div>
+
+           
 <div className="mx-auto mt-5 w-[90%] sm:mt-[30px]">
+    {/* <p>SERVICE SUPPORT AFTER INSTALLATION WHEELCHAIR-FRIENDLY OPTIONS</p> */}
+
+         
+    
+    <h1 className="text-[#141210] font-inter font-bold">{activeData?.mainHeading}</h1>
        <p className="font-inter text-[clamp(2.5rem,9vw,130px)] leading-none text-[#111111] ">{activeData?.heading}{" "} <span className="font-bold text-[#E8A817]">{activeData?.highlightHeading}</span></p>
             <p className="mt-[10px] font-inter text-base font-bold sm:text-[21px]"> {activeData?.subText}</p>
 
-            <span className="inline-block max-w-full rounded-full border-[2px] border-[#111111] px-[10px] font-inter text-[13px] font-bold text-[#111111] mt-[10px]"> {activeData?.capsulText}</span>
+{
+    activeData?.desc &&  <p className="w-full sm:w-[90%] md:w-[75%] lg:w-[65%] xl:w-[65%] text-[#222222] text-[15px] sm:text-[16px] md:text-[17px] lg:text-[19px] leading-[1.6] sm:leading-[1.7]">
+  {activeData?.desc}
+</p>
+}
 
+  <span className="inline-block max-w-full rounded-full border-[2px] border-[#111111] px-[10px] font-inter text-[13px] font-bold text-[#111111] mt-[10px]"> {activeData?.capsulText}</span>
+
+  {/* <div className="mt-5 md:hidden">
+  <Button
+    borderColor="#141210"
+    bgColor="#FFFFFF"
+    textColor="#141210"
+    hoverBgColor="#141210"
+    hoverTextColor="#FFFFFF"
+    text="Discuss Your Elevator Project"
+    onClick={() => {}}
+  />
+</div> */}
+            
+
+<div className="absolute top-[60%] -translate-y-1/2  z-20">
+  
+  <p className="flex w-fit items-center gap-2 border-b-[3px] border-[#E8A817] pb-1 font-inter text-[18px] font-bold text-[#111111] sm:gap-[10px] sm:text-[22px] xl:text-[27px]">
+    Book a Free Site Visit
+    <IoMdAdd className="text-[#C28A0A] w-[30px] h-[30px] [stroke-width:2px]" />
+  </p>
+
+ <button
+    onClick={() => navigate("/products")}
+    className="cursor-pointer font-inter text-[15px] text-[#333333] sm:text-[16px] xl:text-[18px]"
+  >
+    Explore Our Elevators →
+  </button>
+</div>
+            
 </div>
          
             <img

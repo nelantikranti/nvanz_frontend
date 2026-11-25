@@ -11,7 +11,7 @@ const HomePageSection5=()=>{
     >
 
 <div className="mx-auto w-[min(90%,1280px)]">
-<p className="font-bebas text-[clamp(2.5rem,6vw,4.5rem)] leading-[0.9] text-white">{installedLifts?.heading}</p>
+<h2 className="font-bebas text-[clamp(2.5rem,6vw,4.5rem)] leading-[0.9] text-white">{installedLifts?.heading}</h2>
 
         <p className="mt-4 w-full max-w-[60rem] font-inter text-base leading-relaxed text-[#D8D2C6] sm:text-lg">{installedLifts?.desc}</p>
 

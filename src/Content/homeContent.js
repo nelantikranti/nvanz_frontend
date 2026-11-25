@@ -45,10 +45,10 @@ export const whichElevatorFitsDetails={
     cardDetails:[
         {   
             
-            type:"SMOOTH, QUIET DAILY USE",
+            type:"SMOOTH, QUIET PERFORMANCE FOR EVERYDAY USE",
             typeHeading:"Signature 1101 (Gearless Traction)",
             heading:"SIGNATURE 1101",
-            subHeading:"(Gearless Traction) · Smooth, quiet daily use",
+            subHeading:"(Gearless Traction) · Smooth, quiet performance for everyday use",
             desc:"Traction elevators use a motor-driven traction system to provide vertical transportation. They are suitable for residential projects where building layout, travel requirements and elevator specifications support this system.",
             img:images?.signature1101
         },
@@ -63,29 +63,29 @@ export const whichElevatorFitsDetails={
         },
          {   
             
-            type:"LOW-RISE HOMES",
+            type:"LOW-RISE HOMES AND VILLAS",
             typeHeading:"Ground 1506 (Hydraulic)",
             heading:"GROUND 1506",
-            subHeading:"(Hydraulic) · Low-rise homes",
-            desc:"Hydraulic elevators are a residential liftoption that uses hydraulic technology to move between floors. They can be considered for suitable homes and buildings based on space, travel height and usage requirements.",
+            subHeading:"(Hydraulic) · Low-rise homes and Villas",
+            desc:"Hydraulic elevators are a residential lift option that uses hydraulic technology to move between floors. They can be considered for suitable homes and buildings based on space, travel height and usage requirements.",
             img:images?.ground1506
         },
          {   
             
-            type:"STATEMENT DESIGN",
+            type:"STATEMENT ARCHITECTUAL DESIGN",
             typeHeading:"Panorama 1805 (360° Circular)",
             heading:"PANORAMA 1805",
-            subHeading:"(360° Circular) · Statement design",
+            subHeading:"(360° Circular) · Statement architectural design",
             desc:"The Panorama 1805 is a circular panoramic elevator built with laminated safety glass and a premium metal frame. It is meant for homes where the elevator will be seen from the living area, staircase or a double-height space.",
             img:images?.Panorama1805
         },
          {   
             
-            type:"SMALL SPACES",
+            type:"COMPACT SPACES",
             typeHeading:"Compact 1805",
             heading:"COMPACT 1805",
-            subHeading:"360° Panoramic · Small spaces",
-            desc:"The NVANZ 360° Panoramic Circular Elevator has a round cabin and a glass or architectural shaft. It is built for homes where the elevator sits in a visible spot, such as beside a staircase or in a double-height space. This model is not wheelchair accessible.",
+            subHeading:"360° Panoramic · Compact spaces",
+            desc:"The NVANZ 360° Panoramic Circular Elevator has a round cabin and a glass or architectural shaft. It is built for homes where the elevator sits in a visible spot, such as beside a staircase or in a double-height space.This model is not wheelchair accessible.",
             img:images?.compact1805
         },
     ]
@@ -95,28 +95,28 @@ export const whichElevatorFitsDetails={
 export const whyChooseNvanz={
     heading:"WHY CHOOSE ",
     highlightHeading:"NVANZ ELEVATORS",
-    desc:"Choosing an elevator is a long-term decision. The right elevator solution depends on your building layout, daily usage, design preferences and maintenance needs. ",
+    desc:"Choosing an elevator is a long-term decision. The right elevator solution depends on your building layout, daily usage, design preferences and maintenance needs.",
     subHeading:"At NVANZ Elevators, we focus on:",
     cardDetails:[
         {
             heading:"SAFETY FIRST",
-            desc:"Automatic rescue device, overload protection, light curtain"
+            desc:"Automatic rescue device, overload protection and light curtain"
         },
         {
             heading:"PREMIUM DESIGN",
-            desc:"Steel, glass and custom cabins"
+            desc:"Stainless steel, glass and custom-designed cabins"
         },
         {
             heading:"SMART FEATURES",
-            desc:"Remote monitoring, optional PIN / RFID access"
+            desc:"Remote monitoring and optional PIN / RFID access"
         },
         {
             heading:"HONEST ADVICE",
-            desc:"We tell you what fits, not what costs more"
+            desc:"We recommend what suits your needs, not what costs more"
         },
          {
             heading:"Reliable support",
-            desc:"Expert installation, maintenance and fast service response "
+            desc:"A dedicated team with fast response"
         },
     ]
 }
@@ -146,23 +146,23 @@ export const faqQuestions={
            
         {
             question:"Which is the best home elevator?",
-            ans:"The best home elevator depends on the number of floors, available space, travel height, usage and design needs. Hydraulic, MRL and traction elevators can all suit a home. A site check helps you choose the right one. "
+            ans:"The best choice depends on your space, number of floors and usage. We recommend the right option after a free site visit."
         },
         {
-            question:"What types of home elevators are available in Hyderabad?",
-            ans:"Common residential elevator options include hydraulic elevators, machine room-less (MRL) elevators and traction elevators. Each has different technical and space requirements."
+            question:"Can I install an elevator in an existing house?",
+            ans:"Yes, in most cases. Our team checks the available space first. "
         },
 {
-            question:"Can I install a lift in an existing house?",
-            ans:"Yes, an elevator may be installed in an existing house, depending on available space, structural conditions, building layout and technical feasibility. A site assessment is important before selecting a solution."
+            question:"Do you offer elevators without a machine room?",
+            ans:"Yes. Our Prestige MRL range does not need a separate machine room."
         },
         {
-            question:"Do you offer lifts without a machine room? ",
-            ans:"Yes. Our Prestige MRL range needs no separate machine room. It saves space and suits modern homes."
+            question:"Are your elevators wheelchair accessible?",
+            ans:"Selected models are. Please see each product page for details."
         },
         {
-            question:"Does NVANZ provide elevator maintenance and modernization services?",
-            ans:"Yes. NVANZ offers elevator installation, modernization and Annual Maintenance Contract (AMC) services to support elevator operation over time."
+            question:"Do you provide maintenance and AMC services?",
+            ans:"Yes. We provide maintenance and AMC support after installation"
         }
         ]
 }

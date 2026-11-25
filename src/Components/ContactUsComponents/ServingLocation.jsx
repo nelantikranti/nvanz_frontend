@@ -13,9 +13,9 @@ const ServingLocation = () => {
       <div className="mx-auto flex w-[92%] flex-col items-center gap-[30px] sm:w-[90%] md:gap-[35px] lg:flex-row lg:gap-[40px]">
 
         <div className="w-full lg:flex-[0.5]">
-          <p className="font-bebas text-[44px] leading-[0.95] text-[#FFFFFF] sm:text-[52px] md:text-[58px]">
+          <h2 className="font-bebas text-[44px] leading-[0.95] text-[#FFFFFF] sm:text-[52px] md:text-[58px]">
             {contactUsContent?.servingLocation?.heading}
-          </p>
+          </h2>
 
           <p className="mt-[20px] font-inter text-[14px] leading-[1.7] text-[#D8D2C6] sm:mt-[30px] sm:text-[16px] md:mt-[40px] md:text-[17px] lg:mt-[50px] lg:text-[18px]">
             {contactUsContent?.servingLocation?.desc}

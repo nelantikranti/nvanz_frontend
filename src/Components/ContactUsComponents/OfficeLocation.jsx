@@ -58,8 +58,7 @@ const OfficeLocation = () => {
           </h2>
 
           <p className="mt-[12px] max-w-[550px] font-inter text-[13px] leading-[1.7] text-[#D8D2C6] sm:text-[14px] md:text-[15px]">
-            Visit our office and connect with our team for premium elevator
-            solutions, consultations and support.
+           Our office is at Appejay Business Center, Raj Bhavan Road, Somajiguda, Hyderabad. Please call before visiting so we can be ready for you.
           </p>
 
         </div>

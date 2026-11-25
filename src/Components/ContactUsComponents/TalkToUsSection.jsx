@@ -8,9 +8,9 @@ const TalkToUsSection = () => {
       <div className="mx-auto w-[92%] sm:w-[90%]">
 
         {/* Heading */}
-        <p className="font-bebas text-[46px] leading-[0.95] text-[#FFFFFF] sm:text-[58px] md:text-[68px] lg:text-[78px]">
+        <h2 className="font-bebas text-[46px] leading-[0.95] text-[#FFFFFF] sm:text-[58px] md:text-[68px] lg:text-[78px]">
           {contactUsContent?.talktoUs?.heading}
-        </p>
+        </h2>
 
         {/* Description */}
         <p className="mt-[12px] max-w-[750px] font-inter text-[13px] leading-[1.7] text-[#D8D2C6] sm:mt-[15px] sm:text-[15px] md:text-[16px] lg:mt-[20px] lg:text-[18px]">
