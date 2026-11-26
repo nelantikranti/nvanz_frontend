@@ -113,13 +113,12 @@ const HomePageHeroSectionNew=()=>{
     {/* <p>SERVICE SUPPORT AFTER INSTALLATION WHEELCHAIR-FRIENDLY OPTIONS</p> */}
 
          
-    {
-        activeData?.mainHeading &&  <h1 className="text-[#141210] text-[clamp(10px,1.2vw,18px)] font-inter font-bold">
+     <h1 className="text-[#141210] text-[clamp(10px,1.2vw,18px)] font-inter font-bold">
   {activeData?.mainHeading}  
 </h1>
-    }
    
-       <h1 className="font-inter text-[clamp(2.5rem,9vw,130px)] leading-none text-[#111111] ">{activeData?.heading}{" "} <span className="font-bold text-[#E8A817]">{activeData?.highlightHeading}</span></h1>
+   
+       <p className="font-inter text-[clamp(2.5rem,9vw,130px)] leading-none text-[#111111] ">{activeData?.heading}{" "} <span className="font-bold text-[#E8A817]">{activeData?.highlightHeading}</span></p>
             <p className="mt-[10px] font-inter text-base font-bold sm:text-[21px]"> {activeData?.subText}</p>
 
 {
