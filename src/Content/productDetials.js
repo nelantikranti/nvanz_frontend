@@ -852,7 +852,7 @@ export const products = {
     
   },
 
-  
+
   "prestigeMrlGroovedBelt": {
     id: 4,
     slug: "prestigeMrlGroovedBelt",
@@ -862,14 +862,14 @@ export const products = {
       title: "Prestige MRL Grooved Belt Elevator (1110) for Homes",
       subtitle: "MRL · 1110",
       description:
-        "The Prestige 1110 is a machine-room-less home elevator with a gearless PMSM drive and a steel-reinforced coated belt. It is designed for new villas, duplexes and renovation projects where a separate machine room is not practical. It is available for loads from 320 kg to 1000 kg.",
+        "The Prestige MRL Grooved Belt Elevator (1110) is a machine-room-less (MRL) home elevator  with a gearless PMSM drive and a steel-reinforced coated belt. It is designed for new villas, duplexes and renovation projects where a separate machine room is not practical. It is available for loads from 320 kg to 1000 kg.",
       image: "",
       points:[
         "Machine-room-less (MRL) design",
         "Gearless PMSM drive",
-        "Capacity from 320–1000 kg",
-        "Speed from 0.63–1.60 m/s",
-        "Automatic door and ARD (automatic rescue device)"
+        "Capacity from 320 kg to 1000 kg ",
+        "Speed from 0.63 m/s to 1.60 m/s ",
+        "Automatic door and automatic rescue device (ARD) "
         
       ]
 
@@ -882,53 +882,53 @@ export const products = {
     },
 
     overview: {
-      title: "A Compact MRL Elevator Built on Belt Technology",
+      title: "A Compact Machine-Room-Less Elevator Built on Belt Technology ",
       points:[
-        "The Prestige 1110 is an MRL elevator. The drive machine sits inside the shaft, so a separate machine room is not needed. It uses a gearless PMSM machine, a compact belt sheave and a steel-reinforced coated belt / grooved belt, as engineered.",
-        "It is meant for residential use. It can suit a modern villa, a duplex or a renovated home that needs reliable movement between floors.",
-        "Before you decide, keep in mind that shaft size, pit depth, headroom and door position all depend on your property. The NVANZ technical team should confirm these after a site assessment."
+        "The Prestige MRL Grooved Belt Elevator (1110) is a machine-room-less elevator. The drive machine is installed inside the shaft, so a separate machine room is not required. It uses a gearless PMSM machine, a compact belt sheave and a steel-reinforced coated grooved belt, as engineered.",
+        "It is intended for residential use and can suit modern villas, duplexes and renovated homes that need reliable movement between floors.",
+        "Please note that shaft size, pit depth, headroom and door position depend on your property. The NVANZ technical team will confirm these after a site assessment. "
      
       ]
     },
 
     features:{
-        title:"KEY FEATURES AND CUSTOMER BENEFITS",
+        title:"KEY FEATURES AND BENEFITS OF THE PRESTIGE MRL ELEVATOR",
         cardDetails:[
             {
                 img:"",
-                heading:"Machine-room-less (MRL) layout",
-                description:"Planned without a separate machine room.",
-                subDes:"Less space is used for equipment. This can help in new villas and in renovations."
+                heading:"Machine-Room-Less (MRL) Layout",
+                description:"Designed without a separate machine room.",
+                subDes:"Benefit: Less space is used for equipment, which can help in both new villas and renovation projects."
             },
              {
                 img:"",
-                heading:"Gearless PMSM drive",
+                heading:" Gearless PMSM Drive ",
                 description:"A permanent magnet synchronous motor drives the elevator without a gearbox.",
-                subDes:"Fewer moving parts in the drive and smooth operation."
+                subDes:"Benefit: The drive has fewer moving parts and operates smoothly."
             },
              {
                 img:"",
-                heading:"Steel-reinforced coated belt",
+                heading:"Steel-Reinforced Coated Belt ",
                 description:"A belt with steel reinforcement inside a protective coating. The system includes belt monitoring.",
                 subDes:"The condition of the belt can be checked as part of regular care."
             },
              {
                 img:"",
-                heading:"VVVF controller and encoder",
-                description:"The controller adjusts motor speed; the high-resolution encoder reports the exact cabin position.",
-                subDes:"Smoother starts and stops, and accurate floor levelling."
+                heading:"VVVF Controller and Encoder ",
+                description:"The controller adjusts the motor speed, and the high-resolution encoder reports the exact cabin position.",
+                subDes:"Benefit: Smoother starts and stops, and accurate floor levelling. "
             },
              {
                 img:"",
-                heading:"Automatic door, ARD and emergency communication",
-                description:"An automatic door, an automatic rescue device and a way to contact help from inside the cabin.",
-                subDes:"More comfort for daily use and a defined plan if power fails."
+                heading:"Automatic Door, ARD and Emergency Communication ",
+                description:"An automatic door, an automatic rescue device (ARD) and an emergency communication system to contact help from inside the cabin.",
+                subDes:"Benefit: Greater comfort for daily use and a clear rescue plan if the power fails "
             },
              {
                 img:"",
-                heading:"Remote monitoring",
-                description:"The elevator’s status can be checked from a distance.",
-                subDes:"Easier follow-up. Service features and response times depend on the support plan. · to be confirmed"
+                heading:"Remote Monitoring",
+                description:"The elevator’s status can be checked remotely.",
+                subDes:"Benefit: Easier follow-up and service coordination. Service features and response times depend on the selected support plan."
             },
             
         ]
@@ -937,7 +937,7 @@ export const products = {
     
 
     specifications: {
-        title:"Technical Specifications",
+        title:"Prestige MRL Grooved Belt Elevator (1110) Technical Specifications",
         details:[
             {
                 heading:"Drive",
@@ -945,11 +945,11 @@ export const products = {
             },
              {
                 heading:"Suspension",
-                point:"Steel-reinforced coated belt / grooved belt, as engineered"
+                point:"Steel-reinforced coated grooved belt, as engineered "
             },
              {
                 heading:"Configuration",
-                point:"MRL"
+                point:"Machine-room-less (MRL) "
             },
              {
                 heading:"Roping",
@@ -977,7 +977,7 @@ export const products = {
                 point:"Compact MRL gearless"
             },{
                 heading:"MACHINE",
-                point:"Automatic"
+                point:"Compact MRL gearless"
             },{
                 heading:"CABIN",
                 point:"Premium architectural"
@@ -999,30 +999,30 @@ export const products = {
             },
 
         ],
-        desc:"Final suitability, dimensions and installation needs must be verified for your property by the NVANZ technical team."
+        desc:"Final suitability, dimensions and installation requirements must be verified for your property by the NVANZ technical team."
     },
 
     isRightForHome:{
-        heading:"Is the Prestige 1110 Right for Your Home?",
+        heading:"Is the Prestige MRL Grooved Belt Elevator (1110) Right for Your Home?",
         cardDetails:[
             {
-                title:"Where it may fit",
-                description:"New villas, duplexes and renovation projects where a separate machine room is not wanted. A site assessment decides if it fits.",
+                title:"Where It May Fit",
+                description:"It may suit new villas, duplexes and renovation projects where a separate machine room is not preferred. A site assessment will confirm whether it fits your property.",
                 points:[]
             },
              {
                 title:"What to plan",
                 description:"",
                 points:[
-                    " Shaft size, pit depth and headroom.",
-                    "Door position and landing space on each floor.",
-                    "Capacity choice. 320–1000 kg is a wide range. The right size depends on how many people use it and how.",
-                    "Speed choice. 0.63–1.60 m/s is a wide range. Most homes need only part of it."
+                    "Shaft size, pit depth and headroom.",
+                    " Door position and landing space on each floor.",
+                    " Capacity: The range of 320–1000 kg is wide. The right size depends on how many people will use the elevator and how they will use it.",
+                    "Speed: The range of 0.63–1.60 m/s is wide, and most homes need only part of it."
                 ]
             },
              {
                 title:"Accessibility",
-                description:"If someone in your home uses a wheelchair, tell the team early. Cabin size, door opening width and landing space decide if a wheelchair can enter and turn comfortably. These values were not supplied, so this cannot be confirmed yet.",
+                description:"If someone in your home uses a wheelchair, please inform the NVANZ team early. Cabin size, door opening width and landing space determine whether a wheelchair can enter and turn comfortably. Wheelchair suitability is confirmed once the cabin and door sizes are finalised for your project.",
                 points:[]
             },
              {
@@ -1030,8 +1030,8 @@ export const products = {
                 description:"",
                 points:[
                     "What are the cabin and door sizes for the capacity I need?",
-                    "What shaft, pit and headroom does my house need?",
-                    "What are the power and backup needs?",
+                    "What shaft size, pit depth and headroom does my home need?",
+                    "What are the power supply and backup requirements?",
 
                     "What does the maintenance plan include?"
                 ]
@@ -1040,11 +1040,11 @@ export const products = {
 
     },
     whyChoose:{
-        heading:"Why Choose NVANZ?",
+        heading:"What to Look for in a Home Elevator Partner",
         points:[
-            "A good elevator partner starts with your property, not the product. They check your layout, explain the options in plain words and tell you clearly what your home needs.",
+            "A good elevator partner starts with your property, not the product. They check your layout, explain the options in plain language and tell you clearly what your home needs.",
             'At NVANZ Elevators, we help you choose a model that matches your requirements and coordinate the technical details with you.',
-            "We aim to give you clear information so you can decide with confidence."
+            "We aim to give you clear information so that you can make decisions with confidence."
         ],
         description:""
     },
@@ -1082,47 +1082,49 @@ export const products = {
            
         {
             question:'What does "machine-room-less" mean? ',
-            ans:"The drive machine sits inside the shaft instead of in a separate room. You still need a properly sized shaft, pit and headroom."
+            ans:"Machine-room-less means the drive machine is installed inside the elevator shaft, so a separate machine room is not required."
         },
         {
             question:"How is a belt different from a steel rope?",
-            ans:"Both carry the cabin. This model uses a steel-reinforced coated belt / grooved belt over a compact sheave. Your technical team can explain how it differs from rope-based models like the Signature 1101."
+            ans:"A steel rope is a round wire cable. This elevator uses a steel-reinforced coated grooved belt that runs over a compact belt sheave. "
         },
 {
             question:'What does "belt monitoring" do?',
-            ans:"It checks the condition of the belt. The method and service interval need confirmation."
+            ans:"Belt monitoring allows the condition of the belt to be checked as part of regular maintenance."
         },
         {
-            question:"What happens in a power failure?",
-            ans:"The model includes an ARD (automatic rescue device) and emergency communication. How it works and how far it moves the cabin needs confirmation."
+            question:"What happens during a power failure?",
+            ans:" The elevator includes an automatic rescue device (ARD) and an emergency communication system. The NVANZ team can explain the complete rescue and backup plan for your project."
         },
         {
             question:"Can I choose the capacity?",
-            ans:"Yes, from 320–1000 kg. Your technical team will help pick the right one for your home."
-        },
-         {
-            question:"Is it wheelchair accessible?",
-            ans:"That depends on cabin size and door width, which were not supplied. Please discuss this with the technical team before you decide."
+            ans:" Yes. Capacity is available from 320 kg to 1000 kg. The right choice depends on how many people use the elevator and how they use it."
         },
          {
             question:"What power supply does it need?",
-            ans:"Not supplied."
+            ans:" It can be, depending on cabin size, door width and landing space. Please share your requirements with the NVANZ team so that these can be confirmed for your home."
         },
          {
-            question:"Can it be fitted in an existing house?",
-            ans:"Possibly, but only after a site assessment of shaft, pit and headroom."
+            question:"What power supply does it need?",
+            ans:"Power requirements depend on the selected capacity, speed and project design. The NVANZ technical team will confirm them after a site assessment."
+        },
+         {
+            question:"Can it be installed in an existing house?",
+            ans:" It may be possible. As an MRL elevator, it does not need a separate machine room, which can help in renovation projects. A site assessment will confirm shaft, pit and headroom suitability."
         },
         ]
     },
     contact:{
-        heading:"Planning a Home Elevator? Let’s Check What Fits Your Property",
-        description:"Share your property layout and requirements with NVANZ. The team can help you understand if the Prestige 1110 suits your home.",
+        heading:"Planning a Home Elevator? Let’s Find the Right Fit for Your Property",
+        description:"Share your property layout and requirements with NVANZ. Our team can help you understand whether the Prestige 1110 suits your home.",
         btnText1:"Enquire About This Model",
         btnText2:"Discuss Your Requirements"
     }
     
   },
 
+
+  
   "groundHydraulicHome": {
     id: 5,
     slug: "groundHydraulicHome",
@@ -1132,11 +1134,11 @@ export const products = {
       title: "Ground Hydraulic Home Elevator for Villas and Duplex Homes",
       subtitle: "HYDRAULIC · 1506",
       description:
-        "The NVANZ Ground Hydraulic Elevator is a residential home elevator. A hydraulic cylinder moves the cabin, and a compact, low-noise power unit drives it. With a 250–630 kg capacity range, it suits homeowners planning a new villa, a duplex or a renovation. ",
+        "The NVANZ Ground Hydraulic Elevator 1506 is a residential home elevator. A hydraulic cylinder moves the cabin, and a compact, low-noise power unit drives the system. With a capacity range of 250–630 kg, it suits homeowners who are planning a new villa, a duplex home or a renovation ",
       image: "",
       points:[
         "Hydraulic drive with compact low-noise power unit",
-        "250–630 kg residential capacity range",
+        "Residential capacity range of 250–630 kg",
         "Overload protection and light curtain",
         "Emergency communication and emergency lowering (as engineered)"
       ]
@@ -1150,52 +1152,52 @@ export const products = {
     },
 
     overview: {
-      title: "How the Ground Hydraulic Elevator Works in a Home",
+      title: "How a Ground Hydraulic Home Elevator Works",
       points:[
-     "This elevator uses a hydraulic cylinder to lift and lower the cabin. The power unit holds the pump and controls the movement. It is described as compact and low-noise, and it can be placed in a compact arrangement or a remote arrangement where feasible.",
-     "It is made for residential use, with speeds of about 0.15–0.40 m/s, depending on the design. Cabin options include stainless steel, glass or premium finishes.",
-     "Before choosing, homeowners should know that the pit depth, machine space and final layout depend on the project. A site check by the technical team is needed to confirm what suits your home."
+     "This elevator uses a hydraulic cylinder to lift and lower the cabin. The power unit contains the pump and controls the movement. It is compact and low-noise, and it can be installed in a compact or remote arrangement, where feasible.",
+     "It is designed for residential use, with speeds of about 0.15–0.40 m/s, depending on the design. Cabin options include stainless steel, glass or premium finishes.",
+     "Before choosing an elevator, homeowners should note that the pit depth, machine space and final layout depend on the project. A site assessment by the technical team is required to confirm the best option for your home."
       ]
     },
 
     features:{
-        title:"Key Features and Customer Benefits",
+        title:"Features Built Around Everyday Home Use",
         cardDetails:[
             {
                 img:"",
-                heading:"Hydraulic cylinder drive",
-                description:"A hydraulic cylinder moves the cabin. The configuration is direct or 2:1, as engineered.",
+                heading:"Hydraulic Cylinder Drive",
+                description:"A hydraulic cylinder moves the cabin. The configuration is direct or 2:1, as engineered. ",
                 subDes:"A smooth, steady ride at residential speeds."
             },
             {
                 img:"",
-                heading:"Compact low-noise power unit",
+                heading:"Compact, Low-Noise Power Unit",
                 description:"A compact power unit, with a remote arrangement where feasible.",
-                subDes:"Gives flexibility in planning where the equipment sits."
+                subDes:"Flexibility in planning where the equipment is placed."
             },
             {
                 img:"",
-                heading:"Variable-speed control",
-                description:"A premium variable-speed pump and a VVVF / hydraulic controller.",
+                heading:"Variable-Speed Control",
+                description:"A premium variable-speed pump with a VVVF / hydraulic controller.",
                 subDes:"Helps control how the cabin starts and stops."
             },
             {
                 img:"",
-                heading:"Safety and emergency provisions",
-                description:"Overload protection, a light curtain, emergency communication and ARD / emergency lowering as communication and ARD / emergency lowering as",
-                subDes:"Gives families added confidence during daily use and unexpected events."
+                heading:"Safety and Emergency Provisions",
+                description:"Overload protection, a light curtain, emergency communication and ARD (emergency lowering), as engineered.",
+                subDes:"Added confidence during daily use and unexpected events."
             },
             {
                 img:"",
-                heading:"Cabin and door choices",
-                description:"Automatic or manual doors. Cabin in stainless steel, glass or premium finish.",
+                heading:"Cabin and Door Choices",
+                description:"Automatic or manual doors, with a cabin in stainless steel, glass or premium finish.",
                 subDes:"Lets the elevator match your home’s interior."
             },
             {
                 img:"",
-                heading:"Remote diagnostics",
-                description:"Remote checking of the elevator’s condition (optional or part of a premium package).",
-                subDes:"Can help the service team find issues early."
+                heading:"Remote Diagnostics",
+                description:"Remote checking of the elevator’s condition (optional, or included in the premium package).",
+                subDes:"Helps the service team identify issues early."
             },
         ]
     },
@@ -1219,7 +1221,7 @@ export const products = {
             },
              {
                 heading:"Speed",
-                point:"~0.15–0.40 m/s depending on design"
+                point:"Approximately 0.15–0.40 m/s depending on design"
             },
              {
                 heading:"Configuration",
@@ -1231,7 +1233,7 @@ export const products = {
             },
              {
                 heading:"Power unit",
-                point:"Compact low-noise HPU"
+                point:"Compact, low-noise hydraulic power unit (HPU)"
              },{
                 heading:"Controller",
                 point:"VVVF / hydraulic controller"
@@ -1269,19 +1271,19 @@ export const products = {
             },
 
         ],
-        desc:"Final suitability, dimensions and installation needs must be verified for your property by the NVANZ technical team."
+        desc:"Final suitability, dimensions and installation requirements must be verified for your property by the NVANZ technical team."
     },
 
     isRightForHome:{
-        heading:"Is a Hydraulic Elevator Right for Your Home?",
+        heading:"Is a Hydraulic Home Elevator Right for You?",
         cardDetails:[
             {
-                title:"Where it may fit",
+                title:"Where It Fits Best",
                 description:"New villas, duplex homes and renovation projects where a home elevator is planned.",
                 points:[]
             },
              {
-                title:"Plan early",
+                title:"Things to Plan Early",
                 description:"",
                 points:[
                     "Pit: depth depends on the project.",
@@ -1292,18 +1294,18 @@ export const products = {
             },
 
              {
-                title:"Accessibility",
-                description:"The supplied specifications do not give cabin size or clear door width, so a wheelchair-accessible fit cannot be promised yet. This needs to be assessed for your chosen configuration.",
+                title:"Wheelchair Accessibility",
+                description:" Cabin size and clear door width depend on the project configuration. Please share your requirements with our technical team so that we can confirm a wheelchair-accessible fit for your home.",
                 points:[]
             },
              {
-                title:"Questions to ask the technical team",
+                title:"Questions to Ask the Technical Team",
                 description:"",
                 points:[
-                    "What pit depth is required for my floors?",
+                    "What pit depth is required for my building?",
                     "Where can the power unit be placed?",
-                    "Which cabin and door size works for wheelchair use?",
-                    "What does the emergency lowering do during a power cut?",
+                    "Which cabin and door sizes suit wheelchair use?",
+                    "What does emergency lowering do during a power cut?",
                     "What maintenance and support will I receive?"
                 ]
             },
@@ -1311,16 +1313,18 @@ export const products = {
 
     },
     whyChoose:{
-        heading:"Why Choose NVANZ?",
+        heading:"Why Choose NVANZ for Your Home Elevator?",
+        subHeading:"Choosing a Residential Elevator Partner You Can Rely On",
         description:"",
         points:[
-            "A home elevator is a long-term decision, so the right partner matters as much as the product. Look for a team that studies your property first, explains technical needs in plain language, and plans the pit, equipment space and finishes with you.",
-            "NVANZ offers modern residential elevators for homes across India. Our team helps you compare home lift options and understand your project needs before you decide.",
+            "A home elevator is a long-term investment, so the right partner matters as much as the product. Choose a team that studies your property first, explains technical requirements in simple language, and plans the pit, equipment space and finishes with you.",
+            "NVANZ offers modern residential elevators for homes across India. Our team helps you compare home elevator options and understand your project requirements before you decide.",
             
         ]
     },
     productGallery:{
         heading:"Product Gallery",
+        subHeading:"See the Ground Hydraulic Elevator in Detail",
         images:[
             {
                 title:"Full cabin interior",
@@ -1349,47 +1353,44 @@ export const products = {
     faq:
     {
       heading:"Frequently Asked Questions",
+      subHeading:"Common Questions About Hydraulic Home Elevators",
         questionsAndAns:[
            
         {
             question:"How does a hydraulic home elevator move?",
-            ans:"A hydraulic cylinder lifts the cabin, and a power unit with a pump controls the movement. The exact setup (direct or 2:1) is engineered for each project."
+            ans:"A hydraulic cylinder lifts and lowers the cabin. A power unit with a pump controls the movement."
         },
         {
             question:"Does it need a pit?",
-            ans:"The pit depends on the project. Our technical team will confirm the depth after checking your site."
+            ans:"Pit depth depends on the project. The technical team will confirm the requirement for your home after a site assessment."
         },
 {
             question:"Where does the power unit go?",
-            ans:"It is compact, and a remote arrangement is possible where feasible. The best location is decided after a site visit."
-        },
-        {
-            question:"Where does the power unit go?",
-            ans:"It is compact, and a remote arrangement is possible where feasible. The best location is decided after a site visit."
+            ans:"It can be placed in a compact arrangement or a remote arrangement, where feasible."
         },
         {
             question:"What happens during a power cut?",
-            ans:"The elevator has ARD / emergency lowering, as engineered. Our team can explain exactly how it works for your configuration."
+            ans:"The elevator includes ARD (emergency lowering), as engineered. Please ask our technical team how it works for your configuration."
         },
         {
             question:"Is it wheelchair accessible?",
-            ans:"This depends on the cabin size and door width, which are confirmed per project. Please discuss your needs with our team."
+            ans:"Cabin size and door width depend on the configuration. Our technical team will assess whether it suits wheelchair use in your home."
         },
         {
             question:"Can I choose the door and cabin?",
-            ans:"Doors can be automatic or manual, and the cabin can be SS, glass or premium. Options depend on the project"
+            ans:"Yes. Doors can be automatic or manual, and the cabin is available in stainless steel, glass or premium finish."
         },
         {
             question:"Is remote diagnostics included?",
-            ans:"It is listed as optional or part of a premium package. Our team can confirm what is available for this model."
+            ans:"Remote diagnostics is optional, or included in the premium package. Please confirm with our team."
         },
 
 
         ]
     },
     contact:{
-        heading:"Planning a Home Elevator? Let’s Check Your Layout",
-        description:"Share your floor plan and requirements with NVANZ. Our team can help you understand whether this hydraulic model suits your home and what planning is needed.",
+        heading:"Planning a Home Elevator? Let's Check Your Layout",
+        description:"Share your floor plan and requirements with NVANZ. Our team can help you understand whether this hydraulic model suits your home and what planning is required.",
         btnText1:"Enquire About This Model",
         btnText2:"Discuss Your Requirements"
     }
@@ -1403,7 +1404,7 @@ export const products = {
 
     hero: {
       title: "NVANZ Panorama 1805: Circular Panoramic Home Elevator",
-      subtitle: "A circular glass elevator designed for homeowners who want their elevator to be a visible part of the home. The Panorama 1805 suits new villas, duplexes and renovation projects where the space and structure allow a glass shaft.",
+      subtitle: "A circular glass home elevator designed for homeowners who want it to be a visible part of their home. The Panorama 1805 suits new villas, duplexes and renovation projects, where the space and structure allow for a glass shaft.",
       description:
         "",
       image: "",
@@ -1412,7 +1413,7 @@ export const products = {
         "Laminated safety glass",
         "Remote monitoring and emergency communication",
         "Optional smart access (PIN, RFID or biometric)",
-        "Capacity range of 250–630 kg"
+        " Capacity from 250 kg to 630 kg "
       ]
 
     },
@@ -1424,58 +1425,58 @@ export const products = {
     },
 
     overview: {
-      title: "A Glass Elevator Shaped Around Your Home’s Design",
+      title: "A Panoramic Glass Elevator Designed Around Your Home",
       points:[
-     "The Panorama 1805 is a circular panoramic elevator built with laminated safety glass and a premium metal frame. It is meant for homes where the elevator will be seen from the living area, staircase or a double-height space.",
-     "The drive can be MRL traction or hydraulic, depending on the project. Your technical team will recommend the right option after studying your building.",
-     "A glass elevator works best when it is planned with the architecture, not added afterwards. Think about where it will stand, what it will look out onto, and how the shaft will meet your floors before you decide."
+     "The Panorama 1805 is a circular panoramic elevator built with laminated safety glass and a premium metal frame. It is designed for homes where the elevator will be visible from the living area, staircase or a double-height space.",
+     "The drive can be MRL traction or hydraulic, depending on the project. Our technical team will recommend the right option after studying your building.",
+     "A glass elevator works best when it is planned together with the architecture, rather than added later. Before you decide, consider where it will stand, what it will look out onto, and how the shaft will connect to each floor."
       ]
     },
 
     features:{
-        title:"Key Features and Customer Benefits",
+        title:"Key Features and Benefits of the Panorama 1805",
         cardDetails:[
             {
                 img:"",
-                heading:"Circular panoramic cabin",
+                heading:"Circular Panoramic Cabin",
                 description:"A circular cabin with a glass enclosure.",
-                subDes:"Open views from inside, and a striking shape from outside."
+                subDes:"t offers open views from inside and a striking shape from outside."
             },
              {
                 img:"",
-                heading:"Laminated safety glass",
-                description:"Layers of glass bonded together.",
-                subDes:"If the glass is damaged, it is designed to hold together instead of scattering."
+                heading:"Laminated Safety Glass",
+                description:"Layers of glass are bonded together.",
+                subDes:" If the glass is damaged, it is designed to stay together instead of scattering."
             },
              {
                 img:"",
-                heading:"Premium frame and finishes",
-                description:"SS 304 or premium PVD frame, with marble, stone or premium flooring.",
-                subDes:"The cabin can match your interior style."
+                heading:" Premium Frame and Finishes",
+                description:"An SS 304 or premium PVD frame, with marble, stone or premium flooring.",
+                subDes:"The cabin can be finished to match your interior style."
             },
              {
                 img:"",
-                heading:"Architectural lighting and",
-                description:"custom ceiling",
-                subDes:"Architectural LED lighting and a custom panoramic ceiling."
+                heading:" Architectural Lighting and Custom Ceiling",
+                description:"Architectural LED lighting and a custom panoramic ceiling.",
+                subDes:"Together, they give the cabin a refined and welcoming look."
             },
              {
                 img:"",
-                heading:"Touchscreen and minimalist panels",
-                description:"A custom touchscreen COP (inside the cabin) and a minimalist LOP (call panel on each floor).",
-                subDes:"Clean controls that suit a modern home."
+                heading:"Touchscreen and Minimalist Panels",
+                description:"A custom touchscreen COP (the panel inside the cabin) and a minimalist LOP (the call panel on each floor). ",
+                subDes:"The controls are clean and suit a modern home."
             },
              {
                 img:"",
-                heading:"Optional smart access",
+                heading:"Optional Smart Access",
                 description:"PIN, RFID or biometric access (optional).",
-                subDes:"You decide who can use the elevator, which suits"
+                subDes:"You decide who can use the elevator, which adds privacy and control."
             },
              {
                 img:"",
-                heading:"Remote monitoring and emergency communication",
-                description:"Both are available on this model.",
-                subDes:"Faster support, and a way to call for help from inside the cabin."
+                heading:"Remote Monitoring and Emergency Communication",
+                description:"Both features are available on this model.",
+                subDes:"They enable faster support and a way to call for help from inside the cabin."
             },
         ]
     },
@@ -1487,15 +1488,15 @@ export const products = {
         details:[
             {
                 heading:"CONFIGURATION",
-                point:"Circular / panoramic"
+                point:"Circular / Panoramic"
             },
             {
                 heading:"DRIVE",
-                point:"MRL traction / hydraulic, project dependent"
+                point:"MRL traction / hydraulic, (project-dependent) "
             },
             {
                 heading:"SUSPENSION",
-                point:"Rope / belt, depending on engineering"
+                point:"Rope / belt, (as per engineering)"
             },
             {
                 heading:"CAPACITY",
@@ -1503,7 +1504,7 @@ export const products = {
             },
             {
                 heading:"SPEED",
-                point:"0.15–0.63 m/s depending on drive"
+                point:"0.15–0.63 m/s, (depending on the drive) "
             },
             {
                 heading:"CABIN",
@@ -1547,7 +1548,7 @@ export const products = {
             },
             {
                 heading:"SMART ACCESS",
-                point:"PIN / RFID / biometric optional"
+                point:"PIN / RFID / biometric (optional)"
             },
             {
                 heading:"REMOTE MONITORING",
@@ -1559,11 +1560,11 @@ export const products = {
             },
             {
                 heading:"ARD / EMERGENCY LOWERING",
-                point:"According to drive configuration"
+                point:"As per to drive configuration"
             },
             {
                 heading:"SAFETY SYSTEM",
-                point:"Complete certified safety architecture"
+                point:"Complete certified safety system "
             },
 
 
@@ -1576,7 +1577,7 @@ export const products = {
         cardDetails:[
             {
                 title:"What to check before you decide",
-                description:"",
+                description:"Wheelchair access depends on the cabin size, clear door opening and landing space, all of which depend on the final configuration. Please ask our technical team to confirm accessibility for your project before you rely on it.",
                 points:[
                     "Where the elevator will stand, and what will be visible through the glass.",
                     "The available floor area and the structure around it.",
@@ -1606,11 +1607,11 @@ export const products = {
 
     },
     whyChoose:{
-        heading:"• What civil work does my home need?",
+        heading:"Choosing a Partner for a Design-Led Home Elevator",
         description:"",
         points:[
-            "A glass circular elevator needs careful planning, so the company you choose matters. Look for a team that studies your property, explains the drive and shaft options in plain language, and is clear about what is included.",
-            "NVANZ focuses on modern residential elevators for homes across India. Our team can discuss your home layout, explain which elevator configuration may suit your space, and help you understand the technical requirements before you decide. "
+            "A circular glass elevator needs careful planning, so the company you choose matters. Look for a team that studies your property, explains the drive and shaft options in plain language and is clear about what is included.",
+            "NVANZ focuses on modern residential elevators for homes across India. Our team can review your home layout, explain which elevator configuration may suit your space and help you understand the technical requirements before you decide."
         ]
     },
     productGallery:{
@@ -1697,14 +1698,14 @@ export const products = {
       title: "Compact 360° Panoramic Circular Home Elevator ",
       subtitle: "PANORAMIC · 1805",
       description:
-        "An elevator with a circular glass cabin that lets you see your home as you travel between floors. Designed for villas, duplexes and architect-led homes where the elevator is part of the interior design. Drive type and configuration are planned for each project.",
+        "A home elevator with a circular glass cabin that offers a clear view of your home as you travel between floors. Designed for villas, duplexes and architect-led homes where the elevator is an important part of the interior design. The drive type and configuration are planned to suit each project.",
       image: "",
       points:[
         "Circular panoramic cabin",
         "Laminated safety glass",
         "SS 304 / premium PVD frame",
         "Custom touchscreen control panel",
-        "Optional PIN / RFID / biometric access"
+        "Optional PIN / RFID or  biometric access"
         
       ]
 
@@ -1717,58 +1718,58 @@ export const products = {
     },
 
     overview: {
-      title: "A Glass Elevator Designed to Be Seen",
+      title: "Compact 360° Panoramic Circular Glass Elevator for Modern Homes",
       points:[
-      "The NVANZ 360° Panoramic Circular Elevator has a round cabin and a glass or architectural shaft. It is built for homes where the elevator sits in a visible spot, such as beside a staircase or in a double-height space.",
-      "The drive is MRL traction or hydraulic, depending on the project. The suspension is rope or belt, based on engineering. Capacity runs from 250 to 630 kg.",
-      "This model is not wheelchair accessible. Before choosing it, think about the shaft design, the finishes and how the elevator will look from inside your home."
+      "The NVANZ Compact 360° Panoramic Circular Elevator features a round cabin and a glass or architectural shaft. It is designed for homes where the elevator is placed in a prominent location, such as beside a staircase or within a double-height space.",
+      "The drive is either MRL traction or hydraulic, depending on the project requirements. The suspension is rope or belt, as determined by engineering. The elevator is available with a capacity of 250 kg to 630 kg.",
+      "This model is not wheelchair accessible. Before choosing it, please consider the shaft design, the finishes and how the elevator will appear within your home."
       ]
     },
 
     features:{
-        title:"Key Features and Customer Benefits",
+        title:"Key Features and Benefits of the Compact 360° Panoramic Elevator",
         cardDetails:[
             {
                 img:"",
-                heading:"Circular panoramic cabin",
+                heading:"Circular Panoramic Cabin",
                 description:"A circular cabin with a glass enclosure.",
-                subDes:"Open views from inside, and a striking shape from outside."
+                subDes:"Open views from inside, and a striking design when seen from outside."
             },
              {
                 img:"",
-                heading:"Laminated safety glass",
-                description:"Layers of glass bonded together.",
-                subDes:"If the glass is damaged, it is designed to hold together instead of scattering."
+                heading:"Laminated Safety Glass ",
+                description:"Multiple layers of glass bonded together.",
+                subDes:"If the glass is damaged, it is designed to hold together rather than shatter into loose pieces."
             },
              {
                 img:"",
-                heading:"Premium frame and finishes",
-                description:"SS 304 or premium PVD frame, with marble, stone or premium flooring.",
-                subDes:"The cabin can match your interior style."
+                heading:"Premium Frame and Finishes",
+                description:"An SS 304 or premium PVD frame, with marble, stone, or other premium flooring options.",
+                subDes:"The cabin can be matched to your interior style."
             },
              {
                 img:"",
-                heading:"Architectural lighting and custom ceiling",
+                heading:"Architectural Lighting and Custom Ceiling ",
                 description:"Architectural LED lighting and a custom panoramic ceiling.",
-                subDes:"A calm, well-lit cabin that fits the look of the home."
+                subDes:"A calm, well-lit cabin that complements the look of your home. "
             },
              {
                 img:"",
-                heading:"Touchscreen and minimalist panels",
-                description:"A custom touchscreen COP (inside the cabin) and a minimalist LOP (call panel on each floor).",
-                subDes:"Clean controls that suit a modern home."
+                heading:"Touchscreen and Minimalist Panels",
+                description:"A custom touchscreen car operating panel (COP) inside the cabin and a minimalist landing operating panel (LOP) on each floor.",
+                subDes:"Simple, clean controls that suit a modern home."
             },
              {
                 img:"",
-                heading:"Optional smart access",
-                description:"PIN, RFID or biometric access (optional).",
-                subDes:"You decide who can use the elevator, which suits family homes."
+                heading:"Optional Smart Access",
+                description:"Optional PIN, RFID or biometric access.",
+                subDes:"You decide who can use the elevator, which is ideal for family homes."
             },
              {
                 img:"",
-                heading:"Remote monitoring and emergency communication",
-                description:"Both are available on this model.",
-                subDes:"Faster support, and a way to call for help from inside the cabin."
+                heading:"Remote Monitoring and Emergency Communication",
+                description:"Both features are available on this model.",
+                subDes:"Faster support and a reliable way to call for help from inside the cabin. "
             },
 
         ]
@@ -1785,7 +1786,7 @@ export const products = {
             },
              {
                 heading:"DRIVE",
-                point:"MRL traction / hydraulic, project dependent"
+                point:"MRL traction / hydraulic, (depending on the project) "
             },
              {
                 heading:"SUSPENSION",
@@ -1797,7 +1798,7 @@ export const products = {
             },
              {
                 heading:"SPEED",
-                point:"0.15–0.63 m/s depending on drive"
+                point:"0.15–0.63 m/s depending on the drive"
             },
              {
                 heading:"CABIN",
@@ -1832,73 +1833,73 @@ export const products = {
                 point:"Marble / stone / premium flooring"
             },
             {
-                heading:"COP",
+                heading:"Car Operating Panel (COP) ",
                 point:"Custom touchscreen"
             },
             {
-                heading:"LOP",
-                point:"Minimalist premium LOP"
+                heading:"Landing Operating Panel (LOP)",
+                point:"Minimalist premium design "
             },
             {
                 heading:"SMART ACCESS",
-                point:"PIN / RFID / biometric optional"
+                point:"Optional PIN / RFID / biometric optional"
             },
             {
                 heading:"REMOTE MONITORING",
-                point:"Yes"
+                point:"Available "
             },
             {
                 heading:"EMERGENCY COMMUNICATION",
-                point:"Yes"
+                point:"Available"
             },
             {
-                heading:"ARD / EMERGENCY LOWERING",
-                point:"According to drive configuration"
+                heading:"Automatic Rescue Device (ARD / emergency lowering",
+                point:"Based on the   drive configuration"
             },
              {
                 heading:"SAFETY SYSTEM",
-                point:"Complete certified safety architecture"
+                point:"Comprehensive certified safety system"
             },
              
 
         ],
-        desc:"Final suitability, dimensions and installation needs must be verified for your property by the NVANZ technical team."
+        desc:"Final suitability, dimensions and installation requirements must be verified for your property by the NVANZ technical team. "
     },
 
     isRightForHome:{
         heading:"Is a Circular Glass Elevator Right for Your Home?",
         cardDetails:[
             {
-                title:"Where it may fit",
+                title:"Where It May Fit",
                 description:"",
                 points:[
-                    "New villas and duplexes where the elevator is planned from the start.",
-                    "Renovations, once the site and structure have been assessed.",
-                    "Homes where the elevator will be visible, for example near a staircase or in a double-height space."
+                    "New villas and duplexes where the elevator is planned from the beginning.",
+                    "Existing homes and renovations, once the site and structure have been assessed.",
+                    "Homes where the elevator will be visible, for example, near a staircase or in a double-height space."
                 ]
             },
             {
-                title:"Things to plan",
+                title:"Things to Plan",
                 description:"",
                 points:[
-                    "Shaft space: A circular shaft needs a specific footprint, which the technical team confirms for your site.",
-                    "Drive choice: MRL traction or hydraulic affects speed, pit and overhead needs.",
-                    " Heat and light: A glass shaft may need planning for sunlight and cleaning.",
-                    "Structure: A glass or architectural shaft must be designed together with your architect."
+                    " Shaft space: A circular shaft requires a specific footprint, which the NVANZ technical team will confirm for your site.",
+                    "Drive choice: The choice between MRL traction and hydraulic affects the speed, pit and overhead requirements.",
+                    " Heat and light: A glass shaft may require planning for sunlight exposure and cleaning.",
+                    "Structure: A glass or architectural shaft must be designed in coordination with your architect."
                 ]
             },
             {
                 title:"Accessibility",
-                description:"This model is not wheelchair accessible. If you need wheelchair access, speak to NVANZ about other models.",
+                description:"This model is not wheelchair accessible. If you need wheelchair access, please speak to the NVANZ team about our other models.",
                 points:[]
             },
             {
-                title:"Questions to ask the technical team",
+                title:"Questions to Ask the Technical Team",
                 description:"",
                 points:[
                     "What shaft size does my home need?",
                     "Which drive suits my project, and why?",
-                    "What pit depth and overhead height are needed?",
+                    "What pit depth and overhead height are required ?",
                     "How is the glass shaft supported and maintained?"
                 ]
             },
@@ -1906,11 +1907,11 @@ export const products = {
 
     },
     whyChoose:{
-        heading:"Why Choose NVANZ?",
+        heading:"Why Choose NVANZ for a Panoramic Home Elevator? ",
         description:"",
         points:[
-            "A glass elevator depends on good planning. Look for a provider that studies your layout before suggesting a model, explains the drive options clearly and is honest about what suits your home and what does not.",
-            "NVANZ Elevators offers modern residential elevators for new and existing homes. For this model, our team helps you compare drive options, understand shaft and finish requirements, and plan the home elevator installation with your architect or interior designer."
+            "A glass elevator depends on careful planning. Choose a provider that studies your layout before recommending a model, explains the drive options clearly and is honest about what suits your home and what does not.",
+            "NVANZ Elevators offers modern residential elevators for new and existing homes. For this model, our team helps you compare drive options, understand shaft and finish requirements, and plan the home elevator installation in coordination with your architect or interior designer."
         ]
     },
     productGallery:{
@@ -1947,23 +1948,23 @@ export const products = {
            
         {
             question:"Is this elevator wheelchair accessible?",
-            ans:"No. This model is not wheelchair accessible. Talk to NVANZ if you need an accessible option."
+            ans:"No. This model is not wheelchair accessible. For wheelchair access, please speak to the NVANZ team about our other models."
         },
         {
-            question:"Is it MRL traction or hydraulic?",
-            ans:"It depends on the project. The drive is chosen during planning, based on your site, speed needs and engineering."
+            question:"Is it an MRL traction or a hydraulic elevator?",
+            ans:" The drive is either MRL traction or hydraulic, depending on the project. The NVANZ technical team will recommend the right option for your home."
         },
 {
-            question:"How fast does it travel?",
-            ans:"Speed ranges from 0.15 to 0.63 m/s, depending on the drive."
+            question:"How fast does the elevator travel?",
+            ans:"The speed ranges from 0.15 m/s to 0.63 m/s, depending on the drive. "
         },
         {
-            question:"How much weight can it carry?",
-            ans:"Capacity ranges from 250 to 630 kg. The final figure depends on the project."
+            question:"What is the weight capacity of the elevator?",
+            ans:"The capacity ranges from 250 kg to 630 kg. ."
         },
         {
-            question:"What space does it need?",
-            ans:"Shaft size, pit depth and overhead height depend on your site. The NVANZ technical team confirms them after a site check."
+            question:"How much space does it need?",
+            ans:" A circular shaft needs a specific footprint. The NVANZ technical team will confirm the exact size for your site."
         },
          {
             question:"What happens in a power cut?",
@@ -1981,7 +1982,7 @@ export const products = {
     },
     contact:{
         heading:"Planning a Panoramic Elevator for Your Home?",
-        description:"Share your floor layout and design ideas with NVANZ. The team can help you understand whether this model fits your property and which drive suits your project.",
+        description:"Share your floor layout and design ideas with NVANZ. Our team will help you understand whether this model suits your property and which drive is best for your project.",
         btnText1:"Enquire About This Model",
         btnText2:"Discuss Your Requirements"
     }

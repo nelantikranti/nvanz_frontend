@@ -1,11 +1,10 @@
-import { useEffect, useMemo, useState } from "react"
-import { MdElevator } from "react-icons/md"
+import { useCallback, useEffect, useMemo, useRef, useState } from "react"
+import { MdOutlineDoorSliding } from "react-icons/md"
 import { homeElevatroContent } from "../../Content/homeElevatorContent"
-
-import { MdOutlineDoorSliding } from "react-icons/md";
 
 const curveYPositions = [54, 132, 184, 104, 158, 66]
 const emptyStops = []
+const AUTO_PLAY_DELAY = 3000
 
 const defaultStops = [
     { eyebrow: "NVANZ", label: "NVANZ" },
@@ -15,19 +14,6 @@ const defaultStops = [
         curveY: curveYPositions[index + 1],
     })),
 ]
-
-const createPath = (points) => {
-    if (points.length === 0) return ""
-    if (points.length === 1) return `M ${points[0].x} ${points[0].y}`
-
-    return points.reduce((path, point, index) => {
-        if (index === 0) return `M ${point.x} ${point.y}`
-
-        const [, control1, control2, end] = getSegment(points, index - 1)
-
-        return `${path} C ${control1.x} ${control1.y}, ${control2.x} ${control2.y}, ${end.x} ${end.y}`
-    }, "")
-}
 
 const getSegment = (points, index) => {
     const start = points[index]
@@ -49,6 +35,19 @@ const getSegment = (points, index) => {
     ]
 }
 
+const createPath = (points) => {
+    if (points.length === 0) return ""
+    if (points.length === 1) return `M ${points[0].x} ${points[0].y}`
+
+    return points.reduce((path, point, index) => {
+        if (index === 0) return `M ${point.x} ${point.y}`
+
+        const [, control1, control2, end] = getSegment(points, index - 1)
+
+        return `${path} C ${control1.x} ${control1.y}, ${control2.x} ${control2.y}, ${end.x} ${end.y}`
+    }, "")
+}
+
 const getPointOnSegment = (segment, progress) => {
     const [start, control1, control2, end] = segment
     const inverse = 1 - progress
@@ -65,6 +64,25 @@ const getPointOnSegment = (segment, progress) => {
     }
 }
 
+// Position along the curve when travelling from stop `from` to stop `to`
+// (works forwards, backwards, and across several stops).
+const getRoutePosition = (points, from, to, progress) => {
+    const total = Math.abs(to - from)
+    const direction = to > from ? 1 : -1
+    const pathProgress = progress * total
+
+    if (pathProgress >= total) return points[to]
+
+    const completed = Math.floor(pathProgress)
+    const local = pathProgress - completed
+
+    if (direction === 1) {
+        return getPointOnSegment(getSegment(points, from + completed), local)
+    }
+
+    return getPointOnSegment(getSegment(points, from - 1 - completed), 1 - local)
+}
+
 const ProductJourneyMap = ({
     stops = defaultStops,
     className = "",
@@ -73,6 +91,16 @@ const ProductJourneyMap = ({
     const [activeIndex, setActiveIndex] = useState(0)
     const [indicatorPosition, setIndicatorPosition] = useState(null)
     const journeyStops = Array.isArray(stops) ? stops : emptyStops
+
+    const currentIndexRef = useRef(0)
+    const animationFrameRef = useRef()
+    const intervalRef = useRef()
+    const isAnimatingRef = useRef(false)
+    const callbackRef = useRef(onActiveIndexChange)
+
+    useEffect(() => {
+        callbackRef.current = onActiveIndexChange
+    }, [onActiveIndexChange])
 
     const points = useMemo(() => {
         const lastIndex = journeyStops.length - 1
@@ -83,74 +111,87 @@ const ProductJourneyMap = ({
         }))
     }, [journeyStops])
 
+    const pointsRef = useRef(points)
+    pointsRef.current = points
+
     const path = useMemo(() => createPath(points), [points])
 
-    useEffect(() => {
-        if (journeyStops.length < 2) return
+    // Move the indicator to any stop (used by both auto-play and clicks)
+    const goTo = useCallback((nextIndex) => {
+        const pts = pointsRef.current
+        const from = currentIndexRef.current
+
+        if (nextIndex < 0 || nextIndex >= pts.length) return
+        if (nextIndex === from || isAnimatingRef.current) return
+
+        setActiveIndex(nextIndex)
+        callbackRef.current?.(nextIndex)
+
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            currentIndexRef.current = nextIndex
+            setIndicatorPosition(pts[nextIndex])
+            return
+        }
+
+        const steps = Math.abs(nextIndex - from)
+        const duration = Math.min(1100 + (steps - 1) * 350, 2400)
+        let startTime = null
+
+        isAnimatingRef.current = true
+
+        const animate = (timestamp) => {
+            if (startTime === null) startTime = timestamp
+
+            const raw = Math.min((timestamp - startTime) / duration, 1)
+            const eased = raw * raw * (3 - 2 * raw)
+
+            setIndicatorPosition(getRoutePosition(pts, from, nextIndex, eased))
+
+            if (raw < 1) {
+                animationFrameRef.current = window.requestAnimationFrame(animate)
+            } else {
+                currentIndexRef.current = nextIndex
+                isAnimatingRef.current = false
+                setIndicatorPosition(pts[nextIndex])
+            }
+        }
+
+        animationFrameRef.current = window.requestAnimationFrame(animate)
+    }, [])
+
+    const startAutoPlay = useCallback(() => {
+        window.clearInterval(intervalRef.current)
+
+        const count = pointsRef.current.length
+        if (count < 2) return
         if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return
 
-        let currentIndex = 0
-        let animationFrameId
+        intervalRef.current = window.setInterval(() => {
+            goTo((currentIndexRef.current + 1) % pointsRef.current.length)
+        }, AUTO_PLAY_DELAY)
+    }, [goTo])
 
-        const animateIndicator = (nextIndex) => {
-            const isLoopingToStart = nextIndex === 0
-            const fromPoint = points[currentIndex]
-            let startTime = null
-            const duration = 1100
+    const handleStopClick = (index) => {
+        goTo(index)
+        startAutoPlay() // restart the timer so it doesn't fire right after a click
+    }
 
-            setIndicatorPosition(fromPoint)
+    useEffect(() => {
+        // reset if the number of stops changes
+        currentIndexRef.current = 0
+        isAnimatingRef.current = false
+        setActiveIndex(0)
+        setIndicatorPosition(null)
 
-            const animate = (timestamp) => {
-                if (startTime === null) startTime = timestamp
-
-                const rawProgress = Math.min((timestamp - startTime) / duration, 1)
-                const easedProgress = rawProgress * rawProgress * (3 - 2 * rawProgress)
-                let position
-
-                if (isLoopingToStart) {
-                    const segmentCount = journeyStops.length - 1
-                    const pathProgress = easedProgress * segmentCount
-
-                    if (pathProgress >= segmentCount) {
-                        position = points[0]
-                    } else {
-                        const completedSegments = Math.floor(pathProgress)
-                        const segmentIndex = segmentCount - 1 - completedSegments
-                        const segmentProgress = 1 - (pathProgress - completedSegments)
-                        position = getPointOnSegment(getSegment(points, segmentIndex), segmentProgress)
-                    }
-                } else {
-                    position = getPointOnSegment(
-                        getSegment(points, currentIndex),
-                        easedProgress
-                    )
-                }
-
-                setIndicatorPosition(position)
-
-                if (rawProgress < 1) {
-                    animationFrameId = window.requestAnimationFrame(animate)
-                } else {
-                    currentIndex = nextIndex
-                    setIndicatorPosition(points[nextIndex])
-                }
-            }
-
-            animationFrameId = window.requestAnimationFrame(animate)
-        }
-
-        const intervalId = window.setInterval(() => {
-            const nextIndex = (currentIndex + 1) % journeyStops.length
-            setActiveIndex(nextIndex)
-            onActiveIndexChange?.(nextIndex)
-            animateIndicator(nextIndex)
-        }, 3000)
+        startAutoPlay()
 
         return () => {
-            window.clearInterval(intervalId)
-            if (animationFrameId !== undefined) window.cancelAnimationFrame(animationFrameId)
+            window.clearInterval(intervalRef.current)
+            if (animationFrameRef.current !== undefined) {
+                window.cancelAnimationFrame(animationFrameRef.current)
+            }
         }
-    }, [journeyStops.length, onActiveIndexChange, points])
+    }, [journeyStops.length, startAutoPlay])
 
     if (journeyStops.length === 0) return null
     const visibleIndicatorPosition = indicatorPosition ?? points[activeIndex % journeyStops.length]
@@ -181,11 +222,16 @@ const ProductJourneyMap = ({
                     const label = stop.label ?? stop.title ?? stop.name ?? ""
                     const eyebrow = stop.eyebrow ?? stop.type ?? stop.capselText ?? ""
                     const labelTop = point.y < 115 ? point.y + 17 : point.y - 56
+                    const isActive = index === activeIndex
 
                     return (
-                        <div
+                        <button
+                            type="button"
                             key={`label-${index}`}
-                            className="absolute -translate-x-1/2 text-center"
+                            onClick={() => handleStopClick(index)}
+                            aria-label={label || eyebrow}
+                            aria-current={isActive ? "true" : undefined}
+                            className="absolute -translate-x-1/2 cursor-pointer text-center"
                             style={{
                                 left: `${(point.x / 1000) * 100}%`,
                                 top: `${(labelTop / 260) * 100}%`,
@@ -198,19 +244,29 @@ const ProductJourneyMap = ({
                                 </p>
                             )}
                             {label && (
-                                <p className="mt-0.5 text-[#111111] break-words font-inter text-[10px] leading-tight text-[#141210] min-[500px]:text-[12px] sm:text-[16px]">
+                                <p
+                                    className={`mt-0.5 break-words font-inter text-[10px] leading-tight transition-all duration-300 min-[500px]:text-[12px] sm:text-[16px] ${
+                                        isActive
+                                            ? "font-semibold text-[#141210]"
+                                            : "text-[#141210]/70 hover:text-[#141210]"
+                                    }`}
+                                >
                                     {label}
                                 </p>
                             )}
-                        </div>
+                        </button>
                     )
                 })}
 
                 {points.map((point, index) => (
-                    <span
+                    <button
+                        type="button"
                         key={`stop-${index}`}
-                        aria-hidden="true"
-                        className="absolute size-[12px] -translate-x-1/2 -translate-y-1/2 rounded-full border-[3px] border-[#E8A817] bg-white sm:size-[14px]"
+                        onClick={() => handleStopClick(index)}
+                        aria-label={`Go to stop ${index + 1}`}
+                        className={`absolute size-[12px] -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-[3px] border-[#E8A817] transition-colors duration-300 sm:size-[14px] ${
+                            index === activeIndex ? "bg-[#E8A817]" : "bg-white hover:bg-[#FFE08A]"
+                        }`}
                         style={{
                             left: `${(point.x / 1000) * 100}%`,
                             top: `${(point.y / 260) * 100}%`,
@@ -218,40 +274,24 @@ const ProductJourneyMap = ({
                     />
                 ))}
 
-                {/* <div
+                <div
                     aria-hidden="true"
-                    className="absolute left-0 top-0 z-10 flex size-[48px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-[#E8A817] text-[#141210] shadow-[0_8px_20px_rgba(20,18,16,0.2)] sm:size-[58px]"
+                    className="
+                        pointer-events-none absolute left-0 top-0 z-10
+                        flex size-[48px] sm:size-[48px]
+                        -translate-x-1/2 -translate-y-1/2
+                        items-center justify-center
+                        rounded-full
+                        bg-[linear-gradient(145deg,#FFE08A_0%,#E8A817_55%,#B97A0A_100%)]
+                        shadow-[0_5px_12px_rgba(0,0,0,0.3),0_3px_0px_#A96E08]
+                    "
                     style={{
                         left: `${(visibleIndicatorPosition.x / 1000) * 100}%`,
                         top: `${(visibleIndicatorPosition.y / 260) * 100}%`,
                     }}
                 >
-                    <MdOutlineDoorSliding aria-hidden="true" className="size-7" />
-                   
-                </div> */}
-
-                <div
-  aria-hidden="true"
-  className="
-    absolute left-0 top-0 z-10
-    flex size-[48px] sm:size-[48px]
-    -translate-x-1/2 -translate-y-1/2
-    items-center justify-center
-    rounded-full
-    bg-[linear-gradient(145deg,#FFE08A_0%,#E8A817_55%,#B97A0A_100%)]
-    shadow-[0_5px_12px_rgba(0,0,0,0.3),0_3px_0px_#A96E08]
-    transition-transform duration-300
-  "
-  style={{
-    left: `${(visibleIndicatorPosition.x / 1000) * 100}%`,
-    top: `${(visibleIndicatorPosition.y / 260) * 100}%`,
-  }}
->
-  <MdOutlineDoorSliding
-    aria-hidden="true"
-    className="size-7 text-[#141210]"
-  />
-</div>
+                    <MdOutlineDoorSliding aria-hidden="true" className="size-7 text-[#141210]" />
+                </div>
             </div>
         </div>
     )

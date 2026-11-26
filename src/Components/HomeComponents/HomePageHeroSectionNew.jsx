@@ -4,6 +4,7 @@ import ProductJourneyMap from "./ProductJourneyMap"
 import { IoMdAdd } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 import Button from "../Buttons/Button";
+import HeroImageCarousel from "./HeroImageCarousel";
 
 
 const HomePageHeroSectionNew=()=>{
@@ -16,6 +17,7 @@ const HomePageHeroSectionNew=()=>{
             highlightHeading:"1805",
             subText:"Small spaces",
             capsulText:"360° CIRCULAR",
+            img:images?.prestige,
 
         },
         {
@@ -23,6 +25,7 @@ const HomePageHeroSectionNew=()=>{
             highlightHeading:"1805",
             capsulText:"PANORAMIC",
             subText:"Statement design",
+            img:images?.prestige,
 
         },
         {
@@ -32,20 +35,23 @@ const HomePageHeroSectionNew=()=>{
             capsulText:"HYDRAULIC",
 
             subText:"Low-rise homes",
+            img:images?.prestige,
 
         },
         {
             heading:"Prestige ",
             highlightHeading:"1110",
             capsulText:"MRL",
-            subText:"No machine room needed"
+            subText:"No machine room needed",
+            img:images?.prestige,
 
         },
         {
             heading:"Signature",
             highlightHeading:"1101",
             capsulText:"TRACTION",
-             subText:"Smooth, quiet daily use"
+             subText:"Smooth, quiet daily use",
+             img:images?.signatureImg,
 
         },
          {
@@ -59,6 +65,8 @@ const HomePageHeroSectionNew=()=>{
         },
     ]
 
+    const carouselImages = [...new Set(data.map((item) => item?.img).filter(Boolean))]
+
     const [activeStopIndex, setActiveStopIndex] = useState(0)
     const journeyData = [...data].reverse()
     const activeData = journeyData[activeStopIndex]
@@ -68,13 +76,21 @@ const HomePageHeroSectionNew=()=>{
 
     return(
         <div
-            className="relative flex min-h-[calc(100svh-5rem)] w-full flex-col overflow-hidden bg-cover bg-no-repeat"
+            className="relative isolate flex min-h-[calc(100svh-5rem)] w-full flex-col overflow-hidden bg-cover bg-no-repeat"
             style={{
                 backgroundImage:
                     "radial-gradient(circle 200px at 74% 22%, rgba(242, 199, 90, 0.7) 0%, rgba(242, 199, 90, 0) 100%), linear-gradient(180deg, #F1E4C4 0%, #FDFCF8 60%, #F3E6C4 62%, #B98A1C 100%)",
             }}
 
         >
+
+
+
+           <HeroImageCarousel
+    images={carouselImages}
+    activeSrc={activeData?.img}
+    activeKey={activeStopIndex}
+/>
              {/* Vertical side CTA - tablet & desktop only */}
 <div className="absolute right-0 top-1/2 z-30 hidden -translate-y-1/2 translate-x-[calc(50%-1.5rem)] md:block lg:translate-x-[calc(50%-1.75rem)]">
   <div className="origin-center rotate-90 whitespace-nowrap md:scale-90 lg:scale-100">
@@ -97,8 +113,12 @@ const HomePageHeroSectionNew=()=>{
     {/* <p>SERVICE SUPPORT AFTER INSTALLATION WHEELCHAIR-FRIENDLY OPTIONS</p> */}
 
          
-    
-    <h1 className="text-[#141210] font-inter font-bold">{activeData?.mainHeading}</h1>
+    {
+        activeData?.mainHeading &&  <h1 className="text-[#141210] text-[clamp(10px,1.2vw,18px)] font-inter font-bold">
+  {activeData?.mainHeading}
+</h1>
+    }
+   
        <p className="font-inter text-[clamp(2.5rem,9vw,130px)] leading-none text-[#111111] ">{activeData?.heading}{" "} <span className="font-bold text-[#E8A817]">{activeData?.highlightHeading}</span></p>
             <p className="mt-[10px] font-inter text-base font-bold sm:text-[21px]"> {activeData?.subText}</p>
 

@@ -92,6 +92,10 @@ import person from './Person.png'
 import leftDoor2 from './elevator_left_door.png'
 import rightDoor2 from './elevator_right_door.png'
 
+import signatureImg from './signature-1101.png'
+import prestige from './prestige-1110.png'
+
+
 
 const images = {
     logo,
@@ -176,7 +180,10 @@ const images = {
     person,
 
     leftDoor2,
-    rightDoor2
+    rightDoor2,
+
+    signatureImg,
+    prestige,
 
     
 };
