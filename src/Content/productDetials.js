@@ -1403,10 +1403,11 @@ export const products = {
     name: "Nvanz Panorama-1805",
 
     hero: {
-      title: "NVANZ Panorama 1805: Circular Panoramic Home Elevator",
-      subtitle: "A circular glass home elevator designed for homeowners who want it to be a visible part of their home. The Panorama 1805 suits new villas, duplexes and renovation projects, where the space and structure allow for a glass shaft.",
+        
+      title: "Panorama 1805",
+      subtitle: "NVANZ Panorama 1805: Circular Panoramic Home Elevator",
       description:
-        "",
+        "A circular glass home elevator designed for homeowners who want it to be a visible part of their home. The Panorama 1805 suits new villas, duplexes and renovation projects, where the space and structure allow for a glass shaft.",
       image: "",
       points:[
         "Circular, 360° panoramic cabin",

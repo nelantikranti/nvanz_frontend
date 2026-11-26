@@ -115,7 +115,7 @@ const HomePageHeroSectionNew=()=>{
          
     {
         activeData?.mainHeading &&  <h1 className="text-[#141210] text-[clamp(10px,1.2vw,18px)] font-inter font-bold">
-  {activeData?.mainHeading}
+  {activeData?.mainHeading} 
 </h1>
     }
    
@@ -123,8 +123,8 @@ const HomePageHeroSectionNew=()=>{
             <p className="mt-[10px] font-inter text-base font-bold sm:text-[21px]"> {activeData?.subText}</p>
 
 {
-    activeData?.desc &&  <p className="w-full sm:w-[90%] md:w-[75%] lg:w-[65%] xl:w-[65%] text-[#222222] text-[15px] sm:text-[16px] md:text-[17px] lg:text-[19px] leading-[1.6] sm:leading-[1.7]">
-  {activeData?.desc}
+    activeData?.desc &&  <p className="w-full sm:w-[90%] md:w-[75%] lg:w-[65%] xl:w-[65%] text-[#222222] text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] leading-[1.6] sm:leading-[1.7]">
+  {activeData?.desc} 
 </p>
 }
 
