@@ -94,6 +94,10 @@ import rightDoor2 from './elevator_right_door.png'
 
 import signatureImg from './signature-1101.png'
 import prestige from './prestige-1110.png'
+import groundImg from './ground-1506.png'
+import compactImg from './compact-1805.png'
+import panoramaImg from './panorama-1805.png'
+
 
 
 
@@ -184,6 +188,10 @@ const images = {
 
     signatureImg,
     prestige,
+    groundImg,
+    compactImg,
+    panoramaImg
+    
 
     
 };

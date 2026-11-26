@@ -17,7 +17,8 @@ const HomePageHeroSectionNew=()=>{
             highlightHeading:"1805",
             subText:"Small spaces",
             capsulText:"360° CIRCULAR",
-            img:images?.prestige,
+            img:images?.compactImg,
+            alt: "Compact 1805 Circular Home Elevator",
 
         },
         {
@@ -25,7 +26,8 @@ const HomePageHeroSectionNew=()=>{
             highlightHeading:"1805",
             capsulText:"PANORAMIC",
             subText:"Statement design",
-            img:images?.prestige,
+            img:images?.panoramaImg,
+            alt: "Panorama 1805 Panoramic Home Elevator",
 
         },
         {
@@ -35,7 +37,8 @@ const HomePageHeroSectionNew=()=>{
             capsulText:"HYDRAULIC",
 
             subText:"Low-rise homes",
-            img:images?.prestige,
+            img:images?.groundImg,
+            alt: "Ground 1506 Hydraulic Home Elevator",
 
         },
         {
@@ -45,6 +48,8 @@ const HomePageHeroSectionNew=()=>{
             subText:"No machine room needed",
             img:images?.prestige,
 
+            alt: "Prestige 1110 MRL Home Elevator",
+
         },
         {
             heading:"Signature",
@@ -52,6 +57,7 @@ const HomePageHeroSectionNew=()=>{
             capsulText:"TRACTION",
              subText:"Smooth, quiet daily use",
              img:images?.signatureImg,
+             alt: "Signature 1101 Traction Home Elevator",
 
         },
          {
@@ -60,8 +66,8 @@ const HomePageHeroSectionNew=()=>{
             highlightHeading:"Vantage",
             capsulText:"NVANZ",
             subText:"Elevating the Way You Live.",
-            desc:'NVANZ Elevators is an ISO 9001:2015 certified elevator manufacturer. We design, manufacture and install premium elevators for villas, homes and small buildings. Every elevator is engineered for safety, smooth performance and elegant design. The Premium Vantage.'
-
+            desc:'NVANZ Elevators is an ISO 9001:2015 certified elevator manufacturer. We design, manufacture and install premium elevators for villas, homes and small buildings. Every elevator is engineered for safety, smooth performance and elegant design. The Premium Vantage.',
+            alt: "",
         },
     ]
 
@@ -89,6 +95,7 @@ const HomePageHeroSectionNew=()=>{
            <HeroImageCarousel
     images={carouselImages}
     activeSrc={activeData?.img}
+    activeAlt={activeData?.alt}
     activeKey={activeStopIndex}
 />
              {/* Vertical side CTA - tablet & desktop only */}

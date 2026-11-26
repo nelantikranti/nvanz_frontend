@@ -6,6 +6,8 @@ const EASE = "cubic-bezier(0.65, 0, 0.35, 1)"
 const REFLECTION_RATIO = 0.45                // reflection height as a fraction of the image height
 const REFLECTION_GAP = "1px"                 // small gap between the image and its reflection
 
+
+
 const KEYFRAMES = `
 @keyframes heroSlideIn  { from { transform: translate3d(160%, 0, 0); }  to { transform: translate3d(0, 0, 0); } }
 @keyframes heroSlideOut {
@@ -33,11 +35,19 @@ const getAnimation = (role, reduced) => {
  *  - activeSrc: image of the currently active journey stop (may be undefined)
  *  - activeKey: active stop index – every change triggers a new transition
  */
-const HeroImageCarousel = ({ images = [], activeSrc, activeKey }) => {
-    const [slides, setSlides] = useState(() => ({
-        current: { uid: 0, activeKey, src: activeSrc },
-        leaving: null,
-    }))
+const HeroImageCarousel = ({images = [],
+    activeSrc,
+    activeAlt = "",
+    activeKey }) => {
+   const [slides, setSlides] = useState(() => ({
+    current: {
+        uid: 0,
+        activeKey,
+        src: activeSrc,
+        alt: activeAlt
+    },
+    leaving: null,
+}));
     const [reduced, setReduced] = useState(false)
 
     // Respect prefers-reduced-motion (slide -> crossfade)
@@ -61,14 +71,23 @@ const HeroImageCarousel = ({ images = [], activeSrc, activeKey }) => {
 
     // Active stop changed: current slide leaves to the left, the new one enters from the right
     useEffect(() => {
-        setSlides((prev) => {
-            if (prev.current.activeKey === activeKey && prev.current.src === activeSrc) return prev
-            return {
-                current: { uid: prev.current.uid + 1, activeKey, src: activeSrc },
-                leaving: prev.current,
-            }
-        })
-    }, [activeKey, activeSrc])
+    setSlides((prev) => {
+        if (
+            prev.current.activeKey === activeKey &&
+            prev.current.src === activeSrc
+        ) return prev;
+
+        return {
+            current: {
+                uid: prev.current.uid + 1,
+                activeKey,
+                src: activeSrc,
+                alt: activeAlt
+            },
+            leaving: prev.current,
+        };
+    });
+}, [activeKey, activeSrc, activeAlt]);
 
     // Remove the leaving slide from the DOM once its exit animation is done
     const leavingUid = slides.leaving?.uid
@@ -94,7 +113,7 @@ const HeroImageCarousel = ({ images = [], activeSrc, activeKey }) => {
         >
             <style>{KEYFRAMES}</style>
 
-            {rendered.map(({ uid, src, role }) => (
+            {rendered.map(({ uid, src, alt, role }) => (
                 <div
                     key={uid}
                     className="absolute inset-0"
@@ -103,7 +122,7 @@ const HeroImageCarousel = ({ images = [], activeSrc, activeKey }) => {
                     {/* Main image: full picture, top to bottom, resting on the floor line */}
                     <img
                         src={src}
-                        alt=""
+                        alt={alt || "NVANZ home elevator"}
                         decoding="async"
                         className="h-full w-full object-contain object-bottom"
                     />
@@ -121,12 +140,65 @@ const HeroImageCarousel = ({ images = [], activeSrc, activeKey }) => {
                         <img
                             src={src}
                             alt=""
+                            aria-hidden="true"
                             decoding="async"
                             className="w-full -scale-y-100 object-contain object-bottom"
                             style={{ height: `${100 / REFLECTION_RATIO}%` }}
                         />
                     </div>
                 </div>
+
+//  <div
+//         key={uid}
+//         className="absolute inset-0 flex items-end justify-center"
+//         style={{
+//             animation: getAnimation(role, reduced),
+//             willChange: "transform",
+//         }}
+//     >
+//         {/* Main Product Image */}
+//         <img
+//             src={src}
+//             alt={alt || "NVANZ home elevator"}
+//             decoding="async"
+//             className="
+//                 block
+//                 h-full
+//                 w-full
+//                 object-contain
+//                 object-bottom
+//             "
+//         />
+
+//         {/* Mirror Reflection */}
+//         <div
+//             className="absolute left-0 w-full overflow-hidden opacity-40"
+//             style={{
+//                 top: `calc(100% + ${REFLECTION_GAP})`,
+//                 height: `${REFLECTION_RATIO * 100}%`,
+//                 WebkitMaskImage: REFLECTION_MASK,
+//                 maskImage: REFLECTION_MASK,
+//             }}
+//         >
+//             <img
+//                 src={src}
+//                 alt=""
+//                 aria-hidden="true"
+//                 decoding="async"
+//                 className="
+//                     block
+//                     w-full
+//                     -scale-y-100
+//                     object-contain
+//                     object-bottom
+//                 "
+//                 style={{
+//                     height: `${100 / REFLECTION_RATIO}%`,
+//                 }}
+//             />
+//         </div>
+//     </div>
+
             ))}
         </div>
     )
