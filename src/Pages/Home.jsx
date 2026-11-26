@@ -67,7 +67,7 @@ const Home=()=>{
 
         <>
        <Helmet>
-  <title>Premium Home Elevator Manufacturer in India | NVANZ Elevators</title>
+  <title>Premium Home Elevator Manufacturer in India| NVANZ Elevators</title>
 
   <meta
     name="description"
@@ -83,6 +83,13 @@ const Home=()=>{
     name="robots"
     content="index, follow, max-image-preview:large"
   />
+
+
+  <meta
+  name="keywords"
+  content="home elevator manufacturer, home elevators, residential elevators, home lifts, luxury home elevators"
+/>
+
 
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Premium Home Elevator Manufacturer in India | NVANZ Elevators" />
