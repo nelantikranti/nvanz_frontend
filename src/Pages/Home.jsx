@@ -11,6 +11,7 @@ import ContactCTASection from "../Components/ContactCTASection"
 import HowItWorks from "../Components/HomeComponents/HowItWorks"
 import HomePageHeroSectionNew from "../Components/HomeComponents/HomePageHeroSectionNew"
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async"
 const Home=()=>{
     const pageRef = useRef(null)
 
@@ -63,7 +64,110 @@ const Home=()=>{
     }, [])
 
     return (
-        <div ref={pageRef}>
+
+        <>
+       <Helmet>
+  <title>Premium Home Elevator Manufacturer in India | NVANZ Elevators</title>
+
+  <meta
+    name="description"
+    content="Explore premium home elevators by NVANZ, featuring hydraulic, traction, MRL and panoramic lifts designed for comfort, safety and modern residential living."
+  />
+
+  <link
+    rel="canonical"
+    href="https://nvanzelevators.com/"
+  />
+
+  <meta
+    name="robots"
+    content="index, follow, max-image-preview:large"
+  />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Premium Home Elevator Manufacturer in India | NVANZ Elevators" />
+
+  <meta
+    property="og:description"
+    content="Explore premium home elevator solutions from NVANZ, including hydraulic, traction, MRL and panoramic elevators."
+  />
+
+  <meta property="og:url" content="https://nvanzelevators.com/" />
+
+  <meta
+    property="og:image"
+    content="https://nvanzelevators.com/images/luxury-home-elevators-nvanz-elevators.webp"
+  />
+
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Premium residential home elevators by NVANZ Elevators" />
+  <meta property="og:site_name" content="NVANZ Elevators" />
+  <meta property="og:locale" content="en_IN" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Premium Home Elevator Manufacturer in India | NVANZ Elevators" />
+
+  <meta
+    name="twitter:description"
+    content="Explore premium home elevator solutions from NVANZ, including hydraulic, traction, MRL and panoramic elevators."
+  />
+
+  <meta
+    name="twitter:image"
+    content="https://nvanzelevators.com/images/luxury-home-elevators-nvanz-elevators.webp"
+  />
+
+  {/* Organization Schema */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://nvanzelevators.com/#organization",
+      "name": "NVANZ Elevators",
+      "url": "https://nvanzelevators.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nvanzelevators.com/NVANZLOGO.png"
+      },
+      "description": "NVANZ Elevators provides premium residential elevator solutions, including hydraulic, traction, MRL and panoramic elevators.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Appejay Business Center, Raj Bhavan Road",
+        "addressLocality": "Hyderabad",
+        "addressRegion": "Telangana",
+        "postalCode": "500082",
+        "addressCountry": "IN"
+      },
+      "knowsAbout": [
+        "Home Elevators",
+        "Residential Elevators",
+        "Hydraulic Home Elevators",
+        "Traction Home Elevators",
+        "MRL Home Elevators",
+        "Panoramic Home Elevators"
+      ]
+    })}
+  </script>
+
+    <script type="application/ld+json">
+    {JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://nvanzelevators.com/#website",
+  "url": "https://nvanzelevators.com/",
+  "name": "NVANZ Elevators",
+  "publisher": {
+    "@id": "https://nvanzelevators.com/#organization"
+  },
+  "inLanguage": "en-IN"
+}
+)}
+  </script>
+
+
+</Helmet>
+           <div ref={pageRef}>
             {/* <HomePageHeroSection/> */}
             <HomePageHeroSectionNew/>
             <HomePageSection2/>
@@ -86,6 +190,8 @@ const Home=()=>{
 
             {/* <HomeSection2  /> */}
             </div>
+        </>
+     
     )
 }
 

@@ -17,6 +17,8 @@ import BlogDetails from './Pages/BlogPages/BlogDetails.jsx'
 import ContactUsHeroSection from './Components/ContactUsComponents/ContactUsHeroSection.jsx'
 import ContactUs from './Pages/ContactUs.jsx'
 
+
+
 function ScrollToLocation() {
   const { pathname, hash } = useLocation()
 
