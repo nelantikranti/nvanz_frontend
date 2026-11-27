@@ -103,7 +103,7 @@ const Home=()=>{
 
   <meta
     property="og:image"
-    content="https://nvanzelevators.com/luxury-home-elevators-nvanz-elevators.webp"
+    content="https://nvanzelevators.com/assets/luxury-home-elevators-nvanz-elevators.webp"
   />
 
   <meta property="og:image:width" content="1200" />
