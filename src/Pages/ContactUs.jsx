@@ -15,6 +15,7 @@ import WhyCustomerChoose from "../Components/ContactUsComponents/WhyCustomerChoo
 import { contactUsContent, faqQuestions } from "../Content/contactusContent"
 
 import { useEffect,useRef } from "react"
+import { Helmet } from "react-helmet-async"
 
 const ContactUs=()=>{
 
@@ -71,6 +72,7 @@ const ContactUs=()=>{
 
         <>
         
+       
          <Helmet>
           <title>Contact NVANZ Elevators | Home Elevator Enquiries</title>
         
