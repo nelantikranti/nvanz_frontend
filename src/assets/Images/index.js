@@ -1,5 +1,5 @@
 
-import logo from "./NVANZLOGO.png";
+import logo from "./nvanz-logo.png";
 import logo2 from './NVANZ_logo_white.png'
 import HomePageBanner from "./Charcoal backdrop with golden glow.png"
 import logo3 from './NVANZ_logo_black.png'
@@ -92,11 +92,11 @@ import person from './Person.png'
 import leftDoor2 from './elevator_left_door.png'
 import rightDoor2 from './elevator_right_door.png'
 
-import signatureImg from './signature-1101.png'
-import prestige from './prestige-1110.png'
-import groundImg from './ground-1506.png'
-import compactImg from './compact-1805.png'
-import panoramaImg from './panorama-1805.png'
+import signatureImg from './signature-1101-gearless-traction-elevator.webp'
+import prestige from './prestige-1110-mrl-home-elevator.webp'
+import groundImg from './ground-1506-hydraulic-home-elevator.webp'
+import compactImg from './compact-1805-360-panoramic-elevator.webp'
+import panoramaImg from './panorama-1805-360-panoramic-circular-elevator.webp'
 
 
 

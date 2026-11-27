@@ -18,7 +18,7 @@ const HomePageHeroSectionNew=()=>{
             subText:"Small spaces",
             capsulText:"360° CIRCULAR",
             img:images?.compactImg,
-            alt: "Compact 1805 Circular Home Elevator",
+            alt: "Compact 1805 360° panoramic elevator for small spaces",
 
         },
         {
@@ -27,7 +27,7 @@ const HomePageHeroSectionNew=()=>{
             capsulText:"PANORAMIC",
             subText:"Statement design",
             img:images?.panoramaImg,
-            alt: "Panorama 1805 Panoramic Home Elevator",
+            alt: "Panorama 1805 360° panoramic circular glass elevator",
 
         },
         {
@@ -38,7 +38,7 @@ const HomePageHeroSectionNew=()=>{
 
             subText:"Low-rise homes",
             img:images?.groundImg,
-            alt: "Ground 1506 Hydraulic Home Elevator",
+            alt: "Ground 1506 hydraulic elevator for low-rise homes",
 
         },
         {
@@ -48,7 +48,7 @@ const HomePageHeroSectionNew=()=>{
             subText:"No machine room needed",
             img:images?.prestige,
 
-            alt: "Prestige 1110 MRL Home Elevator",
+            alt: "Prestige 1110 MRL home elevator with no machine room",
 
         },
         {
@@ -57,7 +57,7 @@ const HomePageHeroSectionNew=()=>{
             capsulText:"TRACTION",
              subText:"Smooth, quiet daily use",
              img:images?.signatureImg,
-             alt: "Signature 1101 Traction Home Elevator",
+             alt: "Signature 1101 gearless traction home elevator",
 
         },
          {

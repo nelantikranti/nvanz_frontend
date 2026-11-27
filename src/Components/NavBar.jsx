@@ -630,7 +630,7 @@ function NavBar() {
           <img
             className="block h-auto w-36"
             src={images.logo}
-            alt="NVANZ Elevators"
+            alt="NVANZ Elevators logo"
           />
         </Link>
 
