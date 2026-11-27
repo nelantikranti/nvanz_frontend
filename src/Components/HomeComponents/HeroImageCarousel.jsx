@@ -59,6 +59,9 @@ const HeroImageCarousel = ({images = [],
         return () => mq.removeEventListener?.("change", onChange)
     }, [])
 
+
+    //console.log("CURRENT->",slides?.current?.alt, slides?.current?.src )
+
     // Preload every image so slides never pop in while animating
     const imagesSignature = images.join("|")
     useEffect(() => {

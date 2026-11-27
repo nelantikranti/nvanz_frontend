@@ -62,7 +62,7 @@ const HomePageHeroSectionNew=()=>{
         },
          {
             heading:"A Modern ",
-            mainHeading:"PREMIUM, SAFE & SMART ELEVATORS FOR HOMES IN HYDERABAD",
+            mainHeading:"Premium Elevators for Modern Homes: Safe, Smart and Elegant",
             highlightHeading:"Vantage",
             capsulText:"NVANZ",
             subText:"Elevating the Way You Live.",
@@ -89,8 +89,6 @@ const HomePageHeroSectionNew=()=>{
             }}
 
         >
-
-
 
            <HeroImageCarousel
     images={carouselImages}
