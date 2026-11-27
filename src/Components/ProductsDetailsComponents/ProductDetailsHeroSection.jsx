@@ -1,8 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import images from "../../assets/Images"
 import Button from "../Buttons/Button"
-
-// import AnimatedImageCard from '../AnimatedImageCard'
+ import AnimatedImageCard from '../AnimatedImageCard'
 
 
 
@@ -79,20 +78,23 @@ const ProductDetailsHeroSection = ({hero}) => {
 
                 
 <div className="flex w-full min-w-0 flex-1 justify-center lg:w-auto">
+  
+    <div className="h-[224px] w-[140px] sm:h-[256px] sm:w-[160px] lg:h-[500px] lg:w-[300px]">
+         <AnimatedImageCard
+                src={hero?.image}
+                alt={hero?.alt}
+                width="100%"
+                height="100%"
+                borderRadius="10px"
+                
+                className="w-full h-full  overflow-hidden"
+            />
+    </div>
 
-    <div className="animate-elevator-bounce relative isolate h-[224px] w-[140px] overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.35)] motion-reduce:animate-none sm:h-[256px] sm:w-[160px] lg:h-[320px] lg:w-[200px]">
-
-    {/* Elevator interior */}
-    <img
-        src={hero?.image}
-        alt="Signature 1101 home elevator"
-        className="absolute inset-0 z-0 h-full w-full rounded-[10px] border-[2px] border-[#E9A60F] object-cover"
-    />
 
     
 
-    {/* Left door */}
-    <div className="animate-elevator-door-left absolute inset-y-0 left-0 z-10 w-[52.5%] overflow-hidden rounded-l-[10px] motion-reduce:animate-none lg:w-[105px]">
+    {/* <div className="animate-elevator-door-left absolute inset-y-0 left-0 z-10 w-[52.5%] overflow-hidden rounded-l-[10px] motion-reduce:animate-none lg:w-[105px]">
 
         <img
             src={images?.leftDoor}
@@ -103,7 +105,7 @@ const ProductDetailsHeroSection = ({hero}) => {
 
     </div>
 
-    {/* Right door */}
+   
     <div className="animate-elevator-door-right absolute inset-y-0 right-0 z-10 w-[55%] overflow-hidden rounded-r-[10px] motion-reduce:animate-none lg:w-[110px]">
 
         <img
@@ -113,9 +115,9 @@ const ProductDetailsHeroSection = ({hero}) => {
             aria-hidden="true"
         />
 
-    </div>
+    </div> */}
 
-</div>
+
 
 </div>
 

@@ -12,7 +12,8 @@ export const products = {
       subtitle: "TRACTION · 1101",
       description:
         "The NVANZ Signature 1101 is a premium residential elevator for homeowners who want smooth and convenient travel between floors. It offers a capacity range of 250–630 kg, a choice of automatic or manual doors, and cabin finishes in stainless steel, glass or premium materials.",
-      image: images?.liftImag,
+      image: images?.SignatureProductImg,
+      alt:"Signature Product Img",
       points:[
         "250–630 kg residential capacity",
         "Compact, low-noise power unit",
@@ -291,7 +292,8 @@ export const products = {
       subtitle: "MRL · 1110",
       description:
         "The Prestige 1110 is a machine-room-less (MRL) rope elevator from NVANZ Elevators. It is powered by a gearless permanent magnet motor and an integrated VVVF controller. Designed for homeowners who want a smooth, modern elevator, it suits villas, duplexes and renovation projects. It is available in capacities from 320 kg to 800 kg.",
-      image: "",
+      image: images?.prestigeMrlRopeHome,
+      alt:"Prestige Mrl Rope Home",
       points:[
         "Gearless PMSM machine with MRL configuration",
         "Capacity options: 320 / 450 / 630 / 800 kg",
@@ -588,7 +590,8 @@ export const products = {
       subtitle: "MRL · 1110",
       description:
         "The Prestige 1110 is a machine-room-less (MRL) home elevator from NVANZ Elevators. It uses a compact gearless motor and a flat steel/PU belt to move the cabin smoothly and quietly. It is equipped with an automatic door and smart monitoring, and it is well suited to villas, duplexes, independent houses and renovated homes.",
-      image: "",
+      image: images?.prestigeMrlFlatBelt,
+      alt:"Prestige Mrl Flat Belt",
       points:[
         "MRL design, with no separate machine room",
         "Gearless PMSM drive with VVVF control",
@@ -863,7 +866,8 @@ export const products = {
       subtitle: "MRL · 1110",
       description:
         "The Prestige MRL Grooved Belt Elevator (1110) is a machine-room-less (MRL) home elevator  with a gearless PMSM drive and a steel-reinforced coated belt. It is designed for new villas, duplexes and renovation projects where a separate machine room is not practical. It is available for loads from 320 kg to 1000 kg.",
-      image: "",
+      image: images?.PrestigeMRLGroovedProduct,
+      alt:"Prestige MRL Grooved Product",
       points:[
         "Machine-room-less (MRL) design",
         "Gearless PMSM drive",
@@ -1135,7 +1139,8 @@ export const products = {
       subtitle: "HYDRAULIC · 1506",
       description:
         "The NVANZ Ground Hydraulic Elevator 1506 is a residential home elevator. A hydraulic cylinder moves the cabin, and a compact, low-noise power unit drives the system. With a capacity range of 250–630 kg, it suits homeowners who are planning a new villa, a duplex home or a renovation ",
-      image: "",
+       image: images?.groundHydraulicHome,
+      alt:"Ground Hydraulic Home",
       points:[
         "Hydraulic drive with compact low-noise power unit",
         "Residential capacity range of 250–630 kg",
@@ -1408,7 +1413,8 @@ export const products = {
       subtitle: "NVANZ Panorama 1805: Circular Panoramic Home Elevator",
       description:
         "A circular glass home elevator designed for homeowners who want it to be a visible part of their home. The Panorama 1805 suits new villas, duplexes and renovation projects, where the space and structure allow for a glass shaft.",
-      image: "",
+       image: images?.PanoramaProduct,
+      alt:"Panorama Product",
       points:[
         "Circular, 360° panoramic cabin",
         "Laminated safety glass",
@@ -1700,7 +1706,8 @@ export const products = {
       subtitle: "PANORAMIC · 1805",
       description:
         "A home elevator with a circular glass cabin that offers a clear view of your home as you travel between floors. Designed for villas, duplexes and architect-led homes where the elevator is an important part of the interior design. The drive type and configuration are planned to suit each project.",
-      image: "",
+       image: images?.compactImg,
+      alt:"Compact Img",
       points:[
         "Circular panoramic cabin",
         "Laminated safety glass",

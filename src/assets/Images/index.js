@@ -114,6 +114,17 @@ import HomeElevatorLeftImg1 from './Product-Home-Elevator-left-Img1.webp'
 import CommercialElevatorLeftImg2 from './Commercial-Elevator-left-Img2.webp'
 
 
+
+import SignatureProductImg from "./Signature-Product-Img.webp"
+import PrestigeMrlProductRope from "./Prestige-Mrl-Product-Rope.webp"
+import PrestigeMrlFlatProduct from "./Prestige-Mrl-Flat-Product.webp"
+import GroundHydraulicProduct from "./Ground-Hydraulic-Product.webp"
+import PrestigeMRLGroovedProduct from "./Prestige-MRL-Grooved-Product.webp"
+import PanoramaProduct from "./Panorama-Product.webp"
+import CompactProduct from "./Compact-Product.webp"
+
+
+
 const images = {
     logo,
     logo2,
@@ -217,6 +228,14 @@ const images = {
 
     HomeElevatorLeftImg1,
     CommercialElevatorLeftImg2,
+
+    SignatureProductImg,
+    PrestigeMrlFlatProduct,
+    PrestigeMRLGroovedProduct,
+    PrestigeMrlProductRope,
+    GroundHydraulicProduct,
+    PanoramaProduct,
+    CompactProduct,
 
     
 };

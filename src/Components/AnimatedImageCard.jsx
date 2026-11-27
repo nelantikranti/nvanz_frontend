@@ -34,16 +34,17 @@ const AnimatedImageCard = ({
       }}
     >
       <img
-        src={src}
-        alt={alt}
-        className={`
-          h-full w-full
-          transition-transform duration-700 ease-in-out
-          group-hover:scale-110
-          ${imageClassName}
-        `}
-        style={{ objectFit }}
-      />
+  src={src}
+  alt={alt}
+  className={`
+    h-full w-full
+    transition-transform duration-[2500ms]
+    ease-[cubic-bezier(0.22,1,0.36,1)]
+    group-hover:scale-110
+    ${imageClassName}
+  `}
+  style={{ objectFit }}
+/>
 
       {flashAnimation && (
         <span
