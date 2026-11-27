@@ -40,7 +40,7 @@ const ElevatorIntro = () => {
     <div className="absolute inset-y-0 left-0 z-10 w-1/2 overflow-hidden origin-left shadow-[inset_-12px_0_24px_rgba(20,18,16,0.12)] animate-elevator-door-left motion-reduce:animate-none">
         <img
             src={images?.leftDoor2}
-            alt=""
+            alt="Elevator Left Door"
             className="block h-full w-full object-cover object-right"
         />
     </div>
@@ -49,7 +49,7 @@ const ElevatorIntro = () => {
     <div className="absolute inset-y-0 right-0 z-10 w-1/2 overflow-hidden origin-right shadow-[inset_12px_0_24px_rgba(20,18,16,0.12)] animate-elevator-door-right motion-reduce:animate-none">
         <img
             src={images?.rightDoor2}
-            alt=""
+            alt="Elevator Right Door"
             className="block h-full w-full object-cover object-left"
         />
     </div>

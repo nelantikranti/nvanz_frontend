@@ -31,7 +31,7 @@ const Footer=()=>{
 
             <div className="relative z-10 mx-auto flex w-[90%] flex-col justify-between gap-12 md:flex-row">
                 <div className="md:w-[45%]">
-                    <img src={images.logo} alt='logo' className="w-[220px] h-[66px]" />
+                    <img src={images.logo} alt='NVANZ Elevator Logo' className="w-[220px] h-[66px]" />
                     <p className="text-[18px] font-inter font-bold text-[#E9A60F] mt-[20px]">A Modern Vantage</p>
                     <p className="text-[14px] font-inter text-[#C9C2B4] mt-[4px] ">Hyderabad, Telangana</p>
                 </div>

@@ -22,7 +22,7 @@ const LogoAutoScroll = () => {
                                 <img
                                     className="h-[50px] w-[100px] shrink-0 object-contain"
                                     src={logo}
-                                    alt="Logo"
+                                    alt="Nvanz Elevator Logo"
                                     key={`${copy}-${index}`}
                                 />
                             ))}

@@ -134,18 +134,6 @@ const HomePageHeroSectionNew=()=>{
 
   <span className="inline-block max-w-full rounded-full border-[2px] border-[#111111] px-[10px] font-inter text-[13px] font-bold text-[#111111] mt-[10px]"> {activeData?.capsulText}</span>
 
-  {/* <div className="mt-5 md:hidden">
-  <Button
-    borderColor="#141210"
-    bgColor="#FFFFFF"
-    textColor="#141210"
-    hoverBgColor="#141210"
-    hoverTextColor="#FFFFFF"
-    text="Discuss Your Elevator Project"
-    onClick={() => {}}
-  />
-</div> */}
-            
 
 <div className="absolute top-[60%] -translate-y-1/2  z-20">
   

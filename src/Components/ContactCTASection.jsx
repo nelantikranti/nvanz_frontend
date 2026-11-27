@@ -379,7 +379,7 @@ const ContactCTASection = ({ contact,onClick,onClick2,showSecondButton = true, }
 >
   <img
     src={images?.leftDoor2}
-    alt=""
+    alt="Elevator Left Door"
     className="block h-full w-full object-cover object-right"
   />
 </div>
@@ -395,7 +395,7 @@ const ContactCTASection = ({ contact,onClick,onClick2,showSecondButton = true, }
 >
   <img
     src={images?.rightDoor2}
-    alt=""
+    alt="Elevator Right Door"
     className="block h-full w-full object-cover object-left"
   />
 </div>
