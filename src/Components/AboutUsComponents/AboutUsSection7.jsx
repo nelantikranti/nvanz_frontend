@@ -33,8 +33,8 @@ const AboutUsSection7=()=>{
 
     <div className="flex min-w-0 w-full justify-center lg:justify-end">
         <AnimatedImageCard
-            src={images.about7elevatorImage}
-            alt="Modern elevator"
+            src={images?.liftButtons}
+            alt="Lift Buttons"
             width="100%"
             height="auto"
             className="aspect-[2/3] w-full max-w-[320px]"

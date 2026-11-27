@@ -71,11 +71,32 @@ const AboutUsHeroSection = () => {
 
                     </div> */}
 
-                    <AnimatedImageCard src={images.aboutUsHeroRight}
+                    {/* <AnimatedImageCard src={images.aboutUsHeroRight}
   alt="Modern elevator"
   borderRadius = "10px"
   width="380px"
-  height="100%" />
+  height="100%" /> */}
+
+  <div>
+     <video
+        src={images?.aboutUsHeroSectionVideo}
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        className="w-[380px] h-full object-cover rounded-[20px] border-[#E9A60F] border-[2px]  transition-transform
+        duration-700
+        ease-in-out
+        hover:-translate-y-3 "
+        aria-label="NVANZ luxury elevator showcase video"
+    />
+
+  </div>
+   
+
+
+  {/* <video src={}/> */}
                 </div>
 
                 <div>

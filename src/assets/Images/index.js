@@ -98,8 +98,14 @@ import groundImg from './ground-1506-hydraulic-home-elevator.webp'
 import compactImg from './compact-1805-360-panoramic-elevator.webp'
 import panoramaImg from './panorama-1805-360-panoramic-circular-elevator.webp'
 
+import liftButtons from './lift-buttons.webp'
+
+import ElderMan from './Elder-Man-Enteries.webp'
+
+import LuxuryNvanzGlass from './Luxury-Nvanz-Glass.webp'
 
 
+import aboutUsHeroSectionVideo from './About-us-hero-section.mp4'
 
 const images = {
     logo,
@@ -190,8 +196,14 @@ const images = {
     prestige,
     groundImg,
     compactImg,
-    panoramaImg
+    panoramaImg,
+
+    liftButtons,
+
+    ElderMan,
+    LuxuryNvanzGlass,
     
+    aboutUsHeroSectionVideo,
 
     
 };

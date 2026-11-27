@@ -10,6 +10,7 @@ import AboutUsSection8 from "../Components/AboutUsComponents/AboutUsSection8"
 import ContactCTASection from "../Components/ContactCTASection"
 import aboutUsContent from "../Content/aboutUsContent"
 import { useNavigate } from "react-router-dom"
+import { Helmet } from "react-helmet-async"
 
 
 
@@ -63,7 +64,160 @@ const AboutPage=()=>{
 
     return(
 
-        <div ref={pageRef}>
+        <>
+
+        
+          <Helmet>
+          <title>About NVANZ | Premium Home Elevator Manufacturer in India</title>
+        
+          <meta
+            name="description"
+            content="Discover NVANZ Elevators, a home elevator manufacturer in India offering premium hydraulic, traction, MRL and panoramic lifts for modern homes."
+          />
+        
+          <link
+            rel="canonical"
+            href="https://nvanzelevators.com/about-us"
+          />
+        
+          <meta
+            name="robots"
+            content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+          />
+        
+        
+         
+        
+        
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="About NVANZ | Premium Home Elevator Manufacturer in India" />
+        
+          <meta
+            property="og:description"
+            content="Discover NVANZ Elevators, a home elevator manufacturer in India offering premium hydraulic, traction, MRL and panoramic lifts for modern homes."
+          />
+        
+          <meta property="og:url" content="https://nvanzelevators.com/about-us" />
+        
+          <meta
+            property="og:image"
+            content="https://nvanzelevators.com/assets/compact-360°-panoramic-circular-home-elevator.webp"
+          />
+        
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
+          <meta property="og:image:alt" content="NVANZ premium home elevators" />
+          <meta property="og:site_name" content="NVANZ Elevators" />
+          <meta property="og:locale" content="en_IN" />
+        
+
+
+          <meta name="twitter:card" content="summary_large_image" />
+
+<meta
+  name="twitter:title"
+  content="About NVANZ | Premium Home Elevator Manufacturer in India"
+/>
+
+<meta
+  name="twitter:description"
+  content="Discover NVANZ Elevators and explore premium residential elevator solutions designed for modern homes."
+/>
+
+<meta
+  name="twitter:image"
+  content="https://nvanzelevators.com/assets/compact-360°-panoramic-circular-home-elevator.webp"
+/>
+
+<meta
+  name="twitter:image:alt"
+  content="NVANZ residential home elevator installation"
+/>
+
+        
+          {/* Organization Schema */}
+          <script type="application/ld+json">
+            {JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://nvanzelevators.com/#organization",
+  "name": "NVANZ Elevators",
+  "url": "https://nvanzelevators.com/",
+  "description": "NVANZ Elevators provides premium residential elevator solutions, including hydraulic, traction, MRL and panoramic elevators.",
+  "logo": "https://nvanzelevators.com/assets/Images/nvanz-logo.png",
+  "sameAs": [
+    "https://www.linkedin.com/company/nvanz-elevators/",
+    "https://www.youtube.com/@NVANZElevators",
+    "https://www.facebook.com/people/NVANZ-Elevators/61595375391562/",
+    "https://www.instagram.com/nvanzelevators?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw%3D%3D"
+  ]
+}
+)}
+          </script>
+        
+            <script type="application/ld+json">
+            {JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": "https://nvanzelevators.com/about-us-#webpage",
+  "url": "https://nvanzelevators.com/about-us-",
+  "name": "About NVANZ Elevators",
+  "description": "Learn about NVANZ Elevators, its residential elevator solutions, company vision and commitment to home mobility.",
+  "isPartOf": {
+    "@id": "https://nvanzelevators.com/#website"
+  },
+  "about": {
+    "@id": "https://nvanzelevators.com/#organization"
+  }
+}
+
+        )}
+          </script>
+        
+
+          <script type="application/ld+json">
+            {JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://nvanzelevators.com/#website",
+  "url": "https://nvanzelevators.com/",
+  "name": "NVANZ Elevators",
+  "publisher": {
+    "@id": "https://nvanzelevators.com/#organization"
+  },
+  "inLanguage": "en-IN"
+}
+
+
+        )}
+          </script>
+        
+
+          <script type="application/ld+json">
+            {JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://nvanzelevators.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "About Us",
+      "item": "https://nvanzelevators.com/about-us-"
+    }
+  ]
+}
+
+
+        )}
+          </script>
+        </Helmet>
+         <div ref={pageRef}>
             <AboutUsHeroSection/>
             
             <AboutUsSection2/>
@@ -81,6 +235,8 @@ const AboutPage=()=>{
             
 
         </div>
+        </>
+       
     )
 }
 

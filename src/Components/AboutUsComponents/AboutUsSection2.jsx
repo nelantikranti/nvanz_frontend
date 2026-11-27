@@ -26,16 +26,37 @@ const AboutUsSection2 = () => {
     }
 </div>
 
-<div className="flex min-w-0 w-full justify-center lg:justify-end">
-    <AnimatedImageCard
-        src={images.aboutUsSection2}
-        alt="NVANZ elevator logo and elevator illustration"
-        width="100%"
-        height="auto"
-        className="aspect-[6/5] w-full max-w-[500px]"
-    />
 
+<div className="flex min-w-0 w-full justify-center lg:justify-end">
+    <div className="relative w-full max-w-[650px] aspect-[0.87]">
+
+        {/* Left Image - Background */}
+        <div className="absolute left-0 top-0 w-[56%] h-[420px] z-10">
+            <AnimatedImageCard
+                src={images?.ElderMan}
+                alt="NVANZ elevator interior with a customer"
+                width="100%"
+                height="100%"
+                borderRadius="30px"
+                className="w-full h-full rounded-[70px_0px_0px_70px] overflow-hidden"
+            />
+        </div>
+
+        {/* Right Image - Foreground */}
+        <div className="absolute right-0 bottom-0 w-[56%] h-[420px] z-20">
+            <AnimatedImageCard
+                src={images?.LuxuryNvanzGlass}
+                alt="NVANZ luxury panoramic elevator"
+                width="100%"
+                height="100%"
+                borderRadius="30px"
+                className="w-full h-full rounded-[70px] overflow-hidden"
+            />
+        </div>
+
+    </div>
 </div>
+
             </div>
 
         </section>
