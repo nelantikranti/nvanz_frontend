@@ -62,7 +62,7 @@ const HomePageHeroSectionNew=()=>{
         },
          {
             heading:"A Modern ",
-            mainHeading:"Premium Elevators for Modern Homes: Safe, Smart and Elegant",
+            // mainHeading:"Premium Elevators for Modern Homes: Safe, Smart and Elegant",
             highlightHeading:"Vantage",
             capsulText:"NVANZ",
             subText:"Elevating the Way You Live.",
@@ -119,7 +119,7 @@ const HomePageHeroSectionNew=()=>{
 
          
      <h1 className="text-[#141210] text-[clamp(10px,1.2vw,18px)] font-inter font-bold">
-  {activeData?.mainHeading}  
+  Premium Elevators for Modern Homes: Safe, Smart and Elegant
 </h1>
    
    
