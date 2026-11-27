@@ -2,6 +2,9 @@ import { useNavigate } from "react-router-dom";
 import images from "../../assets/Images"
 import Button from "../Buttons/Button"
 
+// import AnimatedImageCard from '../AnimatedImageCard'
+
+
 
 const ProductDetailsHeroSection = ({hero}) => {
 
@@ -85,6 +88,8 @@ const ProductDetailsHeroSection = ({hero}) => {
         alt="Signature 1101 home elevator"
         className="absolute inset-0 z-0 h-full w-full rounded-[10px] border-[2px] border-[#E9A60F] object-cover"
     />
+
+    
 
     {/* Left door */}
     <div className="animate-elevator-door-left absolute inset-y-0 left-0 z-10 w-[52.5%] overflow-hidden rounded-l-[10px] motion-reduce:animate-none lg:w-[105px]">

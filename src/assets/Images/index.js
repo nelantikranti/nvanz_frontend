@@ -54,9 +54,9 @@ import goodselevatorImg3 from './goods-elevatorImg3.jpg'
 import goodselevatorImg4 from './goods-elevatorImg4.jpg'
 
 import carelevatorImg1 from './car-elevatorImg1.jpg'
-import carelevatorImg2 from './car-elevatorImg1.jpg'
-import carelevatorImg3 from './car-elevatorImg1.jpg'
-import carelevatorImg4 from './car-elevatorImg1.jpg'
+import carelevatorImg2 from './car-elevatorImg22.jpg'
+import carelevatorImg3 from './car-elevatorImg33.jpg'
+import carelevatorImg4 from './car-elevatorImg44.jpg'
 
 
 import signature1101 from './Signature1101.jpg'
@@ -106,6 +106,13 @@ import LuxuryNvanzGlass from './Luxury-Nvanz-Glass.webp'
 
 
 import aboutUsHeroSectionVideo from './About-us-hero-section.mp4'
+
+
+import productBannerImg from './Product-Page-BannerImg.webp'
+
+import HomeElevatorLeftImg1 from './Product-Home-Elevator-left-Img1.webp'
+import CommercialElevatorLeftImg2 from './Commercial-Elevator-left-Img2.webp'
+
 
 const images = {
     logo,
@@ -204,6 +211,12 @@ const images = {
     LuxuryNvanzGlass,
     
     aboutUsHeroSectionVideo,
+
+
+    productBannerImg,
+
+    HomeElevatorLeftImg1,
+    CommercialElevatorLeftImg2,
 
     
 };

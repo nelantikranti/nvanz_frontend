@@ -122,7 +122,7 @@ const Home=()=>{
 
   <meta
     name="twitter:image"
-    content="https://nvanzelevators.com/images/luxury-home-elevators-nvanz-elevators.webp"
+    content="https://nvanzelevators.com/assets/luxury-home-elevators-nvanz-elevators.webp"
   />
 
   {/* Organization Schema */}

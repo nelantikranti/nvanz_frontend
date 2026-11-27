@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import images from "../../assets/Images";
+import AnimatedImageCard from "../AnimatedImageCard";
 
 const homeElevators = [
   { label: "Signature 1101", slug: "signature-1101" },
@@ -43,7 +45,9 @@ function ProductPageSection2() {
       <div className="mx-auto grid w-[90%]  grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-6">
 
       
-<div className="
+
+<div
+  className="
     group relative flex min-h-[390px] overflow-hidden
     rounded-[24px] border border-[#E9A60F80]
     bg-[#1E1B17] p-6 sm:min-h-[396px] sm:p-7
@@ -52,23 +56,24 @@ function ProductPageSection2() {
     hover:-translate-y-2
     hover:border-[#E9A60F]
     hover:shadow-[0_15px_45px_rgba(233,166,15,0.15),0_0_70px_rgba(233,166,15,0.10)]
-  ">
+  "
+>
 
-  {/* LEFT SECTION - 60% */} 
-  <div className="flex-[0.6] min-w-0 flex flex-wrap flex-col ">
+  {/* LEFT SECTION - 60% */}
+  <div className="flex-[0.6] min-w-0 flex flex-col">
 
     <p className="
-    font-bebas
-    text-[170px]
-    leading-none
-    text-transparent
-    [-webkit-text-stroke:2px_#E9A60F80]
-    transition-all duration-700 ease-in-out
-    group-hover:[-webkit-text-stroke:2px_#E9A60F]
-    group-hover:[background-image:linear-gradient(rgba(233,166,15,0.2),rgba(233,166,15,0.2))]
-    group-hover:[-webkit-background-clip:text]
-    group-hover:bg-clip-text
-  ">
+      font-bebas
+      text-[170px]
+      leading-none
+      text-transparent
+      [-webkit-text-stroke:2px_#E9A60F80]
+      transition-all duration-700 ease-in-out
+      group-hover:[-webkit-text-stroke:2px_#E9A60F]
+      group-hover:[background-image:linear-gradient(rgba(233,166,15,0.2),rgba(233,166,15,0.2))]
+      group-hover:[-webkit-background-clip:text]
+      group-hover:bg-clip-text
+    ">
       06
     </p>
 
@@ -103,17 +108,23 @@ function ProductPageSection2() {
   </div>
 
   {/* RIGHT SECTION - 40% */}
-  <div className="flex-[0.4] flex items-end py-[20px] min-w-0 ">
-    <div className="w-[200px] h-[300px] flex items-center justify-center ">
-      Your Image / Content
-    </div>
+  <div className="flex-[0.4] flex items-end justify-center py-[20px] min-w-0">
+
+    <AnimatedImageCard
+      src={images?.HomeElevatorLeftImg1}
+      alt="Home Elevator Img"
+      width="200px"
+      height="400px"
+      borderRadius="20px"
+    />
+
   </div>
 
 </div>
 
        
 
-        <div
+<div
   className="
     group relative flex min-h-[390px] overflow-hidden
     rounded-[24px] border border-[#E9A60F80]
@@ -125,30 +136,26 @@ function ProductPageSection2() {
     hover:shadow-[0_15px_45px_rgba(233,166,15,0.15),0_0_70px_rgba(233,166,15,0.10)]
   "
 >
-          <div className="relative z-10 flex min-w-0 flex-1 flex-col">
-           <p
-  className="
-    font-bebas
-    text-[170px]
-    leading-none
-    text-transparent
-    [-webkit-text-stroke:2px_#E9A60F80]
-    transition-all duration-700 ease-in-out
-    group-hover:[-webkit-text-stroke:2px_#E9A60F]
-    group-hover:[background-image:linear-gradient(rgba(233,166,15,0.2),rgba(233,166,15,0.2))]
-    group-hover:[-webkit-background-clip:text]
-    group-hover:bg-clip-text
-  "
->
-  07
-</p>
-            
-            
-            
-            <div className="grid grid-cols-1 items-center gap-8 sm:grid-cols-[1fr_auto]">
+  {/* LEFT SECTION - 60% */}
+  <div className="flex-[0.6] min-w-0 flex flex-col">
 
-  {/* LEFT CONTENT */}
-  <div>
+    <p
+      className="
+        font-bebas
+        text-[170px]
+        leading-none
+        text-transparent
+        [-webkit-text-stroke:2px_#E9A60F80]
+        transition-all duration-700 ease-in-out
+        group-hover:[-webkit-text-stroke:2px_#E9A60F]
+        group-hover:[background-image:linear-gradient(rgba(233,166,15,0.2),rgba(233,166,15,0.2))]
+        group-hover:[-webkit-background-clip:text]
+        group-hover:bg-clip-text
+      "
+    >
+      07
+    </p>
+
     <p className="mt-5 font-inter text-[10px] font-bold uppercase tracking-[0.12em] text-[#E9A60F]">
       Categories
     </p>
@@ -176,36 +183,26 @@ function ProductPageSection2() {
     >
       Explore Commercial <span className="ml-1">→</span>
     </Link>
+
   </div>
 
+  {/* RIGHT SECTION - 40% */}
+  <div className="flex-[0.4] flex items-end justify-center py-[20px] min-w-0">
 
-  <div className="relative flex h-[190px] items-end justify-center gap-2 sm:w-[150px]">
+    <AnimatedImageCard
+      src={images?.CommercialElevatorLeftImg2}
+      alt="Commercial Elevators Img"
+      borderRadius="20px"
+      width="200px"
+      height="400px"
+   
+    />
 
-  {elevatorLevels.map((elevator, index) => (
-    <div
-      key={index}
-      className={`flex ${elevator.height} w-[42px] flex-col-reverse justify-between gap-[4px] rounded-t-[5px] border border-[#E9A60F] bg-[#17140F] p-[4px]`}
-    >
-      {Array.from({ length: elevator.floors }).map((_, floorIndex) => (
-        <div
-          key={floorIndex}
-          className="elevator-light h-[12px] w-full shrink-0 rounded-[3px]"
-         style={{
-  animationDelay: `${-( (elevator.floors - 1 - floorIndex) * 0.22 + index * 0.35)}s`,
-}}
-        />
-      ))}
-    </div>
-  ))}
+  </div>
 
 </div>
 
- 
-</div>
-           
-          </div>
 
-        </div>
       </div>
     </section>
   )

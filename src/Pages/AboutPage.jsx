@@ -103,6 +103,9 @@ const AboutPage=()=>{
             property="og:image"
             content="https://nvanzelevators.com/assets/compact-360°-panoramic-circular-home-elevator.webp"
           />
+
+           <meta property="og:image:secure_url" content="https://nvanzelevators.com/assets/compact-360°-panoramic-circular-home-elevator.webp" />
+  <meta property="og:image:type" content="image/webp" />
         
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />

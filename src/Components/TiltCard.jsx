@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+
+
 const TiltCard = ({ data, index }) => {
 
   const navigate=useNavigate()
@@ -93,23 +95,58 @@ const TiltCard = ({ data, index }) => {
 
       </div>
 
-      <div className="flex flex-1 items-end justify-center">
-        <p className="  font-bebas
-        text-[80px]
-        md:text-[100px]
-    lg:text-[140px]
-    leading-none
-    text-transparent
-    [-webkit-text-stroke:2px_#E9A60F80]
-    transition-all duration-700 ease-in-out
-    group-hover:-translate-x-2
-    group-hover:[-webkit-text-stroke:2px_#E9A60F]
-    group-hover:[background-image:linear-gradient(rgba(233,166,15,0.2),rgba(233,166,15,0.2))]
-    group-hover:[-webkit-background-clip:text]
-    group-hover:bg-clip-text">
-          {data?.no}
-        </p>
-      </div>
+     
+<div className="relative flex flex-1 items-start justify-center overflow-hidden">
+
+  {/* NUMBER - STAYS AT THE TOP */}
+  <p
+    className="
+      relative z-10
+      font-bebas
+      text-[80px]
+      md:text-[100px]
+      lg:text-[120px]
+      leading-none
+      text-transparent
+      [-webkit-text-stroke:2px_#E9A60F80]
+      transition-all duration-700 ease-in-out
+      group-hover:-translate-x-2
+      group-hover:[-webkit-text-stroke:2px_#E9A60F]
+      group-hover:[background-image:linear-gradient(rgba(233,166,15,0.2),rgba(233,166,15,0.2))]
+      group-hover:[-webkit-background-clip:text]
+      group-hover:bg-clip-text
+    "
+  >
+    {data?.no}
+  </p>
+
+  {/* IMAGE - FULL HEIGHT OVERLAY */}
+  {data?.img && (
+  <div className="absolute inset-0 z-20 flex items-end justify-center pointer-events-none">
+    <img
+      src={data?.img}
+      alt={data?.alt}
+      className="h-[90%] w-full object-contain object-bottom"
+    />
+
+    
+    {/* <AnimatedImageCard
+      src={data?.img}
+      alt={data?.alt}
+     
+      width="200px"
+      height="400px"
+   
+    /> */}
+
+
+    
+  </div>
+)}
+  
+
+</div>
+
     </div>
   );
 };

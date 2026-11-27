@@ -1,3 +1,4 @@
+import images from "../../assets/Images"
 import BannerSection from "../../Components/ProductsComponents/BannerSection"
 import ProductPageSection2 from "../../Components/ProductsComponents/ProductPageSection2"
 
@@ -11,7 +12,7 @@ const ProductPage=()=>{
 
     return(
         <div>
-<BannerSection content={data}/>
+<BannerSection content={data} backgroundImage={images?.productBannerImg} imageFit="cover"/>
 
 <ProductPageSection2/>
         </div>)
