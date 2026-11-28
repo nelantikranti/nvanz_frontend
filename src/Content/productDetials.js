@@ -730,7 +730,73 @@ export const products = {
    id: 3,
     slug: "prestige-mrl-flat-belt-elevator-1110",
     name: "Prestige Mrl Flat Belt",
+      seo: {
+      title: "Prestige MRL Flat Belt Elevator 1110 for Homes | NVANZ",
 
+      description:
+        "Explore the Prestige MRL Home Elevator (1110) by NVANZ. Discover rope traction technology, space-saving design and residential lift solutions for modern homes.",
+
+      canonical:
+        "https://nvanzelevators.com/products/prestige-mrl-flat-belt-elevator-1110",
+
+      robots: "index, follow, max-image-preview:large",
+
+      focusKeyword: "Prestige MRL flat belt home elevator ",
+
+      secondaryKeywords: [
+        "MRL flat belt elevator",
+        "Flat belt home elevator",
+        "Machine room less home elevator",
+        "Residential flat belt elevator",
+        "Flat belt home lift",
+        "Premium home elevator",
+        "Home Elevator with Rope Drive"
+      ],
+
+      openGraph: {
+        type: "website",
+
+        title:
+          "Prestige MRL Flat Belt Home Elevator 1110 | NVANZ",
+
+        description:
+          "Explore NVANZ Prestige MRL Flat Belt Home Elevator 1110, featuring flat belt technology and a space-efficient machine room-less design.",
+
+        image:
+          "https://nvanzelevators.com/assets/prestige-mrl-rope-home-elevator-1110.webp",
+
+        imageAlt:
+          "Prestige MRL Flat Belt Home Elevator 1110 by NVANZ"
+      },
+
+      twitter: {
+        card: "summary_large_image",
+
+        title:
+          "Prestige MRL Flat Belt Home Elevator 1110 | NVANZ",
+
+        description:
+          "Discover NVANZ Prestige MRL Flat Belt Home Elevator 1110 with flat belt technology and a space-efficient MRL design",
+
+        image:
+          "https://nvanzelevators.com/assets/prestige-mrl-rope-home-elevator-1110.webp",
+
+        imageAlt:
+          "Prestige MRL Flat Belt Home Elevator 1110 by NVANZ"
+      },
+
+      schema: {
+        productName: "Prestige MRL Flat Belt Home Elevator 1110",
+
+        description:
+          "Prestige MRL Flat Belt Home Elevator 1110 by NVANZ, designed for residential vertical mobility with machine room-less flat belt technology.",
+
+        category: "Residential Home Elevator",
+         model: "1110",
+
+        brand: "NVANZ Elevators"
+      }
+    },
     hero: {
       title: "Prestige MRL Flat Belt Home Elevator 1110 | NVANZ Elevators",
       subtitle: "MRL · 1110",
