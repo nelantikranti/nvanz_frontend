@@ -85,7 +85,10 @@ const AboutPage=()=>{
             content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
           />
         
-        
+        <meta
+  name="keywords"
+  content="Home Elevator Manufacturer in India,Home Elevator Company, Residential Elevator Manufacturer, Home Lift Manufacturer, Premium Home Elevators"
+/>
          
         
         
@@ -137,7 +140,7 @@ const AboutPage=()=>{
   content="NVANZ residential home elevator installation"
 />
 
-        
+        <meta property="og:locale" content="en_IN" />
           {/* Organization Schema */}
           <script type="application/ld+json">
             {JSON.stringify({

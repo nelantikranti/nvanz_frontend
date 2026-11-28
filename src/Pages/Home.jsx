@@ -126,6 +126,8 @@ const Home=()=>{
     content="https://nvanzelevators.com/assets/luxury-home-elevators-nvanz-elevators.webp"
   />
 
+  <meta property="og:locale" content="en_IN" />
+
   {/* Organization Schema */}
   <script type="application/ld+json">
     {JSON.stringify({

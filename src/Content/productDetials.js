@@ -790,7 +790,6 @@ export const products = {
 
         description:
           "Prestige MRL Flat Belt Home Elevator 1110 by NVANZ, designed for residential vertical mobility with machine room-less flat belt technology.",
-
         category: "Residential Home Elevator",
          model: "1110",
 

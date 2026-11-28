@@ -148,6 +148,7 @@ const ContactUs=()=>{
   content="Contact NVANZ Elevators for home elevator enquiries"
 />
 
+<meta property="og:locale" content="en_IN" />
         
           {/* Organization Schema */}
           <script type="application/ld+json">
