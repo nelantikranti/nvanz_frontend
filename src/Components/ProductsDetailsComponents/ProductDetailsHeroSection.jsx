@@ -33,9 +33,9 @@ const ProductDetailsHeroSection = ({hero}) => {
                         {hero?.subtitle}
                     </span>
 
-                    <p className="mt-[10px] max-w-full break-words font-bebas text-[clamp(2.5rem,7vw,66px)] leading-none text-white lg:text-[66px]">
+                    <h1 className="mt-[10px] max-w-full break-words font-bebas text-[clamp(2.5rem,7vw,66px)] leading-none text-white lg:text-[66px]">
                        {hero?.title}
-                    </p>
+                    </h1>
 
                     <p className="mt-5 font-inter text-[15px] text-[#D8D2C6] sm:text-[16px] lg:mt-[30px] lg:text-[17px]">
                  {hero?.description}
@@ -77,21 +77,18 @@ const ProductDetailsHeroSection = ({hero}) => {
                 </div>
 
                 
-<div className="flex w-full min-w-0 flex-1 justify-center lg:w-auto">
-  
-    <div className="h-[224px] w-[140px] sm:h-[256px] sm:w-[160px] lg:h-[500px] lg:w-[300px]">
-         <AnimatedImageCard
-                src={hero?.image}
-                alt={hero?.alt}
-                width="100%"
-                height="100%"
-                borderRadius="10px"
-                
-                className="w-full h-full  overflow-hidden"
-            />
-    </div>
-
-
+<div className="flex w-full min-w-0   flex-1 justify-center lg:w-auto">
+  <div className="h-[224px] w-[140px] sm:h-[256px] sm:w-[160px] lg:h-[500px] lg:w-[300px]">
+    <AnimatedImageCard
+      src={hero?.image}
+      alt={hero?.alt}
+      width="100%"
+      height="100%"
+      borderRadius="10px"
+      className="w-full h-full overflow-hidden"
+    hoverZoom={false}
+    />
+  </div>
 </div>
 
 
