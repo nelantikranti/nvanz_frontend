@@ -91,7 +91,10 @@ const ProductsDetails=()=>{
              <ProductsDetailsSection5 specifications={data?.specifications}/>
              <ProductsDetailsSection6 isRightForHome={data?.isRightForHome}/>
              <ProductDetailsSection7 whyChoose={data?.whyChoose}/>
-             <ProductDetailsSection8 productGallery={data?.productGallery}/>
+             {
+              data?.productGallery && <ProductDetailsSection8 productGallery={data?.productGallery}/>
+             }
+             
            
              <CommonFAQ heading={data?.faq?.heading} questionsAndAns={data?.faq?.questionsAndAns}   />
              <ContactCTASection contact={data.contact} onClick={() => navigate("/contact-us")} showSecondButton={false} />

@@ -124,6 +124,43 @@ import PanoramaProduct from "./Panorama-Product.webp"
 import CompactProduct from "./Compact-Product.webp"
 
 
+import SignatureCompact from './Signature Compact.webp'
+import SignatureControl from './Signature Control.webp'
+import SignatureEntranceDoor from './Signature Entrance Door.webp'
+import SignatureInstalled from './Signature Installed.webp'
+import SignatureFullCabin from './Signature Full Cabin.webp'
+
+import PrestigeFullCabin from './Prestige Full Cabin.webp'
+import PrestigeAutomatic from './Prestige Automatic.webp'
+import PrestigeMachine from './Prestige Machine.webp'
+import PrestigeControlPannel from './Prestige Control Pannel.webp'
+import PrestigeInstalled from './Prestige Installed.webp'
+
+
+import GroundFullCabin from './Ground Full Cabin.webp'
+import GroundEntrance from './Ground Entrance.webp'
+import GroundControl from './Ground Control.webp'
+import GroundCompact from './Ground Compact.webp'
+import GroundInstalled from './Ground Installed.webp'
+
+
+import PanaromaInstalledProject from './Panaroma Installed Project.webp'
+import PanoramaCabin from './Panorama Cabin.webp'
+import PanoramaControlPanel from './Panorama Control Panel.webp'
+import PanoramaFinishandFlooring from './Panorama Finish and Flooring.webp'
+import PanoramaGlass from './Panorama Glass.webp'
+
+
+
+import CompactControlPanel from './Compact Control Panel.webp'
+import CompactInstalledProject from './Compact Installed Project.webp'
+import CompactGlassDetail from './Compact Glass Detail.webp'
+import CompactFinishandFlooring from './Compact Finish and Flooring.webp'
+import CompactFullCabin from './Compact Full Cabin.webp'
+
+
+
+
 
 const images = {
     logo,
@@ -236,6 +273,47 @@ const images = {
     GroundHydraulicProduct,
     PanoramaProduct,
     CompactProduct,
+
+
+
+ SignatureCompact,
+ SignatureControl,
+ SignatureEntranceDoor,
+ SignatureInstalled,
+ SignatureFullCabin,
+
+ PrestigeFullCabin,
+ PrestigeAutomatic,
+ PrestigeMachine,
+ PrestigeControlPannel,
+ PrestigeInstalled,
+
+
+ GroundFullCabin,
+ GroundEntrance,
+ GroundControl,
+ GroundCompact,
+ GroundInstalled,
+
+
+ PanaromaInstalledProject,
+ PanoramaCabin,
+ PanoramaControlPanel,
+ PanoramaFinishandFlooring,
+ PanoramaGlass,
+
+
+
+CompactControlPanel,
+ CompactInstalledProject,
+ CompactGlassDetail,
+ CompactFinishandFlooring,
+ CompactFullCabin,
+
+
+
+
+   
 
     
 };

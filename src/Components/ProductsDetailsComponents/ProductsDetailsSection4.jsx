@@ -14,9 +14,12 @@ const ProductsDetailsSection4=({features})=>{
             className="min-h-[310px] w-full min-w-0 rounded-[20px] border-[1px] border-[#E9A60F] bg-[#1E1B17] p-[20px] transition-[translate,border-color,box-shadow] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-2 hover:border-[2px] hover:shadow-[0_15px_45px_rgba(233,166,15,0.15),0_0_70px_rgba(233,166,15,0.10)]"
         >
             <div className="flex items-end gap-[10px]">
-                <div className="h-[44px] w-[44px] rounded-full border-[1px] border-[#E9A60F]">
-                    <img className="rounded-full" src={data?.img} alt={data?.heading} />
-                </div>
+                {/* <div className="h-[44px] w-[44px] rounded-full border-[2px] border-[#E9A60F]">
+                    {
+                        data?.img && <img className="rounded-full" src={data?.img} alt={data?.heading} />
+                    }
+                    
+                </div> */}
                 <p className="font-bebas text-[22px] text-[#E9A60F]">
                     {String(index + 1).padStart(2, "0")}
                 </p>

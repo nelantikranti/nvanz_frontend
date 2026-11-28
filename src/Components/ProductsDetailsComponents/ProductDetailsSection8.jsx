@@ -27,6 +27,7 @@ const ProductDetailsSection8 = ({productGallery}) => {
     <div className="
         aspect-[19/25]
         w-full
+        h-[300px]
         border-[#E9A60F99]
         border-dashed
         rounded-[10px]
@@ -44,7 +45,7 @@ const ProductDetailsSection8 = ({productGallery}) => {
         <img
             className="object-cover w-full h-full rounded-[10px]"
             src={data?.img}
-            alt={data?.title}
+            alt={data?.alt}
         />
     </div>
 

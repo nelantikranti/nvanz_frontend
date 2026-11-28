@@ -4,7 +4,7 @@ import images from "../assets/Images";
 export const products = {
   "signature-1101": {
     id: 1,
-    slug: "signature-1101",
+    slug: "signature-traction-1101",
     name: "Signature 1101",
 
     hero: {
@@ -213,23 +213,28 @@ export const products = {
         images:[
             {
                 title:"Full cabin interior",
-                img:images?.product1GalleryImg1
+                img:images?.SignatureCompact,
+                alt:'SignatureCompact'
             },
             {
                 title:"Entrance and door",
-                img:images?.product1GalleryImg2
+                img:images?.SignatureControl,
+                alt:"SignatureControl"
             },
             {
                 title:"Control panel",
-                img:images?.product1GalleryImg3
+                img:images?.SignatureEntranceDoor,
+                alt:"SignatureEntranceDoor"
             },
             {
                 title:"Compact power unit",
-                img:images?.product1GalleryImg4
+                img:images?.SignatureInstalled,
+                alt:'SignatureInstalled'
             },
             {
                 title:"Installed home project",
-                img:images?.product1GalleryImg5
+                img:images?.SignatureFullCabin,
+                alt:'SignatureFullCabin'
             }
 
         ]
@@ -284,7 +289,7 @@ export const products = {
 
    "prestigeMrlRopeHome": {
     id: 2,
-    slug: "prestigeMrlRopeHome",
+    slug: "prestige-mrl-rope-elevator-1110",
     name: "Prestige Mrl Rope Home",
 
     hero: {
@@ -292,7 +297,7 @@ export const products = {
       subtitle: "MRL · 1110",
       description:
         "The Prestige 1110 is a machine-room-less (MRL) rope elevator from NVANZ Elevators. It is powered by a gearless permanent magnet motor and an integrated VVVF controller. Designed for homeowners who want a smooth, modern elevator, it suits villas, duplexes and renovation projects. It is available in capacities from 320 kg to 800 kg.",
-      image: images?.prestigeMrlRopeHome,
+      image: images?.PrestigeMrlProductRope,
       alt:"Prestige Mrl Rope Home",
       points:[
         "Gearless PMSM machine with MRL configuration",
@@ -511,23 +516,28 @@ export const products = {
         images:[
             {
                 title:"Full cabin interior",
-                img:""
+                img:images?.PrestigeFullCabin,
+                alt:'PrestigeFullCabin',
             },
             {
                 title:"Automatic door and entrance",
-                img:""
+                img:images?.PrestigeAutomatic,
+                alt:'PrestigeAutomatic',
             },
             {
                 title:"Machine and belt / sheave detail",
-                img:""
+                img:images?.PrestigeMachine,
+                alt:'PrestigeMachine',
             },
             {
                 title:"Control panel close-up",
-                img:""
+                img:images?.PrestigeControlPannel,
+                alt:'PrestigeControlPannel',
             },
             {
-                title:"Installed project (only if a real project exists)",
-                img:""
+                title:"Installed project",
+                img:images?.PrestigeInstalled,
+                alt:'PrestigeInstalled',
             }
 
         ]
@@ -582,7 +592,7 @@ export const products = {
 
   "prestigeMrlFlatBelt": {
    id: 3,
-    slug: "prestigeMrlFlatBelt",
+    slug: "prestige-mrl-flat-belt-elevator-1110",
     name: "Prestige Mrl Flat Belt",
 
     hero: {
@@ -590,7 +600,7 @@ export const products = {
       subtitle: "MRL · 1110",
       description:
         "The Prestige 1110 is a machine-room-less (MRL) home elevator from NVANZ Elevators. It uses a compact gearless motor and a flat steel/PU belt to move the cabin smoothly and quietly. It is equipped with an automatic door and smart monitoring, and it is well suited to villas, duplexes, independent houses and renovated homes.",
-      image: images?.prestigeMrlFlatBelt,
+      image: images?.PrestigeMrlFlatProduct,
       alt:"Prestige Mrl Flat Belt",
       points:[
         "MRL design, with no separate machine room",
@@ -779,33 +789,33 @@ export const products = {
             "For installation and after-sales support, NVANZ can explain what is included in your project."
         ]
     },
-   productGallery:{
-        heading:"Product Gallery",
-        images:[
-            {
-                title:"Full cabin interior",
-                img:""
-            },
-            {
-                title:"Automatic door and entrance",
-                img:""
-            },
-            {
-                title:"Control panel close-up",
-                img:""
-            },
-            {
-                title:"Machine and belt / sheave detail",
-                img:""
-            },
-            {
-                title:"Installed project (only if a real project exists)",
-                img:""
-            }
+//    productGallery:{
+//         heading:"Product Gallery",
+//         images:[
+//             {
+//                 title:"Full cabin interior",
+                
+//             },
+//             {
+//                 title:"Automatic door and entrance",
+                
+//             },
+//             {
+//                 title:"Control panel close-up",
+                
+//             },
+//             {
+//                 title:"Machine and belt / sheave detail",
+                
+//             },
+//             {
+//                 title:"Installed project (only if a real project exists)",
+                
+//             }
 
-        ]
+//         ]
 
-    },
+//     },
     faq:
     {
       heading:"Frequently Asked Questions",
@@ -858,7 +868,7 @@ export const products = {
 
   "prestigeMrlGroovedBelt": {
     id: 4,
-    slug: "prestigeMrlGroovedBelt",
+    slug: "prestige-mrl-grooved-belt-elevator-1110",
     name: "Prestige Mrl Grooved Belt",
 
     hero: {
@@ -1052,33 +1062,33 @@ export const products = {
         ],
         description:""
     },
-    productGallery:{
-        heading:"Product Gallery",
-        images:[
-            {
-                title:"Full cabin interior",
-                img:""
-            },
-            {
-                title:"Automatic door and entrance",
-                img:""
-            },
-            {
-                title:"Control panel close-up",
-                img:""
-            },
-            {
-                title:"Machine and belt / sheave detail",
-                img:""
-            },
-            {
-                title:"Installed project (only if a real project exists)",
-                img:""
-            }
+    // productGallery:{
+    //     heading:"Product Gallery",
+    //     images:[
+    //         {
+    //             title:"Full cabin interior",
+    //             img:""
+    //         },
+    //         {
+    //             title:"Automatic door and entrance",
+    //             img:""
+    //         },
+    //         {
+    //             title:"Control panel close-up",
+    //             img:""
+    //         },
+    //         {
+    //             title:"Machine and belt / sheave detail",
+    //             img:""
+    //         },
+    //         {
+    //             title:"Installed project (only if a real project exists)",
+    //             img:""
+    //         }
 
-        ]
+    //     ]
 
-    },
+    // },
     faq:
     {
       heading:"Frequently Asked Questions",
@@ -1131,7 +1141,7 @@ export const products = {
   
   "groundHydraulicHome": {
     id: 5,
-    slug: "groundHydraulicHome",
+    slug: "ground-hydraulic-elevator-1506",
     name: "Ground Hydraulic Home",
 
     hero: {
@@ -1139,7 +1149,7 @@ export const products = {
       subtitle: "HYDRAULIC · 1506",
       description:
         "The NVANZ Ground Hydraulic Elevator 1506 is a residential home elevator. A hydraulic cylinder moves the cabin, and a compact, low-noise power unit drives the system. With a capacity range of 250–630 kg, it suits homeowners who are planning a new villa, a duplex home or a renovation ",
-       image: images?.groundHydraulicHome,
+       image: images?.GroundHydraulicProduct,
       alt:"Ground Hydraulic Home",
       points:[
         "Hydraulic drive with compact low-noise power unit",
@@ -1333,23 +1343,28 @@ export const products = {
         images:[
             {
                 title:"Full cabin interior",
-                img:""
+                img:images?.GroundFullCabin,
+                alt:"GroundFullCabin"
             },
             {
                 title:"Entrance and door",
-                img:""
+                 img:images?.GroundEntrance,
+                alt:"GroundEntrance"
             },
             {
                 title:"Control panel",
-                img:""
+                 img:images?.GroundControl,
+                alt:"GroundControl"
             },
             {
                 title:"Compact power unit",
-                img:""
+                 img:images?.GroundCompact,
+                alt:"GroundCompact"
             },
             {
                 title:"Installed home project (if available)",
-                img:""
+                 img:images?.GroundInstalled,
+                alt:"GroundInstalled"
             }
 
         ]
@@ -1404,7 +1419,7 @@ export const products = {
 
   "nvanzPanorama-1805": {
     id: 6,
-    slug: "nvanzPanorama-1805",
+    slug: "panorama-circular-elevator-1805",
     name: "Nvanz Panorama-1805",
 
     hero: {
@@ -1626,23 +1641,31 @@ export const products = {
         images:[
             {
                 title:"Cabin shape",
-                img:""
+                img:images?.PanoramaCabin,
+                alt:"PanoramaCabin"
             },
             {
                 title:"Glass detail",
-                img:""
+                
+                img:images?.PanoramaGlass,
+                alt:"PanoramaGlass"
             },
             {
                 title:"Finish and flooring",
-                img:""
+                
+                img:images?.PanoramaFinishandFlooring,
+                alt:"PanoramaFinishandFlooring"
             },
             {
                 title:"Control panel",
-                img:""
+                img:images?.PanoramaControlPanel,
+                alt:"PanoramaControlPanel"
             },
             {
-                title:"Installed project (only if real)",
-                img:""
+                title:"Installed project",
+                img:images?.PanaromaInstalledProject,
+                alt:"PanaromaInstalledProject"
+                
             }
 
         ]
@@ -1698,7 +1721,7 @@ export const products = {
 
    "compact360Panoramic": {
     id: 7,
-    slug: "compact360Panoramic",
+    slug: "compact-360-panoramic-circular-elevator-1805",
     name: "Compact 360 Panoramic",
 
     hero: {
@@ -1927,23 +1950,32 @@ export const products = {
         images:[
             {
                 title:"Cabin shape",
-                img:""
+               
+                img:images?.CompactFullCabin,
+                alt:"CompactControlPanel"
             },
             {
                 title:"Glass detail",
-                img:""
+                img:images?.CompactGlassDetail,
+                alt:"CompactInstalledProject"
             },
             {
                 title:"Finish and flooring",
-                img:""
+                
+                img:images?.CompactFinishandFlooring,
+                alt:"CompactGlassDetail"
             },
             {
                 title:"Control panel",
-                img:""
+                
+                img:images?.CompactControlPanel,
+                alt:"CompactFinishandFlooring"
             },
             {
                 title:"Installed project (only if real)",
-                img:""
+                
+                img:images?.CompactInstalledProject,
+                alt:"CompactFullCabin"
             }
 
         ]

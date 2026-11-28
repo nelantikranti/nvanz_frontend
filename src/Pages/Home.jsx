@@ -66,6 +66,7 @@ const Home=()=>{
     return (
 
         <>
+        
        <Helmet>
   <title>Premium Home Elevator Manufacturer in India| NVANZ Elevators</title>
 
@@ -174,6 +175,10 @@ const Home=()=>{
 
 
 </Helmet>
+
+
+
+
            <div ref={pageRef}>
             {/* <HomePageHeroSection/> */}
             <HomePageHeroSectionNew/>
