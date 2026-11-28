@@ -69,15 +69,16 @@ const SEO = ({ product }) => {
     description: productDescription,
 
     brand: {
-      "@type": "Brand",
-      name: "NVANZ Elevators"
-    },
+  "@type": "Brand",
+  name: seo.schema.brand || "NVANZ Elevators"
+},
 
     manufacturer: {
       "@id": `${BASE_URL}/#organization`
     },
 
     category: seo.schema.category,
+    model: seo?.schema?.model,
     url: pageUrl,
     image: [productImage]
   };

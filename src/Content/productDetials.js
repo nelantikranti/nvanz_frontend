@@ -360,6 +360,74 @@ export const products = {
     slug: "prestige-mrl-rope-elevator-1110",
     name: "Prestige Mrl Rope Home",
 
+      seo: {
+      title: "Prestige MRL Rope Modern Elevator 1110 | NVANZ Elevators",
+
+      description:
+        "Explore the Prestige MRL Home Elevator (1110) by NVANZ. Discover rope traction technology, space-saving design and residential lift solutions for modern homes.",
+
+      canonical:
+        "https://nvanzelevators.com/products/prestige-mrl-rope-elevator-1110",
+
+      robots: "index, follow, max-image-preview:large",
+
+      focusKeyword: "MRL Home Elevator",
+
+      secondaryKeywords: [
+        "MRL Rope Elevator",
+        "Rope Traction Home Elevator",
+        "Machine Room Less Home Lift",
+        "Residential MRL Elevator",
+        "MRL Traction Elevator",
+        "Rope Driven Home Elevator",
+        "Home Elevator with Rope Drive"
+      ],
+
+      openGraph: {
+        type: "website",
+
+        title:
+          "Prestige MRL Home Elevator | Rope Traction Lift – NVANZ",
+
+        description:
+          "Explore the Prestige MRL Home Elevator (1110) by NVANZ. Discover rope traction technology, space-saving design and residential lift solutions for modern homes.",
+
+        image:
+          "https://nvanzelevators.com/assets/prestige-mrl-rope-home-elevator-1110.webp",
+
+        imageAlt:
+          "Prestige MRL Rope Home Elevator model 1110 by NVANZ Elevators"
+      },
+
+      twitter: {
+        card: "summary_large_image",
+
+        title:
+          "Prestige MRL Home Elevator | Rope Traction Lift – NVANZ",
+
+        description:
+          "Explore the Prestige MRL Home Elevator (1110) by NVANZ. Discover rope traction technology, space-saving design and residential lift solutions for modern homes",
+
+        image:
+          "https://nvanzelevators.com/assets/prestige-mrl-rope-home-elevator-1110.webp",
+
+        imageAlt:
+          "Prestige MRL Rope Home Elevator model 1110 by NVANZ Elevators"
+      },
+
+      schema: {
+        productName: "Prestige MRL Rope Home Elevator (1110)",
+
+        description:
+          "Explore the Prestige MRL Rope Home Elevator (1110) by NVANZ Elevators, a residential elevator featuring machine room-less rope traction technology.",
+
+        category: "Residential Home Elevator",
+         model: "1110",
+
+        brand: "NVANZ Elevators"
+      }
+    },
+
     hero: {
       title: "Prestige MRL Rope Home Elevator (1110) – Smooth, Safe and Space-Saving",
       subtitle: "MRL · 1110",
