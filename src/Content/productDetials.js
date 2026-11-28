@@ -7,6 +7,74 @@ export const products = {
     slug: "signature-traction-1101",
     name: "Signature 1101",
 
+    seo: {
+      title: "Signature 1101 Home Elevator for Villas | NVANZ Elevators",
+
+      description:
+        "Discover the NVANZ Signature 1101 home elevator, designed for villas and duplexes with smooth operation, flexible cabin options and residential safety features.",
+
+      canonical:
+        "https://nvanzelevators.com/products/signature-traction-1101",
+
+      robots: "index, follow, max-image-preview:large",
+
+      focusKeyword: "Signature 1101 home elevator",
+
+      secondaryKeywords: [
+        "Residential home elevator",
+        "Home elevator for villas",
+        "Home elevator for duplexes",
+        "Hydraulic home elevator",
+        "Modern home elevator",
+        "Residential lift system",
+        "Luxury home elevators"
+      ],
+
+      openGraph: {
+        type: "website",
+
+        title:
+          "Signature 1101 Home Elevator | NVANZ Elevators",
+
+        description:
+          "Discover the NVANZ Signature 1101 home elevator, designed for villas and duplexes with smooth operation and modern cabin options.",
+
+        image:
+          "https://nvanzelevators.com/assets/signature-1101-traction.webp",
+
+        imageAlt:
+          "NVANZ Signature 1101 residential home elevator"
+      },
+
+      twitter: {
+        card: "summary_large_image",
+
+        title:
+          "Signature 1101 Home Elevator | NVANZ Elevators",
+
+        description:
+          "Explore the NVANZ Signature 1101 home elevator for villas and duplexes, featuring smooth operation and premium cabin choices.",
+
+        image:
+          "https://nvanzelevators.com/assets/signature-1101-traction.webp",
+
+        imageAlt:
+          "NVANZ Signature 1101 residential home elevator"
+      },
+
+      schema: {
+        productName: "Signature 1101 Home Elevator",
+
+        description:
+          "The NVANZ Signature 1101 is a residential home elevator designed for villas, duplexes and multi-floor family residences, with flexible cabin and door configurations.",
+
+        category: "Residential Home Elevator",
+
+        brand: "NVANZ Elevators"
+      }
+    },
+
+
     hero: {
       title: "Signature 1101 Home Elevator for Villas and Duplexes",
       subtitle: "TRACTION · 1101",

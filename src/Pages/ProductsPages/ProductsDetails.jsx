@@ -13,6 +13,7 @@ import ProductDetailsSection7 from "../../Components/ProductsDetailsComponents/P
 import { products } from "../../Content/productDetials"
 import { Link, useNavigate, useParams } from "react-router-dom"
 import CommonFAQ from "../../Components/CommonFAQ"
+import SEO from "../../Components/Helmet/Helmet"
 
 const ProductsDetails=()=>{
   const { slug } = useParams()
@@ -82,6 +83,10 @@ const ProductsDetails=()=>{
   }
 
     return(
+      <>
+
+      <SEO product={data?.seo}/>
+
         <div ref={pageRef} data-product-scroll-reveal="true">
              <ProductDetailsHeroSection key={slug} hero={data.hero} />
              <ProductDetailsSection2 section2={data?.section2} />
@@ -100,6 +105,8 @@ const ProductsDetails=()=>{
              <ContactCTASection contact={data.contact} onClick={() => navigate("/contact-us")} showSecondButton={false} />
         
         </div>
+
+        </>
     )
 }
 

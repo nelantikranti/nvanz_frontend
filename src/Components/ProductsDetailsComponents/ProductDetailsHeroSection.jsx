@@ -92,6 +92,19 @@ const ProductDetailsHeroSection = ({hero}) => {
     </div>
 
 
+</div>
+
+
+            </div>
+        </div>
+    );
+};
+
+export default ProductDetailsHeroSection;
+
+
+
+
     
 
     {/* <div className="animate-elevator-door-left absolute inset-y-0 left-0 z-10 w-[52.5%] overflow-hidden rounded-l-[10px] motion-reduce:animate-none lg:w-[105px]">
@@ -116,15 +129,3 @@ const ProductDetailsHeroSection = ({hero}) => {
         />
 
     </div> */}
-
-
-
-</div>
-
-
-            </div>
-        </div>
-    );
-};
-
-export default ProductDetailsHeroSection;
