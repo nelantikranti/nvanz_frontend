@@ -82,10 +82,12 @@ const ProductsDetails=()=>{
     )
   }
 
+  // console.log(data?.seo)
+
     return(
       <>
 
-      <SEO product={data?.seo}/>
+      <SEO product={data}/>
 
         <div ref={pageRef} data-product-scroll-reveal="true">
              <ProductDetailsHeroSection key={slug} hero={data.hero} />

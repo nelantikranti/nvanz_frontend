@@ -51,6 +51,8 @@ const safeJsonLd = (data) =>
 const SEO = ({ product }) => {
   const seo = product?.seo;
 
+//   console.log(seo)
+
   if (!seo) return null;
 
   const pageUrl = seo.canonical;
